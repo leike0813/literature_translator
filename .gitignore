@@ -1,0 +1,10 @@
+.codex/
+.claude/
+.agent/
+.qwen/
+.history/
+.opencode/
+**/__pycache__/*
+
+workspace/
+
