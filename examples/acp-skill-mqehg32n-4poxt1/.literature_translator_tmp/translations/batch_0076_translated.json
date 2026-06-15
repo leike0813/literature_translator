@@ -1,0 +1,14 @@
+{
+  "batch_id": "batch_0076",
+  "original_batch": "batch_0076",
+  "blocks": {
+    "b_249": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td>方法</td><td>发表</td><td>优势</td><td>局限性</td></tr><tr><td><ENT_017> <REF_010> <ENT_041> <URL_019> <NUM_020></td><td>用于多任务学习和多查询定位的预训练。</td><td>用于块定位的预训练，<ENT_015> 和 Transformer 预训练需要整合。</td></tr><tr><td><ENT_018> <REF_011></td><td><ENT_046> <NUM_020></td><td>通过采用基于密集和稀疏集合的网络减少解码器层数</td><td>与原始 <ENT_008> 相比 <ENT_110> 增加两倍。</td></tr><tr><td><ENT_019> <REF_012> <ENT_041> https: //github.com/gaopengcuhk/<ENT_019></td><td><ENT_047> <NUM_020></td><td>回归感知机制以提高收敛速度</td><td>小目标检测性能较低。</td></tr><tr><td><ENT_020> <REF_013> <ENT_041> https: / /github.com/Edward-<ENT_052>/TSP-Detection</td><td><ENT_047> <NUM_020></td><td>解决匈牙利损失和 <ENT_040> 的交叉注意力机制问题。</td><td>使用 <ENT_042> 中的提议和 <ENT_043> 中的特征点，如同基于 <ENT_015> 的检测器。</td></tr><tr><td><ENT_021> <REF_014><ENT_041> <URL_020> ub.com/Atten4Vis/ConditionalDETR</td><td><ENT_047> <NUM_020></td><td>条件查询消除对内容嵌入的依赖并简化训练。</td><td>对于更强的骨干网络，性能优于 <ENT_008> 和 deformable-<ENT_008>。</td></tr><tr><td><ENT_022> <REF_015> <ENT_041> <URL_021> <NUM_020></td><td>无骨干网络的纯 Transformer 网络。</td><td>在小目标上性能较低。</td></tr><tr><td><ENT_023> <REF_016> <ENT_041> <URL_022> <NUM_020></td><td>采样模块提供前景和少量背景特征。</td><td>通过提取前景令牌和减少背景令牌破坏了二维空间结构。</td></tr><tr><td><ENT_024> <REF_017></td><td><ENT_047> <NUM_020></td><td>动态注意力提供较小的特征分辨率并改善训练收敛。</td><td>仍然依赖 <ENT_015> 网络作为基于卷积的编码器和基于 RoI 的解码器。</td></tr><tr><td><ENT_027> <REF_018> <ENT_041> <URL_023> <NUM_020></td><td>将在 <ENT_117> 数据集上预训练的 <ENT_038> 转化为目标检测器。</td><td>预训练的 <ENT_038> 仍需改进，因为它需要较长的训练轮次。</td></tr><tr><td><ENT_025> <REF_019> <ENT_041> htps://github.c om/megvii-research/AnchorDETR</td><td><ENT_050> <NUM_021></td><td>目标查询作为锚点，在一个位置预测多个目标。</td><td>将查询视为二维锚点，忽略了目标尺度。</td></tr><tr><td>Spare-<ENT_008> <REF_020> <ENT_041> https: //github.com/kakaobrain/sparse-detr</td><td><ENT_049> <NUM_021></td><td>通过更新解码器引用的令牌来提升性能。</td><td>性能强烈依赖于骨干网络，尤其对大目标。</td></tr><tr><td>D²ETR <REF_021> <ENT_041> <URL_024> baba/easyrobust/tree/main/ddetr</td><td><ENT_046> <NUM_021></td><td>仅解码器 Transformer 网络以降低计算成本。</td><td>显著降低了计算复杂度，但在小目标上性能较低。</td></tr><tr><td><ENT_028> <REF_022> <ENT_041> https: // github.com/encounter1997/<ENT_028></td><td><ENT_049> <NUM_021></td><td>仅编码器 Transformer 的预训练。</td><td>在大目标上性能较低。</td></tr><tr><td><ENT_029> <REF_023> <ENT_041> <URL_025> <NUM_021></td><td>细化粗粒度特征以提高小目标的定位精度。</td><td>新增三个模块增加了网络规模。</td></tr><tr><td><ENT_044> <REF_038> <ENT_041> https: // github.com/IDEA-Research/<ENT_044></td><td><ENT_049> <NUM_021></td><td>锚框作为查询，针对不同尺度目标的注意力。</td><td>仅为前景目标提供位置先验。</td></tr></table>",
+        "<TBL_004>。",
+        "续。"
+      ]
+    }
+  }
+}

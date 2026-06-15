@@ -1,0 +1,99 @@
+{
+  "batch_id": "batch_0067",
+  "block_ids": [
+    "b_230"
+  ],
+  "total_chars": 3521,
+  "blocks": {
+    "b_230": {
+      "type": "paragraph",
+      "sentence_count": 21,
+      "sentences": [
+        [
+          1,
+          "An <ENT_039> <REF_030> (real-time detection transformer) is a transformer-based object detection model developed by Baidu, designed for high-speed, end-to-end inference suitable for real-time applications."
+        ],
+        [
+          2,
+          "In <FIG_010>, the purple block indicates <ENT_039>."
+        ],
+        [
+          3,
+          "The model employs a hybrid encoder that processes multi-scale features by decoupling intra-scale interactions and cross-scale feature fusion."
+        ],
+        [
+          4,
+          "This efficient design reduces computational costs while retaining rich feature representations."
+        ],
+        [
+          5,
+          "The encoder outputs multi-scale feature maps, which are then passed to a <ENT_008>-style decoder."
+        ],
+        [
+          6,
+          "An <ENT_054>-aware query selection mechanism is utilized to focus on the most relevant object queries, enhancing detection accuracy."
+        ],
+        [
+          7,
+          "Additionally, the inference speed can be adjusted by changing the number of decoder layers, allowing for flexible deployment across different real-time scenarios."
+        ],
+        [
+          8,
+          "Subsequent versions build upon this foundation to further enhance performance."
+        ],
+        [
+          9,
+          "<ENT_100> <REF_115> introduces selective multi-scale sampling and replaces the grid-sample operator with a discrete sampling operator, improving the detection of objects at different scales."
+        ],
+        [
+          10,
+          "It also employs dynamic data augmentation and scale-adaptive hyperparameter tuning to enhance training efficiency without increasing inference latency."
+        ],
+        [
+          11,
+          "<ENT_101> <REF_116> addresses limitations of sparse supervision and insufficient decoder training by adding a <ENT_015>-based auxiliary branch for dense supervision, a self-attention perturbation strategy to diversify label assignment, and a shared-weight decoder branch for dense positive supervision."
+        ],
+        [
+          12,
+          "In summary, the <ENT_039> series demonstrates a clear evolution in real-time object detection, with each version introducing architectural and training innovations that enhance both speed and accuracy."
+        ],
+        [
+          13,
+          "The original <ENT_039> establishes the foundation for real-time performance, while v2 and v3 progressively improve detection capability without compromising inference efficiency."
+        ],
+        [
+          14,
+          "It is important to compare modifications in detection transformers to understand their effect on network size, training convergence, and performance."
+        ],
+        [
+          15,
+          "In this work, we use the COCO2014 mini validation set (minival) as a benchmark, since <ENT_057> is a widely accepted standard for evaluating object detection models <REF_048>."
+        ],
+        [
+          16,
+          "All images are preprocessed using standard resizing and normalization procedures, and data augmentation, such as random horizontal flipping, is applied, consistent with typical <ENT_008> training protocols."
+        ],
+        [
+          17,
+          "The performance of <ENT_008> and its variants is evaluated using mean average precision (<ENT_102>), calculated as the mean of each object category’s average precision (<ENT_092>), where <ENT_092> corresponds to the area under the precision–recall curve <REF_117>."
+        ],
+        [
+          18,
+          "Following the standard <ENT_057> evaluation protocol, objects are classified into three size categories based on pixel area: small <MATH_166> pixels), medium <MATH_167> pixels), and large <MATH_168> pixels)."
+        ],
+        [
+          19,
+          "This categorization allows for detailed analysis across object scales, with <MATH_169> , and <MATH_170> reporting performance for small, medium, and large objects, respectively."
+        ],
+        [
+          20,
+          "For a fair comparison, all results are obtained by loading the original pre-trained PTH files released by the respective authors and validating them on the <ENT_057> minival set."
+        ],
+        [
+          21,
+          "This approach allows us to reproduce the reported performance of each model while focusing on the architectural differences and improvements introduced by various <ENT_008> variants."
+        ]
+      ]
+    }
+  }
+}

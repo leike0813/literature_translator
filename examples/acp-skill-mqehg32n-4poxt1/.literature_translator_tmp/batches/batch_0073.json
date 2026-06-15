@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch_0073",
+  "block_ids": [
+    "b_241"
+  ],
+  "total_chars": 42,
+  "blocks": {
+    "b_241": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## 5."
+        ],
+        [
+          2,
+          "Open Challenges and Future Directions"
+        ]
+      ]
+    }
+  }
+}

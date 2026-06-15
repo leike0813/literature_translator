@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch_0044",
+  "original_batch": "batch_0044",
+  "blocks": {
+    "b_149": {
+      "type": "paragraph",
+      "sentences": [
+        "视觉Transformer（ViT）[8]继承自NLP，在图像识别任务上表现良好。",
+        "ViT-FRCNN [215]使用预训练的骨干网络（ViT）用于基于CNN的检测器。",
+        "它利用卷积神经网络，依赖强二维归纳偏置和逐区域池化操作进行目标级感知。",
+        "其他类似工作，如DETR [11]，使用CNN和金字塔特征引入二维归纳偏置。",
+        "YOLOS-DETR [29]展示了Transformer从图像识别到序列维度检测的可迁移性和多功能性，使用关于输入空间设计的最少信息。",
+        "它紧密遵循ViT架构，并进行了两处简单修改。",
+        "首先，它移除了图像分类补丁（CLS），并添加了随机初始化的一百个检测补丁（DET）[216]，以及用于目标检测的输入补丁嵌入。",
+        "其次，与DETR类似，使用二分匹配损失替代ViT分类损失。",
+        "Transformer编码器将生成的序列作为输入，如下所示："
+      ]
+    },
+    "b_150": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { s _ { 0 } = [ \\mathbf { I } _ { p } ^ { 1 } \\mathbf { L } ; \\cdot \\cdot \\cdot ; \\mathbf { I } _ { p } ^ { M } \\mathbf { L } ; \\mathbf { I } _ { d } ^ { 1 } ; \\cdot \\cdot \\cdot ; \\mathbf { I } _ { d } ^ { 1 0 0 } ] + \\mathbf { P E } , } \\end{array}\\tag{34}\n$$"
+      ]
+    }
+  }
+}

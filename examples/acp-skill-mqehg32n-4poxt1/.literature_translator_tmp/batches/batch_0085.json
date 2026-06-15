@@ -1,0 +1,74 @@
+{
+  "batch_id": "batch_0085",
+  "block_ids": [
+    "b_291",
+    "b_292",
+    "b_293",
+    "b_294",
+    "b_295",
+    "b_296"
+  ],
+  "total_chars": 1285,
+  "blocks": {
+    "b_291": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "33. Wang, W.; Cao, Y.; Zhang, J.; Tao, D. FP-DETR: Detection Transformer Advanced by Fully Pre-training. In Proceedings of the International Conference on Learning Representations, Virtual Event, 25–29 April 2022. Available online: https://openreview.n et/forum?id=yjMQuLLcGWK (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_292": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "34. Cao, X.; Yuan, P.; Feng, B.; Niu, K. CF-DETR: Coarse-to-Fine Transformers for End-to-End Object Detection. In Proceedings of the AAAI Conference on Artificial Intelligence, Online, 22 February–1 March 2022. Available online: https://api.semanticscholar.or g/CorpusID:250293790 (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_293": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "35. Li, F.; Zhang, H.; Liu, S.; Guo, J.; Ni, L.M.; Zhang, L. DN-DETR: Accelerate DETR Training by Introducing Query DeNoising. IEEE Trans. Pattern Anal. Mach. Intell. 2024, 46, 2239–2251. [CrossRef]"
+        ]
+      ]
+    },
+    "b_294": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "36. Gao, Z.; Wang, L.; Han, B.; Guo, S. AdaMixer: A Fast-Converging Query-Based Object Detector. arXiv 2022, arXiv:2203.16507. [CrossRef]"
+        ]
+      ]
+    },
+    "b_295": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "37. Chen, Z.; Zhang, J.; Tao, D. Recurrent Glimpse-based Decoder for Detection with Transformer. arXiv 2021, arXiv:2112.04632."
+        ]
+      ]
+    },
+    "b_296": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "38. Zhang, H.; Li, F.; Liu, S.; Zhang, L.; Su, H.; Zhu, J.; Ni, L.M.; Shum, H.Y. DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection. arXiv 2022, arXiv:2203.03605. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

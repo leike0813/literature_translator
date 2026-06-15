@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch_0035",
+  "block_ids": [
+    "b_099",
+    "b_100"
+  ],
+  "total_chars": 830,
+  "blocks": {
+    "b_099": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "Here, e is the input embedding that is fed as input to the decoder."
+        ],
+        [
+          2,
+          "The box is a 4D vector <MATH_079> , having the box center value as <MATH_080> , width value as box <MATH_081> and height value as boxh."
+        ],
+        [
+          3,
+          "The <MATH_082> function normalizes the predictions and varies from 0 to 1."
+        ],
+        [
+          4,
+          "<ENT_081>() predicts the un-normalized box. r is the un-normalized 2D coordinate of the reference-point, and (0, 0) is the simple <ENT_008>."
+        ],
+        [
+          5,
+          "This work either learns the reference point r for each box or generates it from the respective object query."
+        ],
+        [
+          6,
+          "It learns queries for multi-head cross-attention from input embeddings of the decoder."
+        ],
+        [
+          7,
+          "This spatial query makes the cross-attention head consider the explicit region, which helps to localize the different regions for class labels and bounding boxes by narrowing down the spatial range."
+        ]
+      ]
+    },
+    "b_100": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_045>."
+        ],
+        [
+          2,
+          "<ENT_022>"
+        ]
+      ]
+    }
+  }
+}

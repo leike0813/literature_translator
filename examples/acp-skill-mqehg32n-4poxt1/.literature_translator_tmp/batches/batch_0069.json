@@ -1,0 +1,107 @@
+{
+  "batch_id": "batch_0069",
+  "block_ids": [
+    "b_234"
+  ],
+  "total_chars": 3123,
+  "blocks": {
+    "b_234": {
+      "type": "paragraph",
+      "sentence_count": 23,
+      "sentences": [
+        [
+          1,
+          "Many advancements are proposed in <ENT_008>, such as backbone modification, query design, and attention refinement to improve performance and training convergence."
+        ],
+        [
+          2,
+          "<TBL_003> shows the performance comparison of all <ENT_008>-based detection transformers on the <ENT_057> minival set."
+        ],
+        [
+          3,
+          "We can observe that <ENT_008> performs well at 500 training epochs and has low <ENT_092> on small objects."
+        ],
+        [
+          4,
+          "The modified versions improve performance and training convergence, like <ENT_034>, which has an <ENT_102> of <NUM_073> at 12 epochs and performs well on small objects."
+        ],
+        [
+          5,
+          "The quantitative analysis of <ENT_008> and its updated versions regarding training convergence and model size on the <ENT_057> minival set is performed."
+        ],
+        [
+          6,
+          "Left side of <FIG_011> shows the <ENT_102> of the detection transformers using a <ENT_059> backbone with training epochs."
+        ],
+        [
+          7,
+          "The original <ENT_008>, represented with a brown line, has low training convergence."
+        ],
+        [
+          8,
+          "It has an <ENT_102> value of <NUM_074> at 50 training epochs and <NUM_075> at 500 training epochs."
+        ],
+        [
+          9,
+          "Here, <ENT_034>, represented with a red line, converges at low training epochs and gives the highest <ENT_102> on all epoch values."
+        ],
+        [
+          10,
+          "The attention mechanism in <ENT_008> involves computing pairwise attention scores between every pair of feature vectors, which can be computationally expensive, especially for large input images."
+        ],
+        [
+          11,
+          "Moreover, the self-attention mechanism in <ENT_008> relies on using fixed positional encodings to encode the spatial relationships between the different parts of the input image."
+        ],
+        [
+          12,
+          "This can slow down the training process and increase convergence time."
+        ],
+        [
+          13,
+          "In contrast, <ENT_016> and <ENT_034> have some modifications that can help speed up the training process."
+        ],
+        [
+          14,
+          "For example, Deformable <ENT_008> introduces deformable attention layers, which can better capture spatial context information and improve object detection accuracy."
+        ],
+        [
+          15,
+          "Similarly, <ENT_034> uses a denoising learning approach to train the network to learn more generalized features useful for object detection, making the training process faster and more effective."
+        ],
+        [
+          16,
+          "Right side of <FIG_011> compares all detection transformers regarding the model size."
+        ],
+        [
+          17,
+          "Here, <ENT_027> uses DeiT-small as the backbone instead of <ENT_103>, but it also increases the model size by 20x times."
+        ],
+        [
+          18,
+          "<ENT_034> and <ENT_031> have comparable <ENT_102>, but <ENT_031> is nearly double the model size of <ENT_034>."
+        ],
+        [
+          19,
+          "These networks use more complex architectures than the original <ENT_008> architecture, which increases the total parameters and the overall network size."
+        ],
+        [
+          20,
+          "We also provide a qualitative analysis of <ENT_008> and its updated versions on all-sized objects in <FIG_012>."
+        ],
+        [
+          21,
+          "For small objects, the <ENT_102> for the original <ENT_008> is <NUM_076> at 50 epochs, while <ENT_016> has an <ENT_102> value of <NUM_077> at 50 epochs."
+        ],
+        [
+          22,
+          "The self-attention mechanism in <ENT_016> allows it to interpolate features from neighboring pixels, which is particularly useful for small objects that may only occupy a few pixels in an image."
+        ],
+        [
+          23,
+          "This mechanism in <ENT_016> captures more precise and detailed information about small objects, which can lead to better performance than <ENT_008>."
+        ]
+      ]
+    }
+  }
+}

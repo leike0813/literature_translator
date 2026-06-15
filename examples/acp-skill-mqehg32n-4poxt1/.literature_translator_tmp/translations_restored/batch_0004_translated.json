@@ -1,0 +1,43 @@
+{
+  "batch_id": "batch_0004",
+  "original_batch": "batch_0004",
+  "blocks": {
+    "b_022": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/e74b6930f314f176ea39cf2a148b08c9ce97a03f02b01c09a6f25c9d994170df.jpg)"
+      ]
+    },
+    "b_023": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/9257ee4fb1bc2d0948731b4d1a12759bbac63a85c778819757fbbeef3222c67c.jpg)"
+      ]
+    },
+    "b_024": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/e2b186443539d9f00a83527d7bd004200983b49fa17f50cd39f199a34f1f416c.jpg)"
+      ]
+    },
+    "b_025": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/2eae80c82c80c0911466e8740e86190d34c5ab17823279e98b99313153edcacf.jpg)"
+      ]
+    },
+    "b_026": {
+      "type": "figure_caption",
+      "sentences": [
+        "(e) 检测Transformer（DETR）重要发展时间线"
+      ]
+    },
+    "b_027": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/89d759034494e7cb0ef369187dd866546fdd7b63c1f2fae502d3b1ac6d807af8.jpg) Figure 1。",
+        "Transformer文献的统计概览。(a) 各年度Transformer论文的引用次数。(b) 最近12个月内检测Transformer论文的引用次数。(c) 原始检测Transformer（DETR）中为提升性能和收敛速度所作的修改比例。(d) 各年度以DETR为基线的同行评审论文发表数量。(e) DETR在检测任务中重要发展的非详尽时间线概览。"
+      ]
+    }
+  }
+}

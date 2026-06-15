@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch_0031",
+  "original_batch": "batch_0031",
+  "blocks": {
+    "b_086": {
+      "type": "paragraph",
+      "sentences": [
+        "其中目标查询q在经过两层<ENT_074>后通过Sigmoid激活函数以归一化形式提供预测中心。",
+        "这些预测中心被反归一化以获得输入图像的中心坐标<MATH_067>和<MATH_068>。",
+        "目标查询还将对象尺度估计为<MATH_069>和<MATH_070>。",
+        "在预测对象尺度和中心之后，<ENT_072>提供如下高斯类权重图："
+      ]
+    },
+    "b_087": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbf { W } ( x , y ) = e x p \\left( - \\frac { ( x - e _ { w _ { i } } ) ^ { 2 } } { \\beta l _ { w _ { i } } ^ { 2 } } - \\frac { ( y - e _ { h _ { i } } ) ^ { 2 } } { \\beta l _ { h _ { i } } ^ { 2 } } \\right) ,\\tag{12}\n$$"
+      ]
+    },
+    "b_088": {
+      "type": "paragraph",
+      "sentences": [
+        "其中<MATH_071>是调节带宽的超参数，<MATH_072>是权重图W的空间参数。它对靠近中心的空间位置赋予高注意力，对远离中心的空间位置赋予低注意力。"
+      ]
+    },
+    "b_089": {
+      "type": "equation",
+      "sentences": [
+        "$$\nA _ { i } = S o f t m a x ( \\frac { q _ { i } k _ { i } ^ { T } } { \\sqrt { d } } + \\mathbf { l o g } \\mathbf { W } ) v _ { i } .\\tag{13}\n$$"
+      ]
+    }
+  }
+}

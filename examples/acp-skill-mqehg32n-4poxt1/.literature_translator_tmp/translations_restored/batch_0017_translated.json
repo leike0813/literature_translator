@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch_0017",
+  "original_batch": "batch_0017",
+  "blocks": {
+    "b_049": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/3ad96e0c4515515e204e359b1fbc5d84d5b9417f98b92b2880b6f417fbbf0d4c.jpg) Figure 2。",
+        "检测Transformer（DETR）及其近期方法为提升性能和训练收敛所提出的修改概览。",
+        "它将检测视为集合预测任务，并使用Transformer使网络摆脱非极大值抑制（NMS）等后处理步骤。",
+        "其中，添加到DETR的每个模块以不同颜色表示，并标注对应标签（显示在右侧）。"
+      ]
+    },
+    "b_050": {
+      "type": "heading",
+      "sentences": [
+        "## 3.1.",
+        "DETR"
+      ]
+    }
+  }
+}

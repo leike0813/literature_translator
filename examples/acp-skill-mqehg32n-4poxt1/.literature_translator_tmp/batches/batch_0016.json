@@ -1,0 +1,87 @@
+{
+  "batch_id": "batch_0016",
+  "block_ids": [
+    "b_044",
+    "b_045",
+    "b_046",
+    "b_047",
+    "b_048"
+  ],
+  "total_chars": 1112,
+  "blocks": {
+    "b_044": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "Low-level vision analyzes images to identify their basic components and create an intermediate representation for further processing and higher-level tasks."
+        ],
+        [
+          2,
+          "After observing the remarkable performance of attention networks in high-level vision tasks <REF_079>, many attention-based approaches have been introduced for low-level vision problems, such as <REF_080>."
+        ]
+      ]
+    },
+    "b_045": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_030>."
+        ],
+        [
+          2,
+          "<ENT_001> for Multi-Modal Tasks"
+        ]
+      ]
+    },
+    "b_046": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "Multi-modal tasks involve processing and combining information from multiple sources or modalities, such as text, images, audio, or video."
+        ],
+        [
+          2,
+          "The application of transformer networks in vision language tasks has also been widespread, including visual question-answering <REF_081>, visual commonsense-reasoning <REF_082>, cross-modal retrieval <REF_083>, and image captioning <REF_084>."
+        ],
+        [
+          3,
+          "These transformer designs can be classified into singlestream <REF_085> and dual-stream networks <REF_086>."
+        ],
+        [
+          4,
+          "The primary distinction between these networks lies in the choice of loss functions."
+        ]
+      ]
+    },
+    "b_047": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## 3."
+        ],
+        [
+          2,
+          "Detection <ENT_001>"
+        ]
+      ]
+    },
+    "b_048": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "This section briefly explains the detection transformer (<ENT_008>) and its improvements, as shown in <FIG_002>."
+        ]
+      ]
+    }
+  }
+}

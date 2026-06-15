@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch_0075",
+  "original_batch": "batch_0075",
+  "blocks": {
+    "b_247": {
+      "type": "table_caption",
+      "sentences": [
+        "<TBL_004>。",
+        "检测 Transformer 的优势与局限性概述。",
+        "本表中所有 <ENT_041> 链接的访问日期为 <NUM_005> 年 9 月 25 日。"
+      ]
+    },
+    "b_248": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td>方法</td><td>发表</td><td>优势</td><td>局限性</td></tr><tr><td><ENT_008> <REF_007> <ENT_041> <URL_017> <NUM_008></td><td>消除了 <ENT_013> 或锚框生成等手工设计组件的需求。</td><td>在小目标上性能较低，训练收敛缓慢。</td></tr><tr><td><ENT_016> <REF_009> <ENT_041> <URL_018> eformable-<ENT_008></td><td><ENT_049> <NUM_020></td><td>可变形注意力网络，与 <ENT_008> 相比使训练收敛更快。</td><td>编码器令牌数量增加 20 倍</td></tr></table>",
+        "<TBL_004>。",
+        "续。"
+      ]
+    }
+  }
+}

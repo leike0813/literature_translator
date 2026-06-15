@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch_0057",
+  "original_batch": "batch_0057",
+  "blocks": {
+    "b_189": {
+      "type": "paragraph",
+      "sentences": [
+        "AdaMixer [36]将编码器视为骨干网络与解码器之间的额外网络，由于其设计复杂性，该网络限制了性能并减缓了训练收敛。",
+        "AdaMixer提供了一种无需编码器的检测Transformer网络。",
+        "在Figure 8中，浅绿色方块表示AdaMixer。",
+        "AdaMixer的主要模块说明如下。",
+        "三维特征空间：对于三维特征空间，来自CNN骨干网络的输入特征图（下采样步长为$s _ { i } ^ { f }$）首先通过线性层转换为相同的$d _ { f }$通道，并计算其z轴坐标如下："
+      ]
+    },
+    "b_191": {
+      "type": "equation",
+      "sentences": [
+        "$$\nz _ { i } ^ { f } = l o g _ { 2 } ( s _ { i } ^ { f } / s _ { b } ) ,\\tag{43}\n$$"
+      ]
+    },
+    "b_192": {
+      "type": "paragraph",
+      "sentences": [
+        "其中特征图的高度$h _ { i }$和宽度$w _ { i }$（不同步长）被重新缩放为$h _ { i } / s _ { b }$和$w _ { i } / s _ { b } ,$，其中$s _ { b } = 4$三维特征采样过程：在采样过程中，查询生成$I _ { p }$组向量对应$I _ { p }$个采样点，$( \\Delta x _ { j } , \\Delta y _ { j } , \\Delta z _ { j } ) I _ { p } ,$，其中每个向量通过线性层$L _ { i }$依赖于其内容向量$q _ { i }$如下："
+      ]
+    },
+    "b_194": {
+      "type": "equation",
+      "sentences": [
+        "$$\n( \\Delta x _ { j } , \\Delta y _ { j } , \\Delta z _ { j } ) I _ { p } = L _ { i } ( q _ { i } ) .\\tag{44}\n$$"
+      ]
+    },
+    "b_195": {
+      "type": "paragraph",
+      "sentences": [
+        "这些偏移值相对于目标查询的位置向量转换为采样位置如下："
+      ]
+    }
+  }
+}

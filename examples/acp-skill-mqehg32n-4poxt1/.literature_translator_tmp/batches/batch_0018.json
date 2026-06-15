@@ -1,0 +1,54 @@
+{
+  "batch_id": "batch_0018",
+  "block_ids": [
+    "b_051",
+    "b_052"
+  ],
+  "total_chars": 1255,
+  "blocks": {
+    "b_051": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "The detection transformer (<ENT_008>) <REF_007> architecture is much simpler than <ENT_015>-based detectors like <ENT_011> <REF_087> as it removes the need for an anchor generation process and post-processing steps, such as non-maximal suppression (<ENT_013>), and provides an optimal detection framework."
+        ],
+        [
+          2,
+          "The <ENT_008> network has three main modules: a backbone network with positional encodings, an encoder, and a decoder network with an attention mechanism."
+        ],
+        [
+          3,
+          "The extracted features from the backbone network are a single vector and its positional encoding <REF_088> within the input vector fed to the encoder network."
+        ],
+        [
+          4,
+          "Here, self-attention is performed on key, query, and value matrices forwarded to the multi-head attention and feed-forward network to find the attention probabilities of the input vector."
+        ],
+        [
+          5,
+          "The <ENT_008> decoder takes object queries in parallel with the encoder output."
+        ],
+        [
+          6,
+          "It computes predictions by decoding N number of object queries in parallel."
+        ],
+        [
+          7,
+          "It uses a bipartite-matching algorithm to label the ground-truth and predicted objects, as provided in the following equation:"
+        ]
+      ]
+    },
+    "b_052": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\hat { \\sigma } = \\arg \\operatorname* { m i n } _ { \\sigma \\in N } \\sum _ { k } ^ { N } \\mathcal { L } _ { m } ( y _ { k } , \\hat { y } _ { \\sigma ( k ) } ) .\\tag{1}\n$$"
+        ]
+      ]
+    }
+  }
+}

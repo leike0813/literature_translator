@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch_0066",
+  "block_ids": [
+    "b_228",
+    "b_229"
+  ],
+  "total_chars": 456,
+  "blocks": {
+    "b_228": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where <MATH_162> is the classification loss, <MATH_163> is the bounding box regression loss, <MATH_164> is the generalized intersection over union loss, and <MATH_165> balances the contributions of the losses."
+        ],
+        [
+          2,
+          "Experimental results show that <ENT_037> achieves higher accuracy than many real-time detectors, including <ENT_091> variants, while maintaining low computational cost, making it suitable for real-time object detection tasks."
+        ]
+      ]
+    },
+    "b_229": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_072>."
+        ],
+        [
+          2,
+          "<ENT_039>"
+        ]
+      ]
+    }
+  }
+}

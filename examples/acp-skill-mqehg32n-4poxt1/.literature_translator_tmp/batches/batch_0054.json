@@ -1,0 +1,54 @@
+{
+  "batch_id": "batch_0054",
+  "block_ids": [
+    "b_181",
+    "b_182"
+  ],
+  "total_chars": 955,
+  "blocks": {
+    "b_181": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "<ENT_044> <REF_038> uses the bounding box coordinates as object queries in the decoder and gradually updates them in every layer."
+        ],
+        [
+          2,
+          "In <FIG_008>, the purple block indicates <ENT_044>."
+        ],
+        [
+          3,
+          "These box coordinates make training convergence faster by providing positional information and using the height and width values to update the positional attention map."
+        ],
+        [
+          4,
+          "This type of object query provides better spatial information prior to the attention mechanism and provides a simple query formulation mechanism."
+        ]
+      ]
+    },
+    "b_182": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/9c<NUM_061>a57096bb1f03483aa216c98eb81a123bf892b35fc6ae6d6683f955b1cf3.jpg) <FIG_008>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_044> <REF_038>, <ENT_033> <REF_024>, and <ENT_032> <REF_025>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The purple block indicates <ENT_044>, the dark green block indicates <ENT_033>, and light green box represents <ENT_032>."
+        ]
+      ]
+    }
+  }
+}

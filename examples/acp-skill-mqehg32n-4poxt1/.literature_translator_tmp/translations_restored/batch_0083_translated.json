@@ -1,0 +1,54 @@
+{
+  "batch_id": "batch_0083",
+  "original_batch": "batch_0083",
+  "blocks": {
+    "b_278": {
+      "type": "bib_item",
+      "sentences": [
+        "20. Zhu, X.; Su, W.; Lu, L.; Li, B.; Wang, X.; Dai, J. Deformable DETR: Deformable Transformers for End-to-End Object Detection. arXiv 2020, arXiv:2010.04159."
+      ]
+    },
+    "b_279": {
+      "type": "bib_item",
+      "sentences": [
+        "21. Dai, Z.; Cai, B.; Lin, Y.; Chen, J. UP-DETR: Unsupervised Pre-training for Object Detection with Transformers. arXiv 2020, arXiv:2011.09094."
+      ]
+    },
+    "b_280": {
+      "type": "bib_item",
+      "sentences": [
+        "22. Yao, Z.; Ai, J.; Li, B.; Zhang, C. Efficient DETR: Improving End-to-End Object Detector with Dense Prior. arXiv 2021, arXiv:2104.01318."
+      ]
+    },
+    "b_281": {
+      "type": "bib_item",
+      "sentences": [
+        "23. Gao, P.; Zheng, M.; Wang, X.; Dai, J.; Li, H. Fast Convergence of DETR with Spatially Modulated Co-Attention. arXiv 2021, arXiv:2101.07448."
+      ]
+    },
+    "b_282": {
+      "type": "bib_item",
+      "sentences": [
+        "24. Sun, Z.; Cao, S.; Yang, Y.; Kitani, K. Rethinking Transformer-based Set Prediction for Object Detection. arXiv 2020, arXiv:2011.10881."
+      ]
+    },
+    "b_283": {
+      "type": "bib_item",
+      "sentences": [
+        "25. Meng, D.; Chen, X.; Fan, Z.; Zeng, G.; Li, H.; Yuan, Y.; Sun, L.; Wang, J. Conditional DETR for Fast Training Convergence. arXiv 2021, arXiv:2108.06152."
+      ]
+    },
+    "b_284": {
+      "type": "bib_item",
+      "sentences": [
+        "26. Liu, F.; Wei, H.; Zhao, W.; Li, G.; Peng, J.; Li, Z. WB-DETR: Transformer-Based Detector without Backbone. In Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision (ICCV), Montreal, QC, Canada, 11–17 October 2021; pp. 2959–2967. [CrossRef]"
+      ]
+    },
+    "b_285": {
+      "type": "bib_item",
+      "sentences": [
+        "27. Wang, T.; Yuan, L.; Chen, Y.; Feng, J.; Yan, S. PnP-DETR: Towards Efficient Visual Analysis with Transformers. arXiv 2021, arXiv:2109.07036."
+      ]
+    }
+  }
+}

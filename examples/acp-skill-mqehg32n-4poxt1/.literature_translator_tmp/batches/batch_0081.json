@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0081",
+  "block_ids": [
+    "b_266",
+    "b_267",
+    "b_268",
+    "b_269",
+    "b_270"
+  ],
+  "total_chars": 1406,
+  "blocks": {
+    "b_266": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "8. Dosovitskiy, A.; Beyer, L.; Kolesnikov, A.; Weissenborn, D.; Zhai, X.; Unterthiner, T.; Dehghani, M.; Minderer, M.; Heigold, G.; Gelly, S.; et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. arXiv 2020, arXiv:2010.11929."
+        ]
+      ]
+    },
+    "b_267": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "9. Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.N.; Kaiser, L.; Polosukhin, I. Attention is all you need. In Proceedings of the 31st International Conference on Neural Information Processing Systems, Long Beach, CA, USA, 4–9 December 2017; Curran Associates Inc.: Red Hook, NY, USA, 2017; pp. 6000–6010. Available online: https: //dl.acm.org/doi/10.5555/3295222.3295349 (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_268": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "10. Khan, M.S.U.; Shehzadi, T.; Noor, R.; Stricker, D.; Afzal, M.Z. Enhanced Bank Check Security: Introducing a Novel Dataset and Transformer-Based Approach for Detection and Verification. arXiv 2024, arXiv:2406.14370. [CrossRef]"
+        ]
+      ]
+    },
+    "b_269": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "11. Carion, N.; Massa, F.; Synnaeve, G.; Usunier, N.; Kirillov, A.; Zagoruyko, S. End-to-End Object Detection with Transformers. In Proceedings of the Computer Vision–ECCV 2020, Glasgow, UK, 23–28 August 2020; Vedaldi, A., Bischof, H., Brox, T., Frahm, J.M., Eds.; Springer International Publishing: Cham, Switzerland, 2020; pp. 213–229. [CrossRef]"
+        ]
+      ]
+    },
+    "b_270": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "12. Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Afzal, M.Z. Object Detection with Transformers: A Review. arXiv 2023, arXiv:2306.04670. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "batch_id": "batch_0066",
+  "original_batch": "batch_0066",
+  "blocks": {
+    "b_228": {
+      "type": "paragraph",
+      "sentences": [
+        "其中$L _ { \\mathrm { c l s } }$是分类损失，$L _ { \\mathrm { b o x } }$是边界框回归损失，$L _ { \\mathrm { G I o U } }$是广义交并比损失，$\\lambda _ { \\mathrm { g i o u } }$平衡各损失的贡献。",
+        "实验结果表明，LW-DETR在保持较低计算成本的同时，实现了比许多实时检测器（包括YOLO变体）更高的精度，适用于实时目标检测任务。"
+      ]
+    },
+    "b_229": {
+      "type": "heading",
+      "sentences": [
+        "## 3.24.",
+        "RT-DETR"
+      ]
+    }
+  }
+}

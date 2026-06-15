@@ -1,0 +1,78 @@
+{
+  "batch_id": "batch_0004",
+  "block_ids": [
+    "b_022",
+    "b_023",
+    "b_024",
+    "b_025",
+    "b_026",
+    "b_027"
+  ],
+  "total_chars": 1046,
+  "blocks": {
+    "b_022": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/e74b6930f314f176ea39cf2a148b08c9ce97a03f02b01c09a6f25c9d9<NUM_009>0df.jpg)"
+        ]
+      ]
+    },
+    "b_023": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/9257ee4fb1bc2d0<NUM_010>1b4d1a12759bbac63a85c7<NUM_011>7fbbeef3222c67c.jpg)"
+        ]
+      ]
+    },
+    "b_024": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/e2b1<NUM_012>9d9f00a83527d7bd0<NUM_013>3b49fa17f50cd39f199a34f1f416c.jpg)"
+        ]
+      ]
+    },
+    "b_025": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/2eae80c82c80c<NUM_014>e86190d34c5ab<NUM_015>b9<NUM_016>3edcacf.jpg)"
+        ]
+      ]
+    },
+    "b_026": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "(e) Timeline of important developments in DEtection TRansformers (<ENT_008>)"
+        ]
+      ]
+    },
+    "b_027": {
+      "type": "figure_caption",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/89d<NUM_017>cb0ef3<NUM_018>7dd8<NUM_019>6fdd7b63c1f2fae502d3b1ac6d807af8.jpg) <FIG_001>."
+        ],
+        [
+          2,
+          "Statistical overview of the literature on transformers. (a) Number of citations per year for transformer papers. (b) Citations in the last 12 months on detection transformer papers. (c) Modification percentage in the original detection transformer (<ENT_008>) to improve the performance and convergence speed. (d) Number of peer-reviewed publications per year that used <ENT_008> as a baseline. (e) A non-exhaustive timeline overview of important developments in <ENT_008> for detection tasks."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch_0077",
+  "original_batch": "batch_0077",
+  "blocks": {
+    "b_250": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td>方法</td><td>发表</td><td>优势</td><td>局限性</td></tr><tr><td><ENT_033> <REF_024> <ENT_041> https: / / github.com/IDEA-Research/<ENT_033></td><td><ENT_048> <NUM_021></td><td>对前景和背景区域的位置先验进行去噪训练。</td><td>通过向目标查询添加正噪声进行去噪训练，忽略了背景区域。</td></tr><tr><td><ENT_032> <REF_025> <ENT_041> <URL_026> <NUM_021></td><td>更快的收敛，提高基于查询的解码机制的适应性。</td><td>参数量大。</td></tr><tr><td><ENT_053> <REF_026> <ENT_041> <URL_027> chen/<ENT_016>-<ENT_053></td><td><ENT_048> <NUM_021></td><td>注意力机制逐渐更精确地聚焦于前景区域。</td><td>多阶段基于 <ENT_035> 的注意力建模增加了参数量。</td></tr><tr><td><ENT_034> <REF_027> <ENT_041> https: / /github.com/facebookresearch/dino</td><td><ENT_046> <NUM_021></td><td>在中小规模数据集上取得令人瞩目的结果</td><td>对大尺寸目标的性能下降</td></tr><tr><td><ENT_036> <REF_028> <ENT_041> <URL_028> <NUM_022></td><td>通过协作混合分配增强编码器特征学习和解码器注意力。</td><td>由于多个分配头增加了训练复杂度。</td></tr><tr><td><ENT_037> <REF_029> <ENT_041> https:/ /github.com/Atten4Vis/<ENT_037></td><td><ENT_046> <NUM_023></td><td>通过优化的 <ENT_038> 编码器和窗口注意力的轻量级 Transformer 设计实现实时检测。</td><td>在基准上的评估有限；不如 <ENT_091> 系列检测器成熟。</td></tr></table>"
+      ]
+    }
+  }
+}

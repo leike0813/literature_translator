@@ -1,0 +1,69 @@
+{
+  "batch_id": "batch_0056",
+  "block_ids": [
+    "b_186",
+    "b_187",
+    "b_188"
+  ],
+  "total_chars": 990,
+  "blocks": {
+    "b_186": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nO u t p u t = D e c o d e r ( d , M , I | A ) ,\\tag{42}\n$$"
+        ]
+      ]
+    },
+    "b_187": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "where I is the image features taken as input from the transformer encoder, and A is the attention mask that stops the information transfer between the matching and denoising parts and among different noised levels of the same ground-truth objects."
+        ],
+        [
+          2,
+          "The decoder has noised levels of ground-truth objects where noise is added to bounding boxes and class labels, such as label flipping."
+        ],
+        [
+          3,
+          "It contains a hyperparameter λ for controlling the noise level."
+        ],
+        [
+          4,
+          "The training architecture of <ENT_033> is based on <ENT_044>, as it also takes bounding box coordinates as object queries."
+        ],
+        [
+          5,
+          "The only difference between these two architectures is the class label indicator as an additional input in the decoder to assist label denoising."
+        ],
+        [
+          6,
+          "The bounding boxes are updated inconsistently in <ENT_044>, making relative offset learning challenging."
+        ],
+        [
+          7,
+          "The denoising training mechanism in <ENT_033> improves performance and training convergence."
+        ]
+      ]
+    },
+    "b_188": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_063>."
+        ],
+        [
+          2,
+          "<ENT_032>"
+        ]
+      ]
+    }
+  }
+}

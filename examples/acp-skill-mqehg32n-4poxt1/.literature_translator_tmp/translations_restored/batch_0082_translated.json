@@ -1,0 +1,48 @@
+{
+  "batch_id": "batch_0082",
+  "original_batch": "batch_0082",
+  "blocks": {
+    "b_271": {
+      "type": "bib_item",
+      "sentences": [
+        "13. Sheikh, T.U.; Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Afzal, M.Z. UnSupDLA: Towards Unsupervised Document Layout Analysis. arXiv 2024, arXiv:2406.06236."
+      ]
+    },
+    "b_272": {
+      "type": "bib_item",
+      "sentences": [
+        "14. Ehsan, I.; Shehzadi, T.; Stricker, D.; Afzal, M.Z. End-to-End Semi-Supervised approach with Modulated Object Queries for Table Detection in Documents. Int. J. Document Anal. Recognit. 2024, 27, 363–378. Available online: https://api.semanticscholar.org/Co rpusID:269626070 (accessed on on 25 September 2025). [CrossRef]"
+      ]
+    },
+    "b_273": {
+      "type": "bib_item",
+      "sentences": [
+        "15. Shehzadi, T.; Stricker, D.; Afzal, M.Z. A Hybrid Approach for Document Layout Analysis in Document images. arXiv 2024, arXiv:2404.17888. [CrossRef]"
+      ]
+    },
+    "b_274": {
+      "type": "bib_item",
+      "sentences": [
+        "16. Shehzadi, T.; Sarode, S.; Stricker, D.; Afzal, M.Z. Towards End-to-End Semi-Supervised Table Detection with Semantic Aligned Matching Transformer. arXiv 2024, arXiv:2405.00187."
+      ]
+    },
+    "b_275": {
+      "type": "bib_item",
+      "sentences": [
+        "17. Saeed, W.; Saleh, M.S.; Gull, M.N.; Raza, H.; Saeed, R.; Shehzadi, T. Geometric features and traffic dynamic analysis on 4-leg intersections. Int. Rev. Appl. Sci. Eng. 2024, 15, 171–188. [CrossRef]"
+      ]
+    },
+    "b_276": {
+      "type": "bib_item",
+      "sentences": [
+        "18. Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Liwicki, M.; Afzal, M.Z. Bridging the Performance Gap between DETR and R-CNN for Graphical Object Detection in Document Images. arXiv 2023, arXiv:2306.13526. [CrossRef]"
+      ]
+    },
+    "b_277": {
+      "type": "bib_item",
+      "sentences": [
+        "19. Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Afzal, M.Z. Sparse Semi-DETR: Sparse Learnable Queries for Semi-Supervised Object Detection. arXiv 2024, arXiv:2404.01819."
+      ]
+    }
+  }
+}

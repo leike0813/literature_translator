@@ -1,0 +1,21 @@
+{
+  "batch_id": "batch_0020",
+  "original_batch": "batch_0020",
+  "blocks": {
+    "b_057": {
+      "type": "paragraph",
+      "sentences": [
+        "其中，<MATH_005>和<MATH_006>分别为预测类别和目标标签。",
+        "其中<MATH_007>是最优分配因子；<MATH_008>和<MATH_009>分别是真实标注和预测的边界框。",
+        "ŷ和<MATH_010>分别为对象的预测值和真实标注。",
+        "具体而言，边界框损失是广义<ENT_054>（<ENT_067>）损失<REF_089>与L1损失的线性组合，如以下公式所示："
+      ]
+    },
+    "b_058": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathcal { L } _ { b b o x } = \\lambda _ { i } \\mathcal { L } _ { i o u } ( b _ { k } , \\hat { b } _ { \\sigma ( k ) } ) + \\lambda _ { l 1 } \\parallel b _ { k } - \\hat { b } _ { \\sigma ( k ) } \\parallel _ { 1 } ,\\tag{4}\n$$"
+      ]
+    }
+  }
+}

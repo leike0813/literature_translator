@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch_0058",
+  "original_batch": "batch_0058",
+  "blocks": {
+    "b_196": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\left\\{ \\begin{array} { l l } { \\tilde { x } _ { j } } & { = x + \\Delta x _ { j } . 2 ^ { z - r } , } \\\\ { \\tilde { y } _ { j } } & { = y + \\Delta y _ { j } . 2 ^ { z + r } , } \\\\ { \\tilde { z } _ { j } } & { = z + \\Delta z _ { j } . } \\end{array} \\right.\\tag{45}\n$$"
+      ]
+    },
+    "b_197": {
+      "type": "paragraph",
+      "sentences": [
+        "在三维特征空间上的插值首先在<MATH_133>空间中通过双线性插值进行采样，然后在z轴上通过高斯加权进行插值，其中第i个特征图的权重如下："
+      ]
+    },
+    "b_198": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\tilde { w } _ { i } = \\frac { e x p ( - ( \\tilde { z } - z _ { i } ^ { f } ) ^ { 2 } / \\Gamma _ { z } ) } { \\sum _ { i } e x p ( - ( \\tilde { z } - z _ { i } ^ { f } ) ^ { 2 } / \\Gamma _ { z } ) } ,\\tag{46}\n$$"
+      ]
+    },
+    "b_199": {
+      "type": "paragraph",
+      "sentences": [
+        "其中<MATH_134>是用于在z轴<MATH_135>上插值的平滑系数。该过程通过根据查询进行特征采样，使解码器的检测学习更加容易。",
+        "<ENT_032>解码器：<ENT_032>中的解码器模块接收内容向量<MATH_078>和位置向量<MATH_136>作为输入目标查询。",
+        "在这些查询之间应用位置感知多头自注意力如下："
+      ]
+    },
+    "b_201": {
+      "type": "equation",
+      "sentences": [
+        "$$\nA t t n ( q _ { i } , k _ { i } , v _ { i } ) = S o f t m a x ( \\frac { q _ { i } k _ { i } ^ { T } } { \\sqrt { d } } + \\alpha X ) . v _ { i } ,\\tag{47}\n$$"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch_0045",
+  "original_batch": "batch_0045",
+  "blocks": {
+    "b_151": {
+      "type": "paragraph",
+      "sentences": [
+        "其中I为输入图像<MATH_105>，被重塑为二维令牌<MATH_106>此处，<MATH_015>表示高度，<MATH_016>表示输入图像的宽度。",
+        "<MATH_021>为通道总数。",
+        "<MATH_107>为每个令牌的分辨率，<MATH_108>为令牌总数。",
+        "这些令牌通过线性投影映射到<MATH_109>维，<MATH_110>该投影的结果为<MATH_111>。",
+        "编码器还接收一百个随机初始化的可学习令牌<MATH_112>。",
+        "为保留位置信息，还添加了位置嵌入<MATH_113>。",
+        "Transformer的编码器包含多头自注意力机制和一个<ENT_074>块，使用<ENT_086> <REF_108>非线性激活函数。",
+        "层归一化（<ENT_087>）<REF_109>添加在每个自注意力和<ENT_074>块之间，如下所示："
+      ]
+    },
+    "b_153": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r l } { \\acute { s } _ { n } } & { { } = M H S A t t n ( L N ( s _ { n - 1 } ) ) + s _ { n - 1 } , } \\end{array}\\tag{35}\n$$"
+      ]
+    },
+    "b_154": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r l } { s _ { n } } & { { } = M L P ( L N ( \\acute { s } _ { n } ) ) + \\acute { s } _ { n } , } \\end{array}\\tag{36}\n$$"
+      ]
+    },
+    "b_155": {
+      "type": "paragraph",
+      "sentences": [
+        "其中<MATH_114>为编码器输入序列。",
+        "在<FIG_006>中，右上角的方块表示<ENT_027>。"
+      ]
+    }
+  }
+}

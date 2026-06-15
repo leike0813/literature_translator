@@ -1,0 +1,27 @@
+{
+  "batch_id": "batch_0009",
+  "block_ids": [
+    "b_032a"
+  ],
+  "total_chars": 112,
+  "blocks": {
+    "b_032a": {
+      "type": "table_caption",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "<TBL_002>."
+        ],
+        [
+          2,
+          "Overview of previous surveys on object detection."
+        ],
+        [
+          3,
+          "For each paper, the publication details are provided."
+        ]
+      ]
+    }
+  }
+}

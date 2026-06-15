@@ -1,0 +1,59 @@
+{
+  "batch_id": "batch_0060",
+  "original_batch": "batch_0060",
+  "blocks": {
+    "b_205": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\left\\{ \\begin{array} { l l } { \\displaystyle O _ { c l a s s } ( k ) = D F _ { c l a s s } ( H _ { d e } ( k ) ) , } \\\\ { O _ { b b o x } ( k ) = D F _ { b b o x } ( H _ { d e } ( k ) ) + O _ { b b o x } ( k - 1 ) , } \\end{array} \\right.\\tag{48}\n$$"
+      ]
+    },
+    "b_206": {
+      "type": "paragraph",
+      "sentences": [
+        "其中$O _ { c l a s s } \\in \\mathbb { R } ^ { M _ { d } \\times M _ { c } }$，$O _ { b b o x } \\in \\mathbb { R } ^ { M _ { d } \\times 4 }$。",
+        "此处，$M _ { d }$和$M _ { c }$分别表示预测目标和类别的总数。",
+        "$D F _ { c l a s s }$和$D F _ { b b o x }$是将输入特征转换为所需输出的函数。",
+        "$H _ { d e } ( k )$是该层级解码后的注意力，如下所示："
+      ]
+    },
+    "b_207": {
+      "type": "equation",
+      "sentences": [
+        "$$\nH _ { d e } ( k ) = [ H _ { g m } ( k ) , H _ { d e } ( k - 1 ) ] ,\\tag{49}\n$$"
+      ]
+    },
+    "b_208": {
+      "type": "paragraph",
+      "sentences": [
+        "其中$H _ { g m } ( k )$指根据$H _ { d e } ( k - 1 )$及先前层级的视觉注意特征。",
+        "这些视觉注意特征通过多头交叉注意力根据先前的注意力输出转换为细化注意力输出，如下所示："
+      ]
+    },
+    "b_209": {
+      "type": "equation",
+      "sentences": [
+        "$$\nH _ { g m } ( k ) = A t t n ( V ( k ) , H _ { d e } ( k - 1 ) ) .\\tag{50}\n$$"
+      ]
+    },
+    "b_210": {
+      "type": "paragraph",
+      "sentences": [
+        "为提取视觉注意特征$V ( k )$，执行以下操作："
+      ]
+    },
+    "b_211": {
+      "type": "equation",
+      "sentences": [
+        "$$\nV ( k ) = F E _ { e x t } ( X , R I ( { \\cal O } _ { b b o x } ( k - 1 ) , \\alpha ( k ) ) ) ,\\tag{51}\n$$"
+      ]
+    },
+    "b_212": {
+      "type": "paragraph",
+      "sentences": [
+        "其中$F E _ { e x t }$是特征提取函数，$\\alpha ( k )$是标量参数，RI是RoI计算。",
+        "通过这种方式，基于感兴趣区域（RoI）的细化模块使检测Transformer的训练收敛更快，并提供更好的性能。"
+      ]
+    }
+  }
+}

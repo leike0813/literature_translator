@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0086",
+  "block_ids": [
+    "b_297",
+    "b_298",
+    "b_299",
+    "b_300",
+    "b_301"
+  ],
+  "total_chars": 1277,
+  "blocks": {
+    "b_297": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "39. Zong, Z.; Song, G.; Liu, Y. DETRs with Collaborative Hybrid Assignments Training. In Proceedings of the 2023 IEEE/CVF International Conference on Computer Vision (ICCV), Paris, France, 2–6 October 2023; pp. 6725–6735. [CrossRef]"
+        ]
+      ]
+    },
+    "b_298": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "40. Chen, Q.; Su, X.; Zhang, X.; Wang, J.; Chen, J.; Shen, Y.; Han, C.; Chen, Z.; Xu, W.; Li, F.; et al. LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection. arXiv 2024, arXiv:2406.03459. Available online: https://arxiv.org/abs/2406.03459 (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_299": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "41. Zhao, Y.; Lv, W.; Xu, S.; Wei, J.; Wang, G.; Dang, Q.; Liu, Y.; Chen, J. DETRs Beat YOLOs on Real-time Object Detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, 17–21 June 2024; pp. 16965–16974. Available online: https://openaccess.thecvf.com/content/CVPR2024/html/Zhao\\_DETRs\\_Beat\\_YOLOs \\_on\\_Real-time\\_Object\\_Detection\\_CVPR\\_2024\\_paper.html (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_300": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "42. Gu, J.; Wang, Z.; Kuen, J.; Ma, L.; Shahroudy, A.; Shuai, B.; Liu, T.; Wang, X.; Wang, G. Recent Advances in Convolutional Neural Networks. arXiv 2015, arXiv:1512.07108. [CrossRef]"
+        ]
+      ]
+    },
+    "b_301": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "43. Borji, A.; Cheng, M.; Jiang, H.; Li, J. Salient Object Detection: A Survey. arXiv 2014, arXiv:1411.5878. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

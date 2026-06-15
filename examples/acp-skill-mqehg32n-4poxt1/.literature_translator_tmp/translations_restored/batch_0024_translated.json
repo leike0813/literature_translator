@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_0024",
+  "original_batch": "batch_0024",
+  "blocks": {
+    "b_066": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/cab0f6b4d2cd79ad867c59e82f845c212ae20f0e6690b6a3d6342d7f10153a41.jpg) Figure 3.",
+        "在加入Deformable-DETR [20]、UP-DETR [21]和Efficient-DETR [22]之后原始DETR的结构。",
+        "此处，网络为简单的DETR网络，改进部分由小色块标示。",
+        "深粉色方块表示Deformable-DETR，亮青色方块表示UP-DETR，暗绿色方块表示Efficient-DETR。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0023",
+  "block_ids": [
+    "b_063",
+    "b_064",
+    "b_065"
+  ],
+  "total_chars": 1417,
+  "blocks": {
+    "b_063": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "where j represents the attention head, <MATH_024> , and <MATH_025> are of learnable weights <MATH_026> by default)."
+        ],
+        [
+          2,
+          "The attention weights <MATH_027> ∝ ex <MATH_028> are normalized as <MATH_029> , in which <MATH_030> are also learnable weights."
+        ],
+        [
+          3,
+          "<ENT_016> <REF_009> modifies the attention modules inspired by <REF_092> to process the image feature map by considering the attention network as the main reason for slow training convergence and confined feature spatial resolution."
+        ],
+        [
+          4,
+          "This module samples a small set of features near each reference point."
+        ],
+        [
+          5,
+          "Given an input feature map <MATH_031> , let query q have content feature <MATH_032> and a 2D reference point <MATH_033> and the deformable attention feature is computed by the following:"
+        ]
+      ]
+    },
+    "b_064": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { D e f o r m A t t n ( z _ { q } , r _ { q } , x ) = \\sum _ { j = 1 } ^ { J } W _ { j } [ \\sum _ { k = 1 } ^ { K } A _ { j q k } . W _ { j } x ( r _ { q } + \\Delta r _ { j q k } ) ] , } \\end{array}\\tag{6}\n$$"
+        ]
+      ]
+    },
+    "b_065": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "where <MATH_034> indexes the sampling offset."
+        ],
+        [
+          2,
+          "It takes ten times fewer training epochs than a simple <ENT_008> network."
+        ],
+        [
+          3,
+          "The complexity of self-attention becomes <MATH_035> , which is linear complexity according to spatial size <MATH_036> ."
+        ],
+        [
+          4,
+          "The complexity of the cross-attention in the decoder becomes <MATH_037> , which is independent of spatial size <MATH_036> ."
+        ],
+        [
+          5,
+          "In Figure <MATH_038> the dark pink block indicates the deformable attention module in <ENT_016>."
+        ]
+      ]
+    }
+  }
+}

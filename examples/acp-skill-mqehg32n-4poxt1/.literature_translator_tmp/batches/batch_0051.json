@@ -1,0 +1,80 @@
+{
+  "batch_id": "batch_0051",
+  "block_ids": [
+    "b_172",
+    "b_173",
+    "b_174",
+    "b_175"
+  ],
+  "total_chars": 1236,
+  "blocks": {
+    "b_172": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nf _ { q } = f _ { j } , f _ { k } = f _ { v } = [ f _ { 1 } ^ { * } , f _ { 2 } ^ { * } , \\ldots , f _ { j - 1 } ^ { * } , f _ { j } ] ,\\tag{41}\n$$"
+        ]
+      ]
+    },
+    "b_173": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "where <MATH_120> is the fused form feature map <MATH_121> Given that L is the input of the decoder as the last-level feature map, the final result of cross-scale attention is <MATH_122> ."
+        ],
+        [
+          2,
+          "The output of this backbone is fed to the decoder that takes object queries in parallel."
+        ],
+        [
+          3,
+          "It provides output embeddings independently transformed into class labels and box coordinates by a forward feed network."
+        ],
+        [
+          4,
+          "Without an encoder module, the decoder directly used the finefused feature maps provided by the backbone network, with a novel cross-scale attention module providing better performance with low computational cost."
+        ]
+      ]
+    },
+    "b_174": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/efd2b<NUM_055>e2db5da9d069ea1cb7<NUM_057>3b0a9242a2a0de9dfe<NUM_056>.jpg) <FIG_007>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_030> <REF_021>, <ENT_028> <REF_022>, and <ENT_029> <REF_023>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The light green block indicates <ENT_030>, the pink block indicates <ENT_028>, and the blue box represents <ENT_029>."
+        ]
+      ]
+    },
+    "b_175": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_058>."
+        ],
+        [
+          2,
+          "<ENT_028>"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch_0008",
+  "original_batch": "batch_0008",
+  "blocks": {
+    "b_032": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td rowspan=\"2\">方法</td><td colspan=\"4\">修改</td><td rowspan=\"2\">发表</td><td rowspan=\"2\">亮点</td></tr><tr><td>Bk</td><td>Pre</td><td>Attn</td><td>Qry</td></tr><tr><td>AdaMixer [36] GitHub https: //github.com/MCG-NJU/AdaMixer</td><td></td><td></td><td></td><td></td><td>CVPR 2022</td><td>三维采样模块，解码器中的自适应混合模块</td></tr><tr><td>REGO [37] GitHub https: //github.com/zhechen/Deformable-DETR-REGO</td><td></td><td></td><td></td><td></td><td>CVPR 2022</td><td>多级循环机制和基于注视点的解码器</td></tr><tr><td>DINO [38] GitHub https: //github.com/facebookresearch/dino</td><td></td><td></td><td></td><td></td><td>arXiv 2022</td><td>对比去噪模块，正负加噪目标查询</td></tr><tr><td>Co-DETR [39] GitHub https: / / github.com/Sense-X/Co-DETR</td><td></td><td></td><td></td><td></td><td>ICCV 2023</td><td>协作混合分配实现更快收敛和更稳定的训练</td></tr><tr><td>LW-DETR [40] GitHub https: // github.com/Atten4Vis/LW-DETR</td><td></td><td></td><td></td><td></td><td>arXiv 2024</td><td>优化ViT编码器的轻量级DETR，浅层解码器及全局注意力</td></tr><tr><td>RT-DETR [41] GitHub https: //github.com/lyuwenyu/RT-DETR</td><td></td><td></td><td>√</td><td>√</td><td>CVPR 2024</td><td>多尺度特征混合编码器，IoU感知查询选择，自适应推理速度</td></tr></table>"
+      ]
+    }
+  }
+}

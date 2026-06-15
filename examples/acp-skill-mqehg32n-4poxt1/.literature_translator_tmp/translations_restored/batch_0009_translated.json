@@ -1,0 +1,14 @@
+{
+  "batch_id": "batch_0009",
+  "original_batch": "batch_0009",
+  "blocks": {
+    "b_032a": {
+      "type": "table_caption",
+      "sentences": [
+        "Table 2。",
+        "以往目标检测综述概览。",
+        "对于每篇论文，提供了发表详情。"
+      ]
+    }
+  }
+}

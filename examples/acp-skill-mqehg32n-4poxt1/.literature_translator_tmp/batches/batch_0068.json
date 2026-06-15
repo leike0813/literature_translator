@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch_0068",
+  "block_ids": [
+    "b_233"
+  ],
+  "total_chars": 27,
+  "blocks": {
+    "b_233": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## 4."
+        ],
+        [
+          2,
+          "Results and Discussion"
+        ]
+      ]
+    }
+  }
+}

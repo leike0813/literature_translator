@@ -1,0 +1,77 @@
+{
+  "batch_id": "batch_0042",
+  "block_ids": [
+    "b_138",
+    "b_140",
+    "b_141"
+  ],
+  "total_chars": 1477,
+  "blocks": {
+    "b_138": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "However, it is impossible because of the various scale feature maps from the <ENT_075>."
+        ],
+        [
+          2,
+          "The feature maps of different scales are equalized within neighbors using 2D convolution as in the pyramid convolution <REF_103>."
+        ],
+        [
+          3,
+          "It focuses on the spatial locations of the un-resized mid-layer and transfers information to its scaled neighbors."
+        ],
+        [
+          4,
+          "Moreover, <ENT_083> <REF_104> is applied to combine the features to provide scale attention."
+        ],
+        [
+          5,
+          "Dynamic Decoder: The dynamic decoder uses mixed attention blocks in place of multihead layers to ease learning in the cross-attention network and improve the detection of small objects."
+        ],
+        [
+          6,
+          "It also uses dynamic convolution instead of a cross-attention layer inspired by <ENT_084> <REF_105> in natural language processing (<ENT_007>)."
+        ],
+        [
+          7,
+          "Firstly, <ENT_035> pooling <REF_002> is introduced in the decoder network, after which position embeddings are replaced with box encoding <MATH_099> as the image size."
+        ],
+        [
+          8,
+          "The output from the dynamic encoder, along with box encoding <MATH_100> is fed to the dynamic decoder to pool image features <MATH_101> from the feature pyramid as follows:"
+        ]
+      ]
+    },
+    "b_140": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nR = R o I _ { p o o l } ( F _ { e n c o d e r } , B E , s ) ,\\tag{30}\n$$"
+        ]
+      ]
+    },
+    "b_141": {
+      "type": "paragraph",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "where s is the size of the pooling parameter, and <MATH_021> represents the quantity of channels of <MATH_102> ."
+        ],
+        [
+          2,
+          "To feed this into the cross-attention module, input embeddings <MATH_103> are required for object queries."
+        ],
+        [
+          3,
+          "These embeddings are passed through the multi-head self-attention (<ENT_085>) layer as follows:"
+        ]
+      ]
+    }
+  }
+}

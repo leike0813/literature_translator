@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch_0017",
+  "original_batch": "batch_0017",
+  "blocks": {
+    "b_049": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/3ad<NUM_031>c<NUM_032>e359b1fbc5d84d5b9417f98b92b2880b6f417fbbf0d4c.jpg) <FIG_002>。",
+        "检测Transformer（<ENT_008>）及其近期方法为提升性能和训练收敛所提出的修改概览。",
+        "它将检测视为集合预测任务，并使用Transformer使网络摆脱非极大值抑制（<ENT_013>）等后处理步骤。",
+        "其中，添加到<ENT_008>的每个模块以不同颜色表示，并标注对应标签（显示在右侧）。"
+      ]
+    },
+    "b_050": {
+      "type": "heading",
+      "sentences": ["## <NUM_033>.", "<ENT_008>"]
+    }
+  }
+}

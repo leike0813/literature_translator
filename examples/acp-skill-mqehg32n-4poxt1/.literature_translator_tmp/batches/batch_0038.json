@@ -1,0 +1,114 @@
+{
+  "batch_id": "batch_0038",
+  "block_ids": [
+    "b_108",
+    "b_110",
+    "b_111",
+    "b_112",
+    "b_113",
+    "b_114"
+  ],
+  "total_chars": 1460,
+  "blocks": {
+    "b_108": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "The transformer processes the image feature maps that are transformed into a onedimensional feature vector to produce the final results."
+        ],
+        [
+          2,
+          "Although effective, using the full feature map is expensive because of useless computation on background regions."
+        ],
+        [
+          3,
+          "<ENT_023> <REF_016> proposes a poll and pool (PnP) sampling module to reduce spatial redundancy and make the transformer network computationally more efficient."
+        ],
+        [
+          4,
+          "This module divides the image feature map into contextual background features and fine foreground object features."
+        ],
+        [
+          5,
+          "Then, the transformer network uses these updated feature maps and translates them into the final detection results."
+        ],
+        [
+          6,
+          "In <FIG_005>, the bottom-left block indicates <ENT_023>."
+        ],
+        [
+          7,
+          "This PnP Sampling module includes two types of samplers: a pool sampler and a poll sampler, as explained below."
+        ],
+        [
+          8,
+          "Poll Sampler: The poll sampler provides fine feature vectors <MATH_088> ."
+        ],
+        [
+          9,
+          "A meta-scoring module is used to find the informational value for every spatial location (x, y):"
+        ]
+      ]
+    },
+    "b_110": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\na _ { x y } = S c o r e N e t ( v _ { x y } , \\theta s ) .\\tag{18}\n$$"
+        ]
+      ]
+    },
+    "b_111": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "The score value is directly related to the information of feature vector <MATH_089> ."
+        ],
+        [
+          2,
+          "These score values are sorted as follows:"
+        ]
+      ]
+    },
+    "b_112": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n[ a _ { z } , | z = 1 , . . . , Z ] , \\aleph = S o r t ( a _ { x y } ) ,\\tag{19}\n$$"
+        ]
+      ]
+    },
+    "b_113": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where <MATH_090> , and ℵ is the sorting order."
+        ],
+        [
+          2,
+          "The top <MATH_091> -scoring vectors are selected to obtain fine features:"
+        ]
+      ]
+    },
+    "b_114": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbb { V } _ { f } = [ v _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{20}\n$$"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch_0010",
+  "block_ids": [
+    "b_033"
+  ],
+  "total_chars": 2124,
+  "blocks": {
+    "b_033": {
+      "type": "table",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td>Title</td><td>Year</td><td>Venue</td><td>Description</td></tr><tr><td>Advanced Deep-Learning Techniques forSalient and Category-SpecificObject Detection: ASurvey<REF_039></td><td><NUM_024></td><td>SPM</td><td>It providesanoverviewofdiferentobjectdetectiondomains, including ojectetection(OD),sentODndcategoryspic</td></tr><tr><td>Object Detection in 20 Years: A Survey <REF_040></td><td><NUM_025></td><td><ENT_055></td><td>This work gives an overview of the evolution of object detectors.</td></tr><tr><td>Deep Learning for Generic Object Detection: A Survey <REF_041></td><td><NUM_025></td><td><ENT_056></td><td> A review on deep learning techniques on generic object detection.</td></tr><tr><td>A Survey on Deep Learning-based Architectures for Semantic Segmentationon2Dimages <REF_042></td><td><NUM_008></td><td>PRJ</td><td>Deep learning-based method for semantic segmentation are reviewed.</td></tr><tr><td>A Survey of Modern Deep Learning based Object Detection Models<REF_043></td><td><NUM_020></td><td>ICV</td><td>Itbriefly overviews deep learning-based (regression-based single-stage and candidate-based two-stage) object detectors.</td></tr><tr><td>A Survey of Object Detection Based on <ENT_015> and <ENT_040> <REF_044></td><td><NUM_020></td><td>PRML</td><td>A review of thebenefits and drawbacks of deep learning-based object detectors and introduction of transformer-based methods.</td></tr><tr><td><ENT_001> in computational visual media: A survey <REF_045></td><td><NUM_020></td><td>CVM</td><td>It focuses on backbone design and low-level vision using vision transformer methods.</td></tr><tr><td>A survey: object detection methods from <ENT_015> to transformer <REF_046></td><td><NUM_021></td><td>MTA</td><td>Comparison of various <ENT_015>-based detection networks and introduction of transformer-based detection networks.</td></tr><tr><td>A Survey on Vision <ENT_040> <REF_047></td><td><NUM_022></td><td><ENT_055></td><td>This paper provides an overview of vision transformers and focuses on summarizing thestate-of-the-art research inthe fieldof vision transformers (ViTs).</td></tr></table>"
+        ]
+      ]
+    }
+  }
+}

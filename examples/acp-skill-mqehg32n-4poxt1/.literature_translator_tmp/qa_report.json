@@ -1,0 +1,25 @@
+{
+  "format": "v1",
+  "doc_id": "D1",
+  "summary": {
+    "total_blocks": 261,
+    "translated_blocks": 261,
+    "passthrough_blocks": 0,
+    "total_units": 0,
+    "passed_units": 0,
+    "repaired_units": 0,
+    "risky_units": 0
+  },
+  "checks": {
+    "sentence_count": "skipped",
+    "lazy_translation": "skipped",
+    "term_consistency": "skipped",
+    "language": "skipped",
+    "placeholder_preservation": "skipped",
+    "numeric_preservation": "skipped",
+    "non_translation_phrases": "skipped",
+    "length_check": "skipped"
+  },
+  "repaired_items": [],
+  "risky_items": []
+}

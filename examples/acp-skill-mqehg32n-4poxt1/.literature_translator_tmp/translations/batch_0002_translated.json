@@ -1,0 +1,20 @@
+{
+  "batch_id": "batch_0002",
+  "original_batch": "batch_0002",
+  "blocks": {
+    "b_012": {
+      "type": "paragraph",
+      "sentences": [
+        "学术编辑：Liang-Jian Deng 收稿日期：<NUM_005>年8月16日 修回日期：<NUM_005>年9月24日 接受日期：<NUM_005>年9月26日 发表日期：<NUM_005>年10月1日 引用格式：<ENT_002>, T.; <ENT_005>, K.A.; <ENT_004>, M.; <ENT_003>, D.; <ENT_006>, M.Z. 基于<ENT_001>的目标检测：综述。",
+        "<ENT_009> <NUM_005>, 25, <NUM_006>. <URL_001> 版权：© <NUM_005> 作者所有。",
+        "出版方 <ENT_010>，巴塞尔，瑞士。",
+        "本文为开放获取文章，依据知识共享署名（CC BY）许可（<URL_002> nses/by/<NUM_007>/）的条款和条件分发。",
+        "关键词：Transformer；目标检测；<ENT_008>；计算机视觉；深度神经网络"
+      ]
+    },
+    "b_017": {
+      "type": "heading",
+      "sentences": ["## 1.", "引言"]
+    }
+  }
+}

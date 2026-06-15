@@ -1,0 +1,97 @@
+{
+  "batch_id": "batch_0029",
+  "block_ids": [
+    "b_079",
+    "b_080",
+    "b_082"
+  ],
+  "total_chars": 1497,
+  "blocks": {
+    "b_079": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_039>."
+        ],
+        [
+          2,
+          "<ENT_018>"
+        ]
+      ]
+    },
+    "b_080": {
+      "type": "paragraph",
+      "sentence_count": 13,
+      "sentences": [
+        [
+          1,
+          "The performance of <ENT_008> also depends on the object queries, as the detection head obtains final predictions from them."
+        ],
+        [
+          2,
+          "However, these object queries are randomly initialized at the start of training."
+        ],
+        [
+          3,
+          "<ENT_018> <REF_011>, based on <ENT_008> and <ENT_016>, examines the randomly initialized object blocks, including reference points and object queries, which is one of the reasons for multiple training iterations."
+        ],
+        [
+          4,
+          "In <FIG_003>, the dull green box shows <ENT_018>."
+        ],
+        [
+          5,
+          "<ENT_018> has two main modules: a dense module and a sparse module."
+        ],
+        [
+          6,
+          "These modules have the same final detection head."
+        ],
+        [
+          7,
+          "The dense module includes the backbone network, encoder network, and detection head."
+        ],
+        [
+          8,
+          "Following <REF_096>, it generates proposals by a class-specific dense prediction using the sliding window and selects Top-k features as object queries and reference points."
+        ],
+        [
+          9,
+          "<ENT_018> uses 4D boxes as reference points rather than 2D centers."
+        ],
+        [
+          10,
+          "The sparse network does the same work as the dense network, except for their output size."
+        ],
+        [
+          11,
+          "The features from the dense module are taken as the initial state of the sparse module, which is considered a good initialization of object queries."
+        ],
+        [
+          12,
+          "Both dense and sparse modules use a one-to-one assignment rule, as in <REF_097>."
+        ],
+        [
+          13,
+          "However, <ENT_018> adds architectural complexity, and the final performance heavily depends on the quality of the dense module’s proposals, making the approach sensitive to the selection of initial object queries and hyperparameters."
+        ]
+      ]
+    },
+    "b_082": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_040>."
+        ],
+        [
+          2,
+          "<ENT_019>"
+        ]
+      ]
+    }
+  }
+}

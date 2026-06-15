@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0084",
+  "block_ids": [
+    "b_286",
+    "b_287",
+    "b_288",
+    "b_289",
+    "b_290"
+  ],
+  "total_chars": 1244,
+  "blocks": {
+    "b_286": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "28. Dai, X.; Chen, Y.; Yang, J.; Zhang, P.; Yuan, L.; Zhang, L. Dynamic DETR: End-to-End Object Detection with Dynamic Attention. In Proceedings of the 2021 International Conference on Computer Vision, Montreal, QC, Canada, 11–17 October 2021. Available online: https://www.microsoft.com/en-us/research/publication/dynamic-detr-end-to-end-object-detection-with-dynamic -attention/ (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_287": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "29. Fang, Y.; Liao, B.; Wang, X.; Fang, J.; Qi, J.; Wu, R.; Niu, J.; Liu, W. You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection. arXiv 2021, arXiv:2106.00666. [CrossRef]"
+        ]
+      ]
+    },
+    "b_288": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "30. Wang, Y.; Zhang, X.; Yang, T.; Sun, J. Anchor DETR: Query Design for Transformer-Based Detector. In Proceedings of the AAAI Conference on Artificial Intelligence, Online, 22 February–1 March 2022. Available online: https://api.semanticscholar.org/Corp usID:237513850 (accessed on 25 September 2025)."
+        ]
+      ]
+    },
+    "b_289": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "31. Roh, B.; Shin, J.; Shin, W.; Kim, S. Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity. arXiv 2021, arXiv:2111.14330."
+        ]
+      ]
+    },
+    "b_290": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "32. Lin, J.; Mao, X.; Chen, Y.; Xu, L.; He, Y.; Xue, H. D2ETR: Decoder-Only DETR with Computationally Efficient Cross-Scale Attention. arXiv 2022, arXiv:2203.00860. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

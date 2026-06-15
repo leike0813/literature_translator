@@ -1,0 +1,81 @@
+{
+  "batch_id": "batch_0026",
+  "block_ids": [
+    "b_069",
+    "b_070",
+    "b_072"
+  ],
+  "total_chars": 1418,
+  "blocks": {
+    "b_069": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_037>."
+        ],
+        [
+          2,
+          "<ENT_017>"
+        ]
+      ]
+    },
+    "b_070": {
+      "type": "paragraph",
+      "sentence_count": 10,
+      "sentences": [
+        [
+          1,
+          "<ENT_070> et al. <REF_010> proposed a few modifications to pre-train the <ENT_008> similar to pretraining transformers in <ENT_007>."
+        ],
+        [
+          2,
+          "The randomly sized patches from the input image are used as object queries to the decoder as input."
+        ],
+        [
+          3,
+          "The pre-training proposed by <ENT_017> helps to detect these randomly sized query patches."
+        ],
+        [
+          4,
+          "Algorithm 2 summarizes the pre-training procedure of <ENT_017>, illustrating how random patches, query grouping, and attention masking are applied to improve convergence and feature learning."
+        ],
+        [
+          5,
+          "In <FIG_003>, the bright cyan block denotes <ENT_017>."
+        ],
+        [
+          6,
+          "Two issues are addressed during pre-training: multi-task learning and multi-query localization."
+        ],
+        [
+          7,
+          "Multi-Task Learning: The object detection task combines object localization and classification, while these tasks always have distinct features <REF_093>."
+        ],
+        [
+          8,
+          "The patch detection damages the classification features."
+        ],
+        [
+          9,
+          "Multi-task learning using patch feature reconstruction and a frozen pre-training backbone is proposed to protect the classification features of the transformer."
+        ],
+        [
+          10,
+          "The feature reconstruction is given as follows:"
+        ]
+      ]
+    },
+    "b_072": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathcal { L } _ { r e c } ( f _ { k } , \\hat { f } _ { \\hat { \\sigma } ( k ) } ) = \\parallel \\frac { f _ { k } } { \\parallel f _ { k } \\parallel _ { 2 } } - \\frac { \\hat { f } _ { \\hat { \\sigma } ( k ) } } { \\parallel \\hat { f } _ { \\hat { \\sigma } ( k ) } \\parallel _ { 2 } } \\parallel _ { 2 } ^ { 2 } .\\tag{7}\n$$"
+        ]
+      ]
+    }
+  }
+}

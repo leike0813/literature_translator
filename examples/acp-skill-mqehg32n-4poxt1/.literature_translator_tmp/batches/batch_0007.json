@@ -1,0 +1,27 @@
+{
+  "batch_id": "batch_0007",
+  "block_ids": [
+    "b_031"
+  ],
+  "total_chars": 3599,
+  "blocks": {
+    "b_031": {
+      "type": "table",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td rowspan=\"2\">Methods</td><td colspan=\"4\">Modifications</td><td rowspan=\"2\">Publication</td><td rowspan=\"2\">Highlights</td></tr><tr><td>Bk</td><td>Pre</td><td></td><td>Attn Qry</td></tr><tr><td><ENT_008> <REF_007> <ENT_041> <URL_003> <NUM_008></td><td><ENT_040>, Set-based prediction, bipartite matching</td></tr><tr><td><ENT_016> <REF_009> <ENT_041> https: //github.com/fundamentalvision/<ENT_016></td><td></td><td></td><td></td><td></td><td><ENT_049> <NUM_020></td><td>Deformable-attention module</td></tr><tr><td><ENT_017> <REF_010> <ENT_041> <URL_004> <NUM_020></td><td>Unsupervised pre-training, random query patch detection</td></tr><tr><td><ENT_018> <REF_011></td><td></td><td></td><td></td><td></td><td><ENT_046> <NUM_020></td><td>Refence point and top-k queries selection module</td></tr><tr><td><ENT_019> <REF_012> <ENT_041> https: //github.com/gaopengcuhk/<ENT_019></td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_020></td><td>Spatially-Modulated Co-attention module</td></tr><tr><td><ENT_020> <REF_013> <ENT_041> https: //github.com/Edward-<ENT_052>/TSP-Detection</td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_020></td><td><ENT_042> and <ENT_043> modules for cross attention</td></tr><tr><td><ENT_021> <REF_014> <ENT_041> htts: // github.com/Atten4Vis/ConditionalDETR</td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_020></td><td>Conditional spatial queries</td></tr><tr><td><ENT_022> <REF_015> <ENT_041> <URL_005> <NUM_020></td><td>Encoder-decoder network without a backbone,<ENT_045> encoder module</td></tr><tr><td><ENT_023> <REF_016> <ENT_041> https: //github.com/twangnh/pnp-detr</td><td></td><td></td><td>√</td><td></td><td><ENT_047> <NUM_020></td><td>PnP sampling module including pool sampler and poll sampler</td></tr><tr><td><ENT_024> <REF_017></td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_020></td><td>Dynamic attention in the encoder-decoder network</td></tr><tr><td><ENT_027> <REF_018> <ENT_041> <URL_006> <NUM_020></td><td>Pre-training encoder network</td></tr><tr><td><ENT_025> <REF_019> <ENT_041> https: //github.com/megvii-research/AnchorDETR</td><td></td><td></td><td>√</td><td></td><td><ENT_050> <NUM_021></td><td>Row and Column decoupled-attention, object queries as anchor points</td></tr><tr><td><ENT_026> <REF_020> <ENT_041> https: //github.com/kakaobrain/sparse-detr D²ETR <REF_021> <ENT_041> https:</td><td></td><td></td><td></td><td></td><td><ENT_049> <NUM_021></td><td>Cross-attention map predictor, deformable-attention module</td></tr><tr><td>//github.com/alibaba/easyrobust/tree/main/ddetr</td><td></td><td></td><td>√</td><td></td><td><ENT_046> <NUM_021></td><td>Fine fused features, cross-scale attention module</td></tr><tr><td><ENT_028> <REF_022> <ENT_041> https: //github.com/encounter1997/<ENT_028></td><td>√</td><td></td><td></td><td></td><td><ENT_049> <NUM_021></td><td>Multiscale tokenizer in place of <ENT_015> backbone,pre-training encoder network</td></tr><tr><td><ENT_029> <REF_023></td><td></td><td></td><td>√</td><td></td><td><ENT_050> <NUM_021></td><td><ENT_051> module to capture spatial relationships,a coarse and a fine layer in the decoder network</td></tr><tr><td><ENT_044> <REF_038> <ENT_041> https: // github.com/IDEA-Research/<ENT_044></td><td></td><td></td><td></td><td></td><td><ENT_049> <NUM_021></td><td>Dynamic anchor boxes as object queries</td></tr><tr><td><ENT_033> <REF_024> <ENT_041> https: //github.com/IDEA-Research/<ENT_033></td><td></td><td></td><td></td><td></td><td><ENT_048> <NUM_021></td><td>Positive noised object queries</td></tr></table>"
+        ],
+        [
+          2,
+          "<TBL_001>."
+        ],
+        [
+          3,
+          "Cont."
+        ]
+      ]
+    }
+  }
+}

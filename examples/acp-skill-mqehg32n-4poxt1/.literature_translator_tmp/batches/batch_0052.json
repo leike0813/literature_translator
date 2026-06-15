@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0052",
+  "block_ids": [
+    "b_176"
+  ],
+  "total_chars": 1790,
+  "blocks": {
+    "b_176": {
+      "type": "paragraph",
+      "sentence_count": 12,
+      "sentences": [
+        [
+          1,
+          "Modern <ENT_015>-based detectors like <ENT_091> <REF_112> and <ENT_076> <REF_002> utilize specialized layers on top of backbones pre-trained on <ENT_060> to enjoy pre-training benefits such as improved performance and faster training convergence."
+        ],
+        [
+          2,
+          "The <ENT_008> network and its improved version <REF_010> only pre-train its backbone while training both encoder and decoder layers from scratch."
+        ],
+        [
+          3,
+          "Thus, the transformer needs massive training data for fine-tuning."
+        ],
+        [
+          4,
+          "The main reason for not pre-training the detection transformer is the difference between the pre-training and final detection tasks."
+        ],
+        [
+          5,
+          "Firstly, the decoder module of the transformer takes multiple object queries as input for detecting objects, while <ENT_060> classification takes only a single query (class token)."
+        ],
+        [
+          6,
+          "Secondly, the self-attention module and the projections on input query embeddings in the cross-attention module easily overfit a single class query, making the decoder network difficult to pre-train. Moreover, the downstream detection task focuses on classification and localization, while the upstream task considers only classification for the objects of interest."
+        ],
+        [
+          7,
+          "<ENT_028> <REF_022> reformulates the pre-training and fine-tuning stages for detection transformers."
+        ],
+        [
+          8,
+          "In <FIG_007>, the pink block indicates <ENT_028>."
+        ],
+        [
+          9,
+          "It takes only the encoder network of the detection transformer for pre-training, as it is challenging to pre-train the decoder on the <ENT_060> classification task."
+        ],
+        [
+          10,
+          "Moreover, <ENT_008> uses both the encoder and <ENT_015> backbone as feature extractors."
+        ],
+        [
+          11,
+          "<ENT_028> replaces the <ENT_015> backbone with a multi-scale tokenizer and uses the encoder network to extract features."
+        ],
+        [
+          12,
+          "It fully pre-trains the <ENT_016> on the <ENT_060> dataset and fine-tunes it for final detection that achieves competitive performance."
+        ]
+      ]
+    }
+  }
+}

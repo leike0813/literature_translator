@@ -1,0 +1,69 @@
+{
+  "batch_id": "batch_0012",
+  "block_ids": [
+    "b_033b",
+    "b_034",
+    "b_035"
+  ],
+  "total_chars": 515,
+  "blocks": {
+    "b_033b": {
+      "type": "paragraph",
+      "sentence_count": 6,
+      "sentences": [
+        [
+          1,
+          "The remaining paper is arranged as follows."
+        ],
+        [
+          2,
+          "Section 2 is related to object detection and transformers in all types of vision."
+        ],
+        [
+          3,
+          "Section 3 is the main part, which explains the modifications in the detection transformers in detail."
+        ],
+        [
+          4,
+          "<SEC_001> refers to the evaluation protocol, and Section 4 provides a comparative evaluation of detection transformers."
+        ],
+        [
+          5,
+          "Section 5 discusses open challenges and future directions."
+        ],
+        [
+          6,
+          "Finally, Section 6 concludes the paper."
+        ]
+      ]
+    },
+    "b_034": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## 2."
+        ],
+        [
+          2,
+          "Object Detection and <ENT_001> in Vision"
+        ]
+      ]
+    },
+    "b_035": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_026>."
+        ],
+        [
+          2,
+          "Object Detection"
+        ]
+      ]
+    }
+  }
+}

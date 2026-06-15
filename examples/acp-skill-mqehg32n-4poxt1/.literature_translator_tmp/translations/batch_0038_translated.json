@@ -1,0 +1,52 @@
+{
+  "batch_id": "batch_0038",
+  "original_batch": "batch_0038",
+  "blocks": {
+    "b_108": {
+      "type": "paragraph",
+      "sentences": [
+        "Transformer处理被转换为一维特征向量的图像特征图以产生最终结果。",
+        "尽管有效，但由于对背景区域的无用计算，使用完整特征图的代价很高。",
+        "<ENT_023> <REF_016>提出了一种轮询与池化（PnP）采样模块，以减少空间冗余并使Transformer网络的计算更加高效。",
+        "该模块将图像特征图分为上下文背景特征和精细前景目标特征。",
+        "然后，Transformer网络使用这些更新后的特征图并将其转化为最终检测结果。",
+        "在<FIG_005>中，左下方的方块表示<ENT_023>。",
+        "该PnP采样模块包含两种采样器：池化采样器和轮询采样器，如下所述。",
+        "轮询采样器：轮询采样器提供精细特征向量<MATH_088>。",
+        "使用元评分模块来查找每个空间位置(x, y)的信息值："
+      ]
+    },
+    "b_110": {
+      "type": "equation",
+      "sentences": [
+        "$$\na _ { x y } = S c o r e N e t ( v _ { x y } , \\theta s ) .\\tag{18}\n$$"
+      ]
+    },
+    "b_111": {
+      "type": "paragraph",
+      "sentences": [
+        "评分值与特征向量<MATH_089>的信息直接相关。",
+        "这些评分值按如下方式排序："
+      ]
+    },
+    "b_112": {
+      "type": "equation",
+      "sentences": [
+        "$$\n[ a _ { z } , | z = 1 , . . . , Z ] , \\aleph = S o r t ( a _ { x y } ) ,\\tag{19}\n$$"
+      ]
+    },
+    "b_113": {
+      "type": "paragraph",
+      "sentences": [
+        "其中<MATH_090>，ℵ为排序顺序。",
+        "选择得分最高的<MATH_091>个向量以获得精细特征："
+      ]
+    },
+    "b_114": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbb { V } _ { f } = [ v _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{20}\n$$"
+      ]
+    }
+  }
+}

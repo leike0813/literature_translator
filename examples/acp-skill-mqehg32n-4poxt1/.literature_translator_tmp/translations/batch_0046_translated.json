@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch_0046",
+  "original_batch": "batch_0046",
+  "blocks": {
+    "b_156": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/71a<NUM_050>b3c55efe5d187d458daff9c72bb0d7baaee7ae6d<NUM_051>a8ff5a45ab.jpg) <FIG_006>。",
+        "添加<ENT_027> <REF_018>、<ENT_025> <REF_019>和<ENT_026> <REF_020>后的原始<ENT_008>结构。",
+        "此处，网络是一个简单的<ENT_008>网络，改进部分用小的彩色方块标示。",
+        "黄色方块表示<ENT_027>，浅蓝色方块表示<ENT_025>，浅橙色方块表示<ENT_026>。"
+      ]
+    },
+    "b_157": {
+      "type": "heading",
+      "sentences": [
+        "## <NUM_052>.",
+        "<ENT_025>"
+      ]
+    }
+  }
+}

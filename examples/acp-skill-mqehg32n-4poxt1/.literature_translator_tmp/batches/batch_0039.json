@@ -1,0 +1,127 @@
+{
+  "batch_id": "batch_0039",
+  "block_ids": [
+    "b_115",
+    "b_116",
+    "b_117",
+    "b_118",
+    "b_119",
+    "b_122",
+    "b_123",
+    "b_124",
+    "b_125"
+  ],
+  "total_chars": 1421,
+  "blocks": {
+    "b_115": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "Here, the predicted informative value is considered a modulating factor to sample the fine feature vectors:"
+        ]
+      ]
+    },
+    "b_116": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbb { V } _ { f } = [ v _ { z } \\times a _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{21}\n$$"
+        ]
+      ]
+    },
+    "b_117": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "To make the learning stable, the feature vectors are normalized:"
+        ]
+      ]
+    },
+    "b_118": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbb { V } _ { f } = [ L _ { n o r m } ( v _ { z } ) \\times a _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{22}\n$$"
+        ]
+      ]
+    },
+    "b_119": {
+      "type": "paragraph",
+      "sentence_count": 6,
+      "sentences": [
+        [
+          1,
+          "Here, <MATH_092> is the layer normalization, and <MATH_093> where α is the poll ratio factor."
+        ],
+        [
+          2,
+          "This sampling module reduces the training computation."
+        ],
+        [
+          3,
+          "Pool Sampler: The poll sampler obtains the fine features of foreground objects."
+        ],
+        [
+          4,
+          "A pool sampler compresses the background region’s remaining feature vectors that provide contextual information."
+        ],
+        [
+          5,
+          "It performs weighted pooling to get a small number of background features <MATH_094> motivated by double attention operation <REF_101> and bilinear pooling <REF_102>."
+        ],
+        [
+          6,
+          "The remaining feature vectors of the background region are as follows:"
+        ]
+      ]
+    },
+    "b_122": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbb { V } _ { b } = \\mathbb { V } \\backslash \\mathbb { V } _ { f } = \\{ \\mathbf { v } _ { b } , | b = 1 , . . . , Z - N \\} .\\tag{23}\n$$"
+        ]
+      ]
+    },
+    "b_123": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "The aggregated weights <MATH_095> are obtained by projecting the features with weight values <MATH_096> as follows:"
+        ]
+      ]
+    },
+    "b_124": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { \\mathbf { a } _ { b } = \\mathbf { v } _ { b } \\mathbf { w } ^ { s } . } \\end{array}\\tag{24}\n$$"
+        ]
+      ]
+    },
+    "b_125": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "The projected features with learnable weight <MATH_097> are obtained as follows:"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "batch_id": "batch_0006",
+  "original_batch": "batch_0006",
+  "blocks": {
+    "b_030": {
+      "type": "table_caption",
+      "sentences": [
+        "<TBL_001>。",
+        "检测Transformer（<ENT_008>）中加速训练收敛并提升小目标性能的改进概览。",
+        "其中，Bk代表骨干网络，Pre表示预训练，Attn表示注意力，Qry代表Transformer网络的查询。",
+        "每种方法代表对基线<ENT_008>的改进，绿色勾号表示引入修改的位置。",
+        "各网络的主要贡献总结在最后一列。",
+        "本表中所有<ENT_041>链接均于<NUM_005>年9月25日访问。"
+      ]
+    }
+  }
+}

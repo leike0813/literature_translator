@@ -1,0 +1,71 @@
+{
+  "batch_id": "batch_0011",
+  "block_ids": [
+    "b_033a"
+  ],
+  "total_chars": 1375,
+  "blocks": {
+    "b_033a": {
+      "type": "list",
+      "sentence_count": 14,
+      "sentences": [
+        [
+          1,
+          "1."
+        ],
+        [
+          2,
+          "A detailedreview of transformer-based detection methods from an architectural perspective."
+        ],
+        [
+          3,
+          "We categorize and summarize improvements in the detection transformer (<ENT_008>) according to backbone modifications, pre-training level, attention mechanism, query design, etc. This analysis aims to help researchers develop a deeper understanding of the key components of detection transformers in terms of performance indicators."
+        ],
+        [
+          4,
+          "2."
+        ],
+        [
+          5,
+          "A performance evaluation of detection transformers."
+        ],
+        [
+          6,
+          "We evaluate improvements in detection transformers using the popular benchmark MS <ENT_057> <REF_048>."
+        ],
+        [
+          7,
+          "We also highlight the advantages and limitations of these approaches."
+        ],
+        [
+          8,
+          "3."
+        ],
+        [
+          9,
+          "An analysis of accuracy and computational complexity of improved versions of detection transformers."
+        ],
+        [
+          10,
+          "We present an evaluative comparison of state-of-the-art transformer-based detection methods with respect to attention mechanisms, backbone modifications, and query designs."
+        ],
+        [
+          11,
+          "4."
+        ],
+        [
+          12,
+          "An overview of the key building blocks of detection transformers to improve their performance further and future directions."
+        ],
+        [
+          13,
+          "We examine the impact of various key architectural design modules that impact network performance and training convergence to provide possible suggestions for future research."
+        ],
+        [
+          14,
+          "Readers interested in ongoing developments in detection transformers can refer to our Github repository: <URL_007> (accessed on 25 September <NUM_005>)."
+        ]
+      ]
+    }
+  }
+}

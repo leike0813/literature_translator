@@ -1,0 +1,88 @@
+{
+  "batch_id": "batch_0061",
+  "block_ids": [
+    "b_213",
+    "b_214",
+    "b_215",
+    "b_216"
+  ],
+  "total_chars": 1426,
+  "blocks": {
+    "b_213": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/974b963dbb7639bd17f5112d7db66dc6bb410ac634f<NUM_065>a0377bbd03b8a2.jpg) <FIG_009>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_031> <REF_026> and <ENT_034> <REF_027>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The purple color block indicates <ENT_031> and the red indicator block represents <ENT_034>."
+        ]
+      ]
+    },
+    "b_214": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_066>."
+        ],
+        [
+          2,
+          "<ENT_034>"
+        ]
+      ]
+    },
+    "b_215": {
+      "type": "paragraph",
+      "sentence_count": 6,
+      "sentences": [
+        [
+          1,
+          "<ENT_033> adds positive noise to the anchors taken as object queries to the input of the decoder and provides labels to only those anchors with ground-truth objects nearby."
+        ],
+        [
+          2,
+          "Following <ENT_044> and <ENT_033>, <ENT_034> <REF_027> proposes a mixed object query selection method for anchor initialization and a look forward twice mechanism for box prediction."
+        ],
+        [
+          3,
+          "It provides the contrastive denoising (<ENT_095>) module, which takes positional queries as anchor boxes and adds additional DN loss."
+        ],
+        [
+          4,
+          "In <FIG_009>, the red block indicates <ENT_034>."
+        ],
+        [
+          5,
+          "This detector uses <MATH_154> and <MATH_155> hyperparameters where <MATH_156> ."
+        ],
+        [
+          6,
+          "The bounding box <MATH_157> taken as input in the decoder, its corresponding generated anchor is denoted as <MATH_158>"
+        ]
+      ]
+    },
+    "b_216": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { A T D ( k ) = \\frac { 1 } { k } \\Sigma \\{ M _ { K } ( \\{ \\mid b _ { 0 } - a _ { 0 } \\mid _ { 1 } , \\mid b _ { 1 } - a _ { 1 } \\mid _ { 1 } , . . . , \\mid \\mid b _ { N - 1 } - a _ { N - 1 } \\mid _ { 1 } \\} , k ) \\} , } \\end{array}\\tag{52}\n$$"
+        ]
+      ]
+    }
+  }
+}

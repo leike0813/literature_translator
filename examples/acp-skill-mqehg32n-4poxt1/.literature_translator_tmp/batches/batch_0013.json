@@ -1,0 +1,71 @@
+{
+  "batch_id": "batch_0013",
+  "block_ids": [
+    "b_036"
+  ],
+  "total_chars": 1512,
+  "blocks": {
+    "b_036": {
+      "type": "paragraph",
+      "sentence_count": 14,
+      "sentences": [
+        [
+          1,
+          "This section explains the key concept of object detection and previously used object detectors."
+        ],
+        [
+          2,
+          "A more detailed analysis of object detection concepts can be found in <REF_049>."
+        ],
+        [
+          3,
+          "The object detection task localizes and recognizes objects in an image by providing a bounding box around each object and its category."
+        ],
+        [
+          4,
+          "These detectors are usually trained on datasets like <ENT_058> <REF_050> or MS <ENT_057> <REF_048>."
+        ],
+        [
+          5,
+          "The backbone network extracts the features of the input image as feature maps <REF_051>."
+        ],
+        [
+          6,
+          "Usually, the backbone network, such as <ENT_059> <REF_052>, is pre-trained on <ENT_060> <REF_053> and then fine-tuned to downstream tasks <REF_054>."
+        ],
+        [
+          7,
+          "Moreover, many works have also used visual transformers <REF_055> as a backbone."
+        ],
+        [
+          8,
+          "Single-stage object detectors <REF_056> use only one network, having faster speed but lower performance than two-stage networks."
+        ],
+        [
+          9,
+          "Two-stage object detectors <REF_057> contain two networks, which provide final bounding boxes and class labels."
+        ],
+        [
+          10,
+          "Lightweight Detectors: Lightweight detectors are designed to be more computationally efficient than standard object detection models."
+        ],
+        [
+          11,
+          "These are real-time object detectors and can be employed on small devices."
+        ],
+        [
+          12,
+          "Examples include <REF_058>."
+        ],
+        [
+          13,
+          "Three-Dimensional Object Detection: The primary purpose of 3D object detection is to recognize the objects of interest using a 3D bounding box and give a class label."
+        ],
+        [
+          14,
+          "Three-dimensional approaches fall into three categories: image-based <REF_059>, point cloud-based <REF_060> , and multimodal fusion-based <REF_061>."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch_0024",
+  "block_ids": [
+    "b_066"
+  ],
+  "total_chars": 468,
+  "blocks": {
+    "b_066": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/cab0f6b4d2cd79ad867c<NUM_035>f845c212ae20f<NUM_036>b6a3d6342d7f10153a41.jpg) <FIG_003>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_016> <REF_009>, <ENT_017> <REF_010>, and <ENT_018> <REF_011>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated by small colored boxes."
+        ],
+        [
+          4,
+          "The dark pink block indicates <ENT_016>, the bright cyan block indicates <ENT_017>, and the dull green box represents <ENT_018>."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "batch_id": "batch_0027",
+  "block_ids": [
+    "b_073",
+    "b_075",
+    "b_076"
+  ],
+  "total_chars": 1148,
+  "blocks": {
+    "b_073": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "Here, the feature reconstruction term is <MATH_054> ."
+        ],
+        [
+          2,
+          "It is the mean-squared error between l2 (normalized) features of patches obtained from the <ENT_015> backbone."
+        ],
+        [
+          3,
+          "Multi-query Localization: The decoder of <ENT_008> takes object queries as input to focus on different positions and box sizes."
+        ],
+        [
+          4,
+          "When this object queries a number N (typically N = 100) that is high, a single-query group is unsuitable as it has convergence issues."
+        ],
+        [
+          5,
+          "To solve the multi-query localization problem between object queries and patches, <ENT_017> proposes an attention mask and query shuffle mechanism."
+        ],
+        [
+          6,
+          "The number of object queries is divided into X different groups, where each patch is provided to N/X object queries."
+        ],
+        [
+          7,
+          "The <ENT_071> layer of the self-attention module in the decoder is modified by adding an attention mask inspired by <REF_094> as follows:"
+        ]
+      ]
+    },
+    "b_075": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nP ( q _ { i } , k _ { i } ) = S o f t m a x ( \\frac { q _ { i } k _ { i } ^ { T } } { \\sqrt { d } } + M ) v _ { i } ,\\tag{8}\n$$"
+        ]
+      ]
+    },
+    "b_076": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nM _ { k , l } = \\left\\{ \\begin{array} { l l } { { 0 } } & { { \\ k , l \\ i n \\ t h e \\ s a m e \\ g r o u p } } \\\\ { { - \\infty } } & { { \\ o t h e r w i s e } } \\end{array} \\right. ,\\tag{9}\n$$"
+        ]
+      ]
+    }
+  }
+}

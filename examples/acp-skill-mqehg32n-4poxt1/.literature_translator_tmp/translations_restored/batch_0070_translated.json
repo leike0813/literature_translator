@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch_0070",
+  "original_batch": "batch_0070",
+  "blocks": {
+    "b_238": {
+      "type": "table_caption",
+      "sentences": [
+        "Table 3。",
+        "所有基于DETR的检测Transformer在COCO minival集上的性能比较。",
+        "此处，标注为DC5的网络采用膨胀特征图。",
+        "IoU阈值设置为0.5和0.75用于AP计算，同时计算小目标$( A P _ { s } ) ,$、中等目标$( A P _ { m } ) ,$和大目标（APl）的AP。",
+        "+表示边界框细化，++表示Deformable-DETR。",
+        "∗∗表示Efficient-DETR使用了6层编码器和1层解码器。",
+        "S表示小型，B表示基础型。",
+        "†表示Touvron等人的蒸馏机制[227]。",
+        "‡表示模型在ImageNet-21k上进行了预训练。",
+        "所有模型使用300个查询，而DETR使用100个目标查询输入解码器网络。",
+        "带∗上标的模型使用三种模式嵌入。",
+        "本表中所有GitHub链接访问于2025年9月25日。"
+      ]
+    }
+  }
+}

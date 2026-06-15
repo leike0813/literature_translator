@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch_0077",
+  "block_ids": [
+    "b_250"
+  ],
+  "total_chars": 1685,
+  "blocks": {
+    "b_250": {
+      "type": "table",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td>Methods</td><td>Publications</td><td>Advantages</td><td>Limitations</td></tr><tr><td><ENT_033> <REF_024> <ENT_041> https: / / github.com/IDEA-Research/<ENT_033></td><td><ENT_048> <NUM_021></td><td>Denoising training for positional-prior for foreground and background regions.</td><td>Denoising training by adding positive noise to object queries ignoring background regions.</td></tr><tr><td><ENT_032> <REF_025> <ENT_041> <URL_026> <NUM_021></td><td>Faster Convergence, Improves the adaptability of query-based decoding mechanism.</td><td>Large number of parameters.</td></tr><tr><td><ENT_053> <REF_026> <ENT_041> <URL_027> chen/<ENT_016>-<ENT_053></td><td><ENT_048> <NUM_021></td><td>Attention mechanism gradually focus on foreground regions more accurately.</td><td>Multi-stage <ENT_035>-based attention modeling increases the number of parameters.</td></tr><tr><td><ENT_034> <REF_027> <ENT_041> https: / /github.com/facebookresearch/dino</td><td><ENT_046> <NUM_021></td><td>impressive results on small and medium-sized datasets</td><td>Performance drops for large size objects</td></tr><tr><td><ENT_036> <REF_028> <ENT_041> <URL_028> <NUM_022></td><td>Enhances encoder feature learning and decoder attention via collaborative hybrid assignments.</td><td>Increases training complexity due to multiple assignment heads.</td></tr><tr><td><ENT_037> <REF_029> <ENT_041> https:/ /github.com/Atten4Vis/<ENT_037></td><td><ENT_046> <NUM_023></td><td>Achieves real-time detection with a lightweight transformer design using optimized <ENT_038> encoder and window attention.</td><td>Limited evaluation on benchmarks; less mature than <ENT_091>-style detectors.</td></tr></table>"
+        ]
+      ]
+    }
+  }
+}

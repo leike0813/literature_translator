@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0063",
+  "block_ids": [
+    "b_219",
+    "b_220",
+    "b_222"
+  ],
+  "total_chars": 1388,
+  "blocks": {
+    "b_219": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_068>."
+        ],
+        [
+          2,
+          "<ENT_036>"
+        ]
+      ]
+    },
+    "b_220": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "<ENT_036> <REF_028> is an improvement over <ENT_008> that addresses a key limitation of the standard one-to-one label assignment, which in <ENT_008> restricts each ground-truth object to a single predicted query."
+        ],
+        [
+          2,
+          "In <FIG_010>, the light red block indicates <ENT_036>."
+        ],
+        [
+          3,
+          "This design leads to a few positive samples during training, leaving many decoder queries unused and slowing gradient flow, particularly in the early stages of learning."
+        ],
+        [
+          4,
+          "<ENT_036> overcomes this by introducing a collaborative hybrid assignment strategy that combines the original one-to-one assignment with a one-to-many assignment implemented through auxiliary heads."
+        ],
+        [
+          5,
+          "The one-to-one assignment preserves the unique matching of each object, maintaining the stability and structure of <ENT_008>’s training."
+        ],
+        [
+          6,
+          "The one-to-many assignment leverages heuristics from classical object detectors, such as <ENT_098> or Faster R-<ENT_015>, to assign multiple predicted queries to the same ground-truth object, providing denser supervision for both the encoder and decoder."
+        ],
+        [
+          7,
+          "The auxiliary heads are only active during training and are discarded during inference, ensuring no additional computational cost at test time."
+        ],
+        [
+          8,
+          "The total training loss is expressed as follows:"
+        ]
+      ]
+    },
+    "b_222": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nL _ { \\mathrm { t o t a l } } = L _ { \\mathrm { D E T } } + \\sum _ { h \\in \\mathrm { a u x i l i a r y } } L _ { \\mathrm { a u x } , h } ,\\tag{53}\n$$"
+        ]
+      ]
+    }
+  }
+}

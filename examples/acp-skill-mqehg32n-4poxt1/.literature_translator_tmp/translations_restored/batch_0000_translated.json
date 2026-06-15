@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch_0000",
+  "original_batch": "batch_0000",
+  "blocks": {
+    "b_001": {
+      "type": "paragraph",
+      "sentences": [
+        "综述"
+      ]
+    },
+    "b_002": {
+      "type": "heading",
+      "sentences": [
+        "# 基于Transformers的目标检测：综述"
+      ]
+    },
+    "b_003": {
+      "type": "paragraph",
+      "sentences": [
+        "Tahira Shehzadi 1,2,3,\\* , Khurram Azeem Hashmi 1,2,3 , Marcus Liwicki 4 , Didier Stricker 1,2,3 和 Muhammad Zeshan Afzal 1,2,3 凯泽斯劳滕工业大学计算机科学系，67663 凯泽斯劳滕，德国；muhammad\\_zeshan.afzal@dfki.de (M.Z.A.) 2 Mindgarage实验室，凯泽斯劳滕工业大学，67663 凯泽斯劳滕，德国 3 德国人工智能研究中心（DFKI），67663 凯泽斯劳滕，德国 4 吕勒奥理工大学计算机科学、电气与空间工程系，971 87 吕勒奥，瑞典 通讯作者：tahira.shehzadi@dfki.de"
+      ]
+    },
+    "b_009": {
+      "type": "heading",
+      "sentences": [
+        "## 摘要"
+      ]
+    }
+  }
+}

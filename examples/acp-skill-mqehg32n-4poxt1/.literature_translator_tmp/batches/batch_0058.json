@@ -1,0 +1,71 @@
+{
+  "batch_id": "batch_0058",
+  "block_ids": [
+    "b_196",
+    "b_197",
+    "b_198",
+    "b_199",
+    "b_201"
+  ],
+  "total_chars": 1295,
+  "blocks": {
+    "b_196": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\left\\{ \\begin{array} { l l } { \\tilde { x } _ { j } } & { = x + \\Delta x _ { j } . 2 ^ { z - r } , } \\\\ { \\tilde { y } _ { j } } & { = y + \\Delta y _ { j } . 2 ^ { z + r } , } \\\\ { \\tilde { z } _ { j } } & { = z + \\Delta z _ { j } . } \\end{array} \\right.\\tag{45}\n$$"
+        ]
+      ]
+    },
+    "b_197": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "The interpolation over the 3D feature space first samples by bilinear interpolation in the <MATH_133> space and then interpolates on the z-axis by Gaussian weighting, where the weight for the i-th feature map is as follows:"
+        ]
+      ]
+    },
+    "b_198": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\tilde { w } _ { i } = \\frac { e x p ( - ( \\tilde { z } - z _ { i } ^ { f } ) ^ { 2 } / \\Gamma _ { z } ) } { \\sum _ { i } e x p ( - ( \\tilde { z } - z _ { i } ^ { f } ) ^ { 2 } / \\Gamma _ { z } ) } ,\\tag{46}\n$$"
+        ]
+      ]
+    },
+    "b_199": {
+      "type": "paragraph",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "where <MATH_134> is the softening coefficient used to interpolate values over the z-axis <MATH_135> This process makes decoder detection learning easier by taking feature samples according to the query."
+        ],
+        [
+          2,
+          "<ENT_032> Decoder: The decoder module in <ENT_032> takes a content vector <MATH_078> and positional vector <MATH_136> as input object queries."
+        ],
+        [
+          3,
+          "The position-aware multi-head selfattention is applied between these queries as follows:"
+        ]
+      ]
+    },
+    "b_201": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nA t t n ( q _ { i } , k _ { i } , v _ { i } ) = S o f t m a x ( \\frac { q _ { i } k _ { i } ^ { T } } { \\sqrt { d } } + \\alpha X ) . v _ { i } ,\\tag{47}\n$$"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch_0017",
+  "block_ids": [
+    "b_049",
+    "b_050"
+  ],
+  "total_chars": 570,
+  "blocks": {
+    "b_049": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/3ad<NUM_031>c<NUM_032>e359b1fbc5d84d5b9417f98b92b2880b6f417fbbf0d4c.jpg) <FIG_002>."
+        ],
+        [
+          2,
+          "An overview of the detection transformer (<ENT_008>) and its modifications proposed by recent methods to improve performance and training convergence."
+        ],
+        [
+          3,
+          "It considers the detection a set prediction task and uses the transformer to free the network from post-processing steps such as non-maximal suppression (<ENT_013>)."
+        ],
+        [
+          4,
+          "Here, each module added to the <ENT_008> is represented by different color with its corresponding label (shown on the right side)."
+        ]
+      ]
+    },
+    "b_050": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_033>."
+        ],
+        [
+          2,
+          "<ENT_008>"
+        ]
+      ]
+    }
+  }
+}

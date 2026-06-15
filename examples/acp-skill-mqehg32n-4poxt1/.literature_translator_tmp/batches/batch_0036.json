@@ -1,0 +1,84 @@
+{
+  "batch_id": "batch_0036",
+  "block_ids": [
+    "b_101",
+    "b_102",
+    "b_103",
+    "b_104"
+  ],
+  "total_chars": 1254,
+  "blocks": {
+    "b_101": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "<ENT_008> extracts local features using a <ENT_015> backbone and gets global contexts by an encoder–decoder network of the transformer."
+        ],
+        [
+          2,
+          "<ENT_022> <REF_015> proves that the <ENT_015> backbone for feature extraction in detection transformers is not compulsory."
+        ],
+        [
+          3,
+          "It contains a transformer network without a backbone."
+        ],
+        [
+          4,
+          "It serializes the input image and feeds the local features directly in each independent token to the encoder as input."
+        ],
+        [
+          5,
+          "The transformer selfattention network provides global information, which can accurately obtain the contexts between input image tokens."
+        ],
+        [
+          6,
+          "However, the local features of each token and the information between adjacent tokens need to be included, as the transformer lacks the ability for local feature modeling."
+        ],
+        [
+          7,
+          "The <ENT_045> (Local Information Enhancement-T2T) module solves this issue by reorganizing and unfolding the adjacent patches and focusing on each patch’s channel dimension after unfolding."
+        ],
+        [
+          8,
+          "In <FIG_005>, the top-right block denotes the <ENT_045> module of <ENT_022>."
+        ],
+        [
+          9,
+          "The iterative process of the <ENT_045> module is as follows:"
+        ]
+      ]
+    },
+    "b_102": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nP = s t r e t c h ( r e s h a p e ( P i ) ) ,\\tag{15}\n$$"
+        ]
+      ]
+    },
+    "b_103": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nQ = s i g ( e _ { 2 } \\cdot R e L U ( e _ { 1 } \\cdot P ) ) ,\\tag{16}\n$$"
+        ]
+      ]
+    },
+    "b_104": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nP _ { i + 1 } = e _ { 3 } \\cdot ( P \\cdot Q ) ,\\tag{17}\n$$"
+        ]
+      ]
+    }
+  }
+}

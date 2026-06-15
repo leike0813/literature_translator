@@ -1,0 +1,64 @@
+{
+  "batch_id": "batch_0049",
+  "block_ids": [
+    "b_165",
+    "b_166",
+    "b_167",
+    "b_168"
+  ],
+  "total_chars": 756,
+  "blocks": {
+    "b_165": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where DeformAttn is the deformable attention, <ENT_081> is the feed-forward network, and <ENT_087> is the layer normalization."
+        ],
+        [
+          2,
+          "Then, the decoder cross-attention map (DAM) accumulates the attention weights of decoder object queries, and the network is trained by minimizing loss between prediction and binarized DAM as follows:"
+        ]
+      ]
+    },
+    "b_166": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathcal { L } _ { d a m } = \\frac { - 1 } { M } \\sum _ { k = 1 } ^ { M } B C E L o s s ( s n ( x _ { f } ) , D A M _ { k } ^ { b } ) ,\\tag{38}\n$$"
+        ]
+      ]
+    },
+    "b_167": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where BCELoss is the binary cross-entropy (<ENT_089>) loss, <MATH_118> is the k-th binarized DAM value of the encoder token, and sn is the scoring network."
+        ],
+        [
+          2,
+          "In this way, sparse-<ENT_008> minimizes the computation by significantly eliminating encoder tokens."
+        ]
+      ]
+    },
+    "b_168": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_054>."
+        ],
+        [
+          2,
+          "<MATH_119> ETR"
+        ]
+      ]
+    }
+  }
+}

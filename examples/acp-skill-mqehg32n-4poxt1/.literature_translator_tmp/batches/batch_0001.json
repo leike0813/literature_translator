@@ -1,0 +1,62 @@
+{
+  "batch_id": "batch_0001",
+  "block_ids": [
+    "b_010",
+    "b_011"
+  ],
+  "total_chars": 1404,
+  "blocks": {
+    "b_010": {
+      "type": "abstract",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "The astounding performance of transformers in natural language processing (<ENT_007>) has motivated researchers to explore their applications in computer vision tasks."
+        ],
+        [
+          2,
+          "A detection transformer (<ENT_008>) introduces transformers to object detection tasks by reframing detection as a set prediction problem."
+        ],
+        [
+          3,
+          "Consequently, it eliminates the need for proposal generation and post-processing steps."
+        ],
+        [
+          4,
+          "Despite competitive performance, <ENT_008> initially suffered from slow convergence and poor detection of small objects."
+        ],
+        [
+          5,
+          "However, numerous improvements are proposed to address these issues, leading to substantial improvements, enabling <ENT_008> to achieve state-of-the-art performance."
+        ],
+        [
+          6,
+          "To the best of our knowledge, this paper is the first to provide a comprehensive review of 25 recent <ENT_008> advancements."
+        ],
+        [
+          7,
+          "We dive into both the foundational modules of <ENT_008> and its recent enhancements, such as modifications to the backbone structure, query design strategies, and refinements to attention mechanisms."
+        ],
+        [
+          8,
+          "Moreover, we conduct a comparative analysis across various detection transformers, evaluating their performance and network architectures."
+        ],
+        [
+          9,
+          "We aim for this study to encourage further research in addressing the existing challenges and exploring the application of transformers in the object detection domain."
+        ]
+      ]
+    },
+    "b_011": {
+      "type": "figure_caption",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/c514bb2c<NUM_002>ee2c19c5c48012bc5d813b5a<NUM_003>c32783c402d6<NUM_004>5f4e.jpg)"
+        ]
+      ]
+    }
+  }
+}

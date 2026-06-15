@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch_0037",
+  "original_batch": "batch_0037",
+  "blocks": {
+    "b_105": {
+      "type": "paragraph",
+      "sentences": [
+        "其中reshape函数将<MATH_083>个补丁重组为<MATH_084>个特征图。",
+        "stretch项表示将<MATH_084>个特征图展开为<MATH_085>个补丁。",
+        "此处，全连接层参数为<MATH_086>，<MATH_087>。",
+        "<ENT_082>激活是其非线性映射函数，sig生成最终的注意力。",
+        "该模块中的通道注意力提供局部信息，因为补丁通道之间的关系与特征图像素中的空间关系相同。"
+      ]
+    },
+    "b_106": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/c3ab6bc56c1b38c<NUM_046>fd30c9cebab649faa4a81bb0637a11c0fbd75f681c16.jpg) <FIG_005>。",
+        "添加<ENT_022> <REF_015>、<ENT_023> <REF_016>和<ENT_024> <REF_017>后的原始<ENT_008>结构。",
+        "此处，网络是一个简单的<ENT_008>网络，改进部分用小的彩色方块标示。",
+        "品红色方块表示<ENT_022>，蓝色方块表示<ENT_023>，绿色方块表示<ENT_024>。"
+      ]
+    },
+    "b_107": {
+      "type": "heading",
+      "sentences": [
+        "## <NUM_047>.",
+        "<ENT_023>"
+      ]
+    }
+  }
+}

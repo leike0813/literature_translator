@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch_0032",
+  "original_batch": "batch_0032",
+  "blocks": {
+    "b_090": {
+      "type": "paragraph",
+      "sentences": [
+        "其中，$A _ { i }$是协同注意力图。",
+        "DETR中的协同注意力模块与该协同注意力模块的区别在于加入了空间图W的对数。解码器注意力网络在预测框区域附近分配更多注意力，这限制了搜索位置，从而使网络更快收敛。",
+        "SMCA-DETR提升了训练效率和小目标检测性能。",
+        "然而，其成功取决于对象中心和尺度的准确初始预测，使其对初始化和超参数敏感。"
+      ]
+    },
+    "b_091": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/10f0a4be4a6623af75fb24fa5bf28e393d63f648d4771a9cffaeb0e05ce5ba00.jpg) Figure 4.",
+        "在加入SMCA-DETR [23]、TSP-DETR [24]和Conditional-DETR [25]之后原始DETR的结构。",
+        "此处，网络为简单的DETR网络，改进部分由小色块标示。",
+        "紫色方块表示SMCA-DETR，橙色方块表示TSP-DETR，黄色方块表示Conditional-DETR。"
+      ]
+    },
+    "b_092": {
+      "type": "heading",
+      "sentences": [
+        "## 3.6.",
+        "TSP-DETR"
+      ]
+    }
+  }
+}

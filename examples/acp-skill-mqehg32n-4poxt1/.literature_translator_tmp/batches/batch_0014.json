@@ -1,0 +1,65 @@
+{
+  "batch_id": "batch_0014",
+  "block_ids": [
+    "b_039",
+    "b_040",
+    "b_041"
+  ],
+  "total_chars": 735,
+  "blocks": {
+    "b_039": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_027>."
+        ],
+        [
+          2,
+          "<ENT_040> for Segmentation"
+        ]
+      ]
+    },
+    "b_040": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "The self-attention mechanism can be employed for segmentation tasks <REF_062> that provide pixel-level <REF_063> prediction results."
+        ],
+        [
+          2,
+          "Panoptic segmentation <REF_064> jointly solves semantic and instance segmentation tasks by providing per-pixel class and instance labels."
+        ],
+        [
+          3,
+          "<ENT_061> et al. <REF_065> propose location-sensitive axial attention for the panoptic segmentation task on three benchmarks <REF_066>."
+        ],
+        [
+          4,
+          "The above segmentation approaches have self-attention in <ENT_015>-based networks."
+        ],
+        [
+          5,
+          "Recently, segmentation transformers <REF_067> containing encoder– decoder modules have provided new directions to employ transformers for segmentation tasks."
+        ]
+      ]
+    },
+    "b_041": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_028>."
+        ],
+        [
+          2,
+          "<ENT_001> for Scene and Image Generation"
+        ]
+      ]
+    }
+  }
+}

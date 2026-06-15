@@ -1,0 +1,83 @@
+{
+  "batch_id": "batch_0072",
+  "block_ids": [
+    "b_240"
+  ],
+  "total_chars": 9868,
+  "blocks": {
+    "b_240": {
+      "type": "table",
+      "sentence_count": 17,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td>Methods</td><td>Backbone</td><td>Publications</td><td>Epoch <NUM_199></td><td><ENT_110></td><td>Parameters (M)</td><td><ENT_092></td><td><ENT_115></td><td> <MATH_174> </td><td>APs</td><td> <MATH_176> </td><td>APL</td></tr><tr><td rowspan=\"2\"><ENT_028>-S[3GitHubhtts://github.com/encounter197/F-DER <ENT_028>-B3]GitHubhps://githubcom/encounter1997/F-D</td><td>- -</td><td rowspan=\"2\"><ENT_049> <NUM_021></td><td></td><td>102</td><td></td><td><NUM_200> <NUM_201></td><td><NUM_089></td><td><NUM_202> <NUM_090></td><td><NUM_203> <NUM_204></td><td><NUM_205> <NUM_206></td><td><NUM_207></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td><NUM_208></td><td></td><td></td><td></td><td><NUM_209></td></tr><tr><td rowspan=\"2\"><ENT_028>-B‡33]GitHubhps://githubom/encounter1997/F-DT <ENT_029> <REF_023></td><td>-</td><td rowspan=\"2\"></td><td>36</td><td>1</td><td><NUM_210></td><td><NUM_211></td><td>641</td><td><NUM_212></td><td><NUM_213></td><td><NUM_151></td><td><NUM_214></td></tr><tr><td><ENT_059></td><td></td><td></td><td></td><td><NUM_212></td><td><NUM_215></td><td><NUM_216></td><td><NUM_217></td><td><NUM_218> <NUM_219></td><td><NUM_160></td></tr><tr><td rowspan=\"2\"> <ENT_044> <REF_038> <ENT_041> <URL_013> rowspan=\"2\"><ENT_050> <NUM_021> <ENT_049> <NUM_021></td><td></td><td>--</td><td>-</td><td><NUM_099></td><td><NUM_220></td><td><NUM_221></td><td>314</td><td></td><td><NUM_222></td></tr><tr><td>DC5-<ENT_059> * DC5-<ENT_105> *</td><td></td><td>216</td><td>44</td><td><NUM_127></td><td><NUM_223></td><td><NUM_099></td><td><NUM_224></td><td><NUM_225></td><td><NUM_226></td></tr><tr><td rowspan=\"2\"></td><td></td><td rowspan=\"2\"></td><td>50</td><td>296</td><td>63</td><td><NUM_227></td><td><NUM_228></td><td><NUM_229></td><td><NUM_230></td><td><NUM_231></td><td><NUM_128></td></tr><tr><td><ENT_059> DC5-<ENT_059></td><td><NUM_232></td><td>94 202</td><td></td><td><NUM_233></td><td><NUM_234></td><td><NUM_151> <NUM_235></td><td><NUM_236> <NUM_237></td><td><NUM_118></td><td><NUM_161></td></tr><tr><td rowspan=\"2\"> <ENT_033> <REF_024> <ENT_041> <URL_014> rowspan=\"2\"><ENT_048> <NUM_021></td><td></td><td>174</td><td><NUM_238></td><td><NUM_168> <NUM_122></td><td><NUM_239> <NUM_134></td><td><NUM_097></td><td><NUM_240></td><td><NUM_100></td><td><NUM_222></td></tr><tr><td>DC5-<ENT_105></td><td></td><td></td><td></td><td><NUM_241></td><td><NUM_242></td><td><NUM_243></td><td><NUM_147></td><td><NUM_124> <NUM_143></td><td><NUM_244> <NUM_245></td></tr><tr><td rowspan=\"2\"> <ENT_032> <REF_025><ENT_041> htps://github.com/MCG-NJU/<ENT_032></td><td><ENT_059></td><td rowspan=\"2\"><ENT_048> <NUM_021></td><td></td><td>132</td><td>10</td><td></td><td><NUM_187></td><td></td><td><NUM_246></td><td></td><td></td></tr><tr><td><ENT_113>-<ENT_116></td><td>33</td><td></td><td></td><td><NUM_138> <NUM_129></td><td><NUM_247></td><td><NUM_248> <NUM_249></td><td><NUM_250></td><td><NUM_229> <NUM_251></td><td><NUM_252> <NUM_253></td></tr><tr><td rowspan=\"2\"></td><td>Swin-s <REF_119></td><td rowspan=\"2\"></td><td></td><td>2</td><td>164</td><td><NUM_254></td><td>712</td><td><NUM_082></td><td><NUM_255></td><td></td><td></td></tr><tr><td><ENT_059> ++</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><NUM_256></td><td><NUM_257></td></tr><tr><td rowspan=\"2\"><ENT_053> <REF_026> <ENT_041> htps://github.com/zhechen/<ENT_016>-<ENT_053></td><td><ENT_105> ++</td><td rowspan=\"2\"><ENT_048> <NUM_021></td><td></td><td>190 23</td><td></td><td><NUM_152> <NUM_142></td><td><NUM_258> <NUM_228></td><td><NUM_259> <NUM_216></td><td><NUM_260> <NUM_261></td><td><NUM_218></td><td><NUM_087></td></tr><tr><td>ReNeXt-101 ++</td><td><NUM_199></td><td></td><td></td><td><NUM_124></td><td><NUM_242></td><td><NUM_262></td><td><NUM_263></td><td><NUM_264> <NUM_265></td><td>644 <NUM_245></td></tr><tr><td rowspan=\"2\"><ENT_034> <REF_027> <ENT_041> htps://github.com/facebookresearch/dino</td><td>ReNet-<NUM_197>scale *</td><td rowspan=\"2\"></td><td></td><td>279</td><td>5万</td><td></td><td></td><td><NUM_266></td><td><NUM_193></td><td></td><td></td></tr><tr><td>ResNet-<NUM_198>scale *</td><td>12</td><td>860</td><td></td><td><NUM_099> <NUM_225></td><td><NUM_267> <NUM_268></td><td><NUM_269></td><td><NUM_270></td><td><NUM_251> <NUM_271></td><td><NUM_110> <NUM_208></td></tr><tr><td rowspan=\"2\"></td><td>ReNet-<NUM_198>scale *</td><td rowspan=\"2\"><ENT_046> <NUM_021></td><td>24</td><td>860</td><td>4 47</td><td><NUM_254></td><td><NUM_272></td><td><NUM_273></td><td><NUM_274></td><td></td><td></td></tr><tr><td>ResNet-<NUM_198>scale *</td><td>36</td><td>860</td><td></td><td><NUM_275></td><td><NUM_276></td><td><NUM_277></td><td><NUM_278></td><td><NUM_279> <NUM_280></td><td><NUM_281></td></tr><tr><td rowspan=\"2\"><ENT_036> <REF_028><ENT_041> htps://github.com/Sense-X/<ENT_036></td><td>ReNet-50 *</td><td rowspan=\"2\"></td><td></td><td>279</td><td>47</td><td><NUM_282></td><td><NUM_283></td><td><NUM_284></td><td><NUM_285></td><td></td><td><NUM_286></td></tr><tr><td>ReNet-50 *</td><td><NUM_287></td><td>860</td><td></td><td><NUM_288></td><td><NUM_289></td><td><NUM_290></td><td><NUM_291></td><td><NUM_292> <NUM_293></td><td><NUM_294></td></tr><tr><td rowspan=\"2\"></td><td><ENT_114>(IN-22K) *</td><td rowspan=\"2\"><ENT_047> <NUM_022></td><td></td><td>860</td><td>老 47</td><td><NUM_295></td><td><NUM_296></td><td><NUM_196></td><td><NUM_201></td><td></td><td><NUM_297></td></tr><tr><td><ENT_114>(IN-22K) *</td><td>34</td><td>860</td><td></td><td><NUM_139></td><td><NUM_298></td><td><NUM_239></td><td><NUM_299></td><td><NUM_146> <NUM_300></td><td><NUM_301> <NUM_302></td></tr><tr><td rowspan=\"2\"> <ENT_037> <REF_029> <ENT_041> <URL_015>) *</td><td rowspan=\"2\"><ENT_046> <NUM_023></td><td></td><td>860</td><td>老</td><td><NUM_153></td><td>785</td><td><NUM_303></td><td><NUM_163></td><td><NUM_094></td><td>76.</td></tr><tr><td>-</td><td>50</td><td><NUM_304></td><td><NUM_256></td><td><NUM_170></td><td>1</td><td>-</td><td><NUM_118></td><td><NUM_271></td><td><NUM_305></td></tr><tr><td> <ENT_039> <REF_030> <ENT_041> <URL_016> <NUM_023></td><td></td><td>136</td><td>42</td><td><NUM_262></td><td><NUM_306></td><td><NUM_307></td><td><NUM_308></td><td><NUM_092></td><td><NUM_309></td></tr><tr><td rowspan=\"2\"><ENT_100> <REF_013><ENT_041> htps:/ /github.com/supervisely-cosystem/<ENT_100></td><td><ENT_105> *</td><td></td><td>2</td><td>259</td><td>76</td><td><NUM_280></td><td><NUM_310></td><td><NUM_311></td><td><NUM_312></td><td><NUM_313></td><td><NUM_314></td></tr><tr><td>ReNet-50 * <ENT_105> *</td><td><ENT_046> <NUM_023></td><td>2</td><td></td><td></td><td><NUM_221></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td> <ENT_101><REF_014><ENT_041> htps://github.com/cxia12/<ENT_101></td><td>ReNet-50*</td><td><ENT_046> <NUM_023></td><td>2</td><td>13 136</td><td>5</td><td>543 <NUM_221></td><td></td><td></td><td></td><td>-</td><td></td></tr></table>"
+        ],
+        [
+          2,
+          "![](Images_GFP684MN/<NUM_316>5aa07b518da378c858c0804b1<NUM_317>2c<NUM_315>fb2a7<NUM_318>8dafd.jpg) <FIG_011>."
+        ],
+        [
+          3,
+          "Comparison of all <ENT_008>-based detection transformers on the <ENT_057> minival set. left Performance comparison of detection transformers using a <ENT_059> <REF_052> backbone with regard to training epochs."
+        ],
+        [
+          4,
+          "Networks that are labeled with DC5 take a dilated feature map. right Performance comparison of detection transformers with regard to model size (parameters in million)."
+        ],
+        [
+          5,
+          "![](Images_GFP684MN/7fdef3c<NUM_319>ca24ac1bb08ff3235b30a4014b6b82370b4f86d54f<NUM_320>edbc78d.jpg) <FIG_012>."
+        ],
+        [
+          6,
+          "Comparison of <ENT_008>-based detection transformers on the <ENT_057> minival set using a <ENT_059> backbone. left Performance comparison of detection transformers on small objects. middle Performance comparison of detection transformers on medium objects. right Performance comparison of detection transformers on large objects."
+        ],
+        [
+          7,
+          "While <ENT_034> demonstrates impressive accuracy and fast convergence, its computational footprint remains a significant concern."
+        ],
+        [
+          8,
+          "With approximately 860 <ENT_110> per inference, <ENT_034> is far more demanding than lightweight alternatives such as Nano <ENT_091> variants, which typically operate in the range of <NUM_321> <ENT_110>."
+        ],
+        [
+          9,
+          "This stark difference highlights a fundamental limitation of many <ENT_008>-based models: despite their accuracy gains, their inference cost makes them impractical for latency-critical or resource-constrained applications."
+        ],
+        [
+          10,
+          "In contrast, <ENT_039> and <ENT_037> provide lightweight and real-time <ENT_008> variants, achieving competitive accuracy with a substantially lower computational load (<NUM_322> <ENT_110> for <ENT_039> and <NUM_304> <ENT_110> for <ENT_037>)."
+        ],
+        [
+          11,
+          "Additionally, <ENT_036> focuses on enhancing contextual reasoning to further boost detection performance, achieving very high <ENT_092> scores, though at a higher computational cost similar to <ENT_034>."
+        ],
+        [
+          12,
+          "Thus, future research must address not only accuracy and convergence speed but also the efficiency gap that separates <ENT_008> variants from lightweight <ENT_015>-based detectors, ensuring their practical applicability in real-world scenarios."
+        ],
+        [
+          13,
+          "While <TBL_003> and Figures 11 and 12 show performance improvements, it is also important to consider computational cost, memory footprint, and implementation complexity."
+        ],
+        [
+          14,
+          "Models like <ENT_034> and <ENT_053> achieve high <ENT_102> but require significantly more parameters and <ENT_110>, making them less suitable for resource-constrained scenarios."
+        ],
+        [
+          15,
+          "<ENT_016> provides a balanced trade-off by improving small object detection and convergence speed without drastically increasing computational load."
+        ],
+        [
+          16,
+          "<ENT_027>, while compact in design, relies on a transformer backbone (<ENT_107>) that increases the memory requirement by up to 20×, highlighting a trade-off between model size and detection speed."
+        ],
+        [
+          17,
+          "Therefore, selecting a <ENT_008> variant depends not only on accuracy but also on hardware constraints, dataset characteristics, and real-time requirements."
+        ]
+      ]
+    }
+  }
+}

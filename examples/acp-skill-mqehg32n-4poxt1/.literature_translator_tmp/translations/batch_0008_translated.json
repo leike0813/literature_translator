@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch_0008",
+  "original_batch": "batch_0008",
+  "blocks": {
+    "b_032": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td rowspan=\"2\">方法</td><td colspan=\"4\">修改</td><td rowspan=\"2\">发表</td><td rowspan=\"2\">亮点</td></tr><tr><td>Bk</td><td>Pre</td><td>Attn</td><td>Qry</td></tr><tr><td><ENT_032> <REF_025> <ENT_041> https: //github.com/MCG-NJU/<ENT_032></td><td></td><td></td><td></td><td></td><td><ENT_048> <NUM_021></td><td>三维采样模块，解码器中的自适应混合模块</td></tr><tr><td><ENT_053> <REF_026> <ENT_041> https: //github.com/zhechen/<ENT_016>-<ENT_053></td><td></td><td></td><td></td><td></td><td><ENT_048> <NUM_021></td><td>多级循环机制和基于注视点的解码器</td></tr><tr><td><ENT_034> <REF_027> <ENT_041> https: //github.com/facebookresearch/dino</td><td></td><td></td><td></td><td></td><td><ENT_046> <NUM_021></td><td>对比去噪模块，正负加噪目标查询</td></tr><tr><td><ENT_036> <REF_028> <ENT_041> https: / / github.com/Sense-X/<ENT_036></td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_022></td><td>协作混合分配实现更快收敛和更稳定的训练</td></tr><tr><td><ENT_037> <REF_029> <ENT_041> https: // github.com/Atten4Vis/<ENT_037></td><td></td><td></td><td></td><td></td><td><ENT_046> <NUM_023></td><td>优化<ENT_038>编码器的轻量级<ENT_008>，浅层解码器及全局注意力</td></tr><tr><td><ENT_039> <REF_030> <ENT_041> https: //github.com/lyuwenyu/<ENT_039></td><td></td><td></td><td>√</td><td>√</td><td><ENT_048> <NUM_023></td><td>多尺度特征混合编码器，<ENT_054>感知查询选择，自适应推理速度</td></tr></table>"
+      ]
+    }
+  }
+}

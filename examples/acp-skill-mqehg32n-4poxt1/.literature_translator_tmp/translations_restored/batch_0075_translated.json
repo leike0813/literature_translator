@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch_0075",
+  "original_batch": "batch_0075",
+  "blocks": {
+    "b_247": {
+      "type": "table_caption",
+      "sentences": [
+        "Table 4。",
+        "检测 Transformer 的优势与局限性概述。",
+        "本表中所有 GitHub 链接的访问日期为 2025 年 9 月 25 日。"
+      ]
+    },
+    "b_248": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td>方法</td><td>发表</td><td>优势</td><td>局限性</td></tr><tr><td>DETR [11] GitHub https://github.com/facebookresearch/detr</td><td>ECCV 2020</td><td>消除了 NMS 或锚框生成等手工设计组件的需求。</td><td>在小目标上性能较低，训练收敛缓慢。</td></tr><tr><td>Deformable-DETR [20] GitHub https://github.com/fundamentalvision/D eformable-DETR</td><td>ICLR 2021</td><td>可变形注意力网络，与 DETR 相比使训练收敛更快。</td><td>编码器令牌数量增加 20 倍</td></tr></table>",
+        "Table 4。",
+        "续。"
+      ]
+    }
+  }
+}

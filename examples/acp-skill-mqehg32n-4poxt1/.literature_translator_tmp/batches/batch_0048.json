@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0048",
+  "block_ids": [
+    "b_161",
+    "b_162",
+    "b_164"
+  ],
+  "total_chars": 1343,
+  "blocks": {
+    "b_161": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_053>."
+        ],
+        [
+          2,
+          "<ENT_026>"
+        ]
+      ]
+    },
+    "b_162": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "<ENT_026> <REF_020> filters the encoder tokens by a learnable cross-attention map predictor."
+        ],
+        [
+          2,
+          "After distinguishing these tokens in the decoder network, it focuses only on foreground tokens to reduce computational costs."
+        ],
+        [
+          3,
+          "<ENT_026> introduces the scoring module, aux-heads in the encoder, and the Top-k queries selection module for the decoder."
+        ],
+        [
+          4,
+          "In <FIG_006>, the light orange box represents <ENT_026>."
+        ],
+        [
+          5,
+          "Firstly, it determines the saliency of tokens, fed as input to the encoder, using the scoring network that selects top <MATH_115> tokens."
+        ],
+        [
+          6,
+          "Secondly, the aux-head takes the top-k tokens from the output of the encoder network."
+        ],
+        [
+          7,
+          "Finally, the top-k tokens are used as the decoder object queries."
+        ],
+        [
+          8,
+          "The salient token prediction module refines encoder tokens that are taken from the backbone feature map using threshold <MATH_116> and updates the features <MATH_117> as follows:"
+        ]
+      ]
+    },
+    "b_164": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { x _ { 1 } ^ { \\mathbf { m } } = \\left\\{ \\begin{array} { l l } { x _ { l - 1 } ^ { m } } & { m \\not \\in \\Omega _ { r } ^ { q } } \\\\ { L N \\big ( F F N ( y _ { l } ^ { m } ) + y _ { l } ^ { m } \\big ) } & { m \\in \\Omega _ { r } ^ { q } , } \\end{array} \\right. } \\\\ { w h e r e } & { y _ { l } ^ { m } = L N \\big ( D e f o r m A t t n ( x _ { l - 1 } ^ { m } , x _ { l - 1 } \\big ) + x _ { l - 1 } ^ { m } \\big ) , } \\end{array}\\tag{37}\n$$"
+        ]
+      ]
+    }
+  }
+}

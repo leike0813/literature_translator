@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch_0034",
+  "original_batch": "batch_0034",
+  "blocks": {
+    "b_096": {
+      "type": "heading",
+      "sentences": [
+        "## 3.7.",
+        "Conditional-DETR"
+      ]
+    },
+    "b_097": {
+      "type": "paragraph",
+      "sentences": [
+        "DETR网络中的交叉注意力模块需要高质量的输入嵌入来预测准确的边界框和类别标签。",
+        "高质量的内容嵌入增加了训练收敛的难度。",
+        "Conditional-DETR [25]提出了一种条件交叉注意力机制来解决DETR的训练收敛问题。",
+        "它与简单的DETR的区别在于交叉注意力的输入键$k _ { i }$和输入查询$q _ { i }$。",
+        "在Figure 4中，黄色方块表示Conditional-DETR。",
+        "条件查询从二维坐标以及前一个解码器层的嵌入输出中获得。",
+        "从解码器嵌入预测的候选框如下："
+      ]
+    },
+    "b_098": {
+      "type": "equation",
+      "sentences": [
+        "$$\nbox = s i g ( F F N ( e ) + [ r ^ { T } 0 0 ] ^ { T } ) .\\tag{14}\n$$"
+      ]
+    }
+  }
+}

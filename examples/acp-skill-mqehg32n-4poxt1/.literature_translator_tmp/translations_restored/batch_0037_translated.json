@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch_0037",
+  "original_batch": "batch_0037",
+  "blocks": {
+    "b_105": {
+      "type": "paragraph",
+      "sentences": [
+        "其中reshape函数将$\\left( l _ { 1 } \\times c _ { 1 } \\right)$个补丁重组为$\\left( h _ { i } \\times w _ { i } \\times c _ { i } \\right)$个特征图。",
+        "stretch项表示将$\\left( h _ { i } \\times w _ { i } \\times c _ { i } \\right)$个特征图展开为$\\left( l _ { 2 } \\times c _ { 2 } \\right)$个补丁。",
+        "此处，全连接层参数为$e _ { 1 } , e _ { 2 }$，$e _ { 3 } .$。",
+        "ReLU激活是其非线性映射函数，sig生成最终的注意力。",
+        "该模块中的通道注意力提供局部信息，因为补丁通道之间的关系与特征图像素中的空间关系相同。"
+      ]
+    },
+    "b_106": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/c3ab6bc56c1b38c75e84fd30c9cebab649faa4a81bb0637a11c0fbd75f681c16.jpg) Figure 5。",
+        "添加WB-DETR [26]、PnP-DETR [27]和Dynamic-DETR [28]后的原始DETR结构。",
+        "此处，网络是一个简单的DETR网络，改进部分用小的彩色方块标示。",
+        "品红色方块表示WB-DETR，蓝色方块表示PnP-DETR，绿色方块表示Dynamic-DETR。"
+      ]
+    },
+    "b_107": {
+      "type": "heading",
+      "sentences": [
+        "## 3.9.",
+        "PnP-DETR"
+      ]
+    }
+  }
+}

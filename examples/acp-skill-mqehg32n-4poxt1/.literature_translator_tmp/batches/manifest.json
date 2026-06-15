@@ -1,0 +1,998 @@
+{
+  "batch_count": 91,
+  "target_size_chars": 1500,
+  "batches": [
+    {
+      "batch_id": "batch_0000",
+      "block_count": 4,
+      "total_chars": 697,
+      "block_ids": [
+        "b_001",
+        "b_002",
+        "b_003",
+        "b_009"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0000.json"
+    },
+    {
+      "batch_id": "batch_0001",
+      "block_count": 2,
+      "total_chars": 1404,
+      "block_ids": [
+        "b_010",
+        "b_011"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0001.json"
+    },
+    {
+      "batch_id": "batch_0002",
+      "block_count": 2,
+      "total_chars": 683,
+      "block_ids": [
+        "b_012",
+        "b_017"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0002.json"
+    },
+    {
+      "batch_id": "batch_0003",
+      "block_count": 1,
+      "total_chars": 6150,
+      "block_ids": [
+        "b_018"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0003.json"
+    },
+    {
+      "batch_id": "batch_0004",
+      "block_count": 6,
+      "total_chars": 1046,
+      "block_ids": [
+        "b_022",
+        "b_023",
+        "b_024",
+        "b_025",
+        "b_026",
+        "b_027"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0004.json"
+    },
+    {
+      "batch_id": "batch_0005",
+      "block_count": 1,
+      "total_chars": 2590,
+      "block_ids": [
+        "b_028"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0005.json"
+    },
+    {
+      "batch_id": "batch_0006",
+      "block_count": 1,
+      "total_chars": 580,
+      "block_ids": [
+        "b_030"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0006.json"
+    },
+    {
+      "batch_id": "batch_0007",
+      "block_count": 1,
+      "total_chars": 3599,
+      "block_ids": [
+        "b_031"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0007.json"
+    },
+    {
+      "batch_id": "batch_0008",
+      "block_count": 1,
+      "total_chars": 1645,
+      "block_ids": [
+        "b_032"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0008.json"
+    },
+    {
+      "batch_id": "batch_0009",
+      "block_count": 1,
+      "total_chars": 112,
+      "block_ids": [
+        "b_032a"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0009.json"
+    },
+    {
+      "batch_id": "batch_0010",
+      "block_count": 1,
+      "total_chars": 2124,
+      "block_ids": [
+        "b_033"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0010.json"
+    },
+    {
+      "batch_id": "batch_0011",
+      "block_count": 1,
+      "total_chars": 1375,
+      "block_ids": [
+        "b_033a"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0011.json"
+    },
+    {
+      "batch_id": "batch_0012",
+      "block_count": 3,
+      "total_chars": 515,
+      "block_ids": [
+        "b_033b",
+        "b_034",
+        "b_035"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0012.json"
+    },
+    {
+      "batch_id": "batch_0013",
+      "block_count": 1,
+      "total_chars": 1512,
+      "block_ids": [
+        "b_036"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0013.json"
+    },
+    {
+      "batch_id": "batch_0014",
+      "block_count": 3,
+      "total_chars": 735,
+      "block_ids": [
+        "b_039",
+        "b_040",
+        "b_041"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0014.json"
+    },
+    {
+      "batch_id": "batch_0015",
+      "block_count": 2,
+      "total_chars": 1215,
+      "block_ids": [
+        "b_042",
+        "b_043"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0015.json"
+    },
+    {
+      "batch_id": "batch_0016",
+      "block_count": 5,
+      "total_chars": 1112,
+      "block_ids": [
+        "b_044",
+        "b_045",
+        "b_046",
+        "b_047",
+        "b_048"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0016.json"
+    },
+    {
+      "batch_id": "batch_0017",
+      "block_count": 2,
+      "total_chars": 570,
+      "block_ids": [
+        "b_049",
+        "b_050"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0017.json"
+    },
+    {
+      "batch_id": "batch_0018",
+      "block_count": 2,
+      "total_chars": 1255,
+      "block_ids": [
+        "b_051",
+        "b_052"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0018.json"
+    },
+    {
+      "batch_id": "batch_0019",
+      "block_count": 4,
+      "total_chars": 1162,
+      "block_ids": [
+        "b_053",
+        "b_054",
+        "b_055",
+        "b_056"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0019.json"
+    },
+    {
+      "batch_id": "batch_0020",
+      "block_count": 2,
+      "total_chars": 690,
+      "block_ids": [
+        "b_057",
+        "b_058"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0020.json"
+    },
+    {
+      "batch_id": "batch_0021",
+      "block_count": 2,
+      "total_chars": 1064,
+      "block_ids": [
+        "b_059",
+        "b_060"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0021.json"
+    },
+    {
+      "batch_id": "batch_0022",
+      "block_count": 2,
+      "total_chars": 1116,
+      "block_ids": [
+        "b_061",
+        "b_062"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0022.json"
+    },
+    {
+      "batch_id": "batch_0023",
+      "block_count": 3,
+      "total_chars": 1417,
+      "block_ids": [
+        "b_063",
+        "b_064",
+        "b_065"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0023.json"
+    },
+    {
+      "batch_id": "batch_0024",
+      "block_count": 1,
+      "total_chars": 468,
+      "block_ids": [
+        "b_066"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0024.json"
+    },
+    {
+      "batch_id": "batch_0025",
+      "block_count": 1,
+      "total_chars": 1622,
+      "block_ids": [
+        "b_067"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0025.json"
+    },
+    {
+      "batch_id": "batch_0026",
+      "block_count": 3,
+      "total_chars": 1418,
+      "block_ids": [
+        "b_069",
+        "b_070",
+        "b_072"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0026.json"
+    },
+    {
+      "batch_id": "batch_0027",
+      "block_count": 3,
+      "total_chars": 1148,
+      "block_ids": [
+        "b_073",
+        "b_075",
+        "b_076"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0027.json"
+    },
+    {
+      "batch_id": "batch_0028",
+      "block_count": 1,
+      "total_chars": 1503,
+      "block_ids": [
+        "b_077"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0028.json"
+    },
+    {
+      "batch_id": "batch_0029",
+      "block_count": 3,
+      "total_chars": 1497,
+      "block_ids": [
+        "b_079",
+        "b_080",
+        "b_082"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0029.json"
+    },
+    {
+      "batch_id": "batch_0030",
+      "block_count": 3,
+      "total_chars": 1370,
+      "block_ids": [
+        "b_083",
+        "b_084",
+        "b_085"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0030.json"
+    },
+    {
+      "batch_id": "batch_0031",
+      "block_count": 4,
+      "total_chars": 1059,
+      "block_ids": [
+        "b_086",
+        "b_087",
+        "b_088",
+        "b_089"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0031.json"
+    },
+    {
+      "batch_id": "batch_0032",
+      "block_count": 3,
+      "total_chars": 1029,
+      "block_ids": [
+        "b_090",
+        "b_091",
+        "b_092"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0032.json"
+    },
+    {
+      "batch_id": "batch_0033",
+      "block_count": 1,
+      "total_chars": 2585,
+      "block_ids": [
+        "b_093"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0033.json"
+    },
+    {
+      "batch_id": "batch_0034",
+      "block_count": 3,
+      "total_chars": 795,
+      "block_ids": [
+        "b_096",
+        "b_097",
+        "b_098"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0034.json"
+    },
+    {
+      "batch_id": "batch_0035",
+      "block_count": 2,
+      "total_chars": 830,
+      "block_ids": [
+        "b_099",
+        "b_100"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0035.json"
+    },
+    {
+      "batch_id": "batch_0036",
+      "block_count": 4,
+      "total_chars": 1254,
+      "block_ids": [
+        "b_101",
+        "b_102",
+        "b_103",
+        "b_104"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0036.json"
+    },
+    {
+      "batch_id": "batch_0037",
+      "block_count": 3,
+      "total_chars": 1004,
+      "block_ids": [
+        "b_105",
+        "b_106",
+        "b_107"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0037.json"
+    },
+    {
+      "batch_id": "batch_0038",
+      "block_count": 6,
+      "total_chars": 1460,
+      "block_ids": [
+        "b_108",
+        "b_110",
+        "b_111",
+        "b_112",
+        "b_113",
+        "b_114"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0038.json"
+    },
+    {
+      "batch_id": "batch_0039",
+      "block_count": 9,
+      "total_chars": 1421,
+      "block_ids": [
+        "b_115",
+        "b_116",
+        "b_117",
+        "b_118",
+        "b_119",
+        "b_122",
+        "b_123",
+        "b_124",
+        "b_125"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0039.json"
+    },
+    {
+      "batch_id": "batch_0040",
+      "block_count": 9,
+      "total_chars": 1016,
+      "block_ids": [
+        "b_126",
+        "b_127",
+        "b_128",
+        "b_129",
+        "b_130",
+        "b_131",
+        "b_132",
+        "b_133",
+        "b_134"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0040.json"
+    },
+    {
+      "batch_id": "batch_0041",
+      "block_count": 2,
+      "total_chars": 1092,
+      "block_ids": [
+        "b_135",
+        "b_137"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0041.json"
+    },
+    {
+      "batch_id": "batch_0042",
+      "block_count": 3,
+      "total_chars": 1477,
+      "block_ids": [
+        "b_138",
+        "b_140",
+        "b_141"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0042.json"
+    },
+    {
+      "batch_id": "batch_0043",
+      "block_count": 7,
+      "total_chars": 739,
+      "block_ids": [
+        "b_142",
+        "b_143",
+        "b_144",
+        "b_145",
+        "b_146",
+        "b_147",
+        "b_148"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0043.json"
+    },
+    {
+      "batch_id": "batch_0044",
+      "block_count": 2,
+      "total_chars": 1413,
+      "block_ids": [
+        "b_149",
+        "b_150"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0044.json"
+    },
+    {
+      "batch_id": "batch_0045",
+      "block_count": 4,
+      "total_chars": 1248,
+      "block_ids": [
+        "b_151",
+        "b_153",
+        "b_154",
+        "b_155"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0045.json"
+    },
+    {
+      "batch_id": "batch_0046",
+      "block_count": 2,
+      "total_chars": 490,
+      "block_ids": [
+        "b_156",
+        "b_157"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0046.json"
+    },
+    {
+      "batch_id": "batch_0047",
+      "block_count": 1,
+      "total_chars": 1779,
+      "block_ids": [
+        "b_158"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0047.json"
+    },
+    {
+      "batch_id": "batch_0048",
+      "block_count": 3,
+      "total_chars": 1343,
+      "block_ids": [
+        "b_161",
+        "b_162",
+        "b_164"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0048.json"
+    },
+    {
+      "batch_id": "batch_0049",
+      "block_count": 4,
+      "total_chars": 756,
+      "block_ids": [
+        "b_165",
+        "b_166",
+        "b_167",
+        "b_168"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0049.json"
+    },
+    {
+      "batch_id": "batch_0050",
+      "block_count": 3,
+      "total_chars": 1369,
+      "block_ids": [
+        "b_169",
+        "b_170",
+        "b_171"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0050.json"
+    },
+    {
+      "batch_id": "batch_0051",
+      "block_count": 4,
+      "total_chars": 1236,
+      "block_ids": [
+        "b_172",
+        "b_173",
+        "b_174",
+        "b_175"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0051.json"
+    },
+    {
+      "batch_id": "batch_0052",
+      "block_count": 1,
+      "total_chars": 1790,
+      "block_ids": [
+        "b_176"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0052.json"
+    },
+    {
+      "batch_id": "batch_0053",
+      "block_count": 3,
+      "total_chars": 1259,
+      "block_ids": [
+        "b_178",
+        "b_179",
+        "b_180"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0053.json"
+    },
+    {
+      "batch_id": "batch_0054",
+      "block_count": 2,
+      "total_chars": 955,
+      "block_ids": [
+        "b_181",
+        "b_182"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0054.json"
+    },
+    {
+      "batch_id": "batch_0055",
+      "block_count": 3,
+      "total_chars": 1468,
+      "block_ids": [
+        "b_183",
+        "b_184",
+        "b_185"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0055.json"
+    },
+    {
+      "batch_id": "batch_0056",
+      "block_count": 3,
+      "total_chars": 990,
+      "block_ids": [
+        "b_186",
+        "b_187",
+        "b_188"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0056.json"
+    },
+    {
+      "batch_id": "batch_0057",
+      "block_count": 5,
+      "total_chars": 1359,
+      "block_ids": [
+        "b_189",
+        "b_191",
+        "b_192",
+        "b_194",
+        "b_195"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0057.json"
+    },
+    {
+      "batch_id": "batch_0058",
+      "block_count": 5,
+      "total_chars": 1295,
+      "block_ids": [
+        "b_196",
+        "b_197",
+        "b_198",
+        "b_199",
+        "b_201"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0058.json"
+    },
+    {
+      "batch_id": "batch_0059",
+      "block_count": 3,
+      "total_chars": 1328,
+      "block_ids": [
+        "b_202",
+        "b_203",
+        "b_204"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0059.json"
+    },
+    {
+      "batch_id": "batch_0060",
+      "block_count": 8,
+      "total_chars": 1436,
+      "block_ids": [
+        "b_205",
+        "b_206",
+        "b_207",
+        "b_208",
+        "b_209",
+        "b_210",
+        "b_211",
+        "b_212"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0060.json"
+    },
+    {
+      "batch_id": "batch_0061",
+      "block_count": 4,
+      "total_chars": 1426,
+      "block_ids": [
+        "b_213",
+        "b_214",
+        "b_215",
+        "b_216"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0061.json"
+    },
+    {
+      "batch_id": "batch_0062",
+      "block_count": 1,
+      "total_chars": 1760,
+      "block_ids": [
+        "b_217"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0062.json"
+    },
+    {
+      "batch_id": "batch_0063",
+      "block_count": 3,
+      "total_chars": 1388,
+      "block_ids": [
+        "b_219",
+        "b_220",
+        "b_222"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0063.json"
+    },
+    {
+      "batch_id": "batch_0064",
+      "block_count": 3,
+      "total_chars": 1058,
+      "block_ids": [
+        "b_223",
+        "b_224",
+        "b_225"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0064.json"
+    },
+    {
+      "batch_id": "batch_0065",
+      "block_count": 2,
+      "total_chars": 1400,
+      "block_ids": [
+        "b_226",
+        "b_227"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0065.json"
+    },
+    {
+      "batch_id": "batch_0066",
+      "block_count": 2,
+      "total_chars": 456,
+      "block_ids": [
+        "b_228",
+        "b_229"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0066.json"
+    },
+    {
+      "batch_id": "batch_0067",
+      "block_count": 1,
+      "total_chars": 3521,
+      "block_ids": [
+        "b_230"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0067.json"
+    },
+    {
+      "batch_id": "batch_0068",
+      "block_count": 1,
+      "total_chars": 27,
+      "block_ids": [
+        "b_233"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0068.json"
+    },
+    {
+      "batch_id": "batch_0069",
+      "block_count": 1,
+      "total_chars": 3123,
+      "block_ids": [
+        "b_234"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0069.json"
+    },
+    {
+      "batch_id": "batch_0070",
+      "block_count": 1,
+      "total_chars": 872,
+      "block_ids": [
+        "b_238"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0070.json"
+    },
+    {
+      "batch_id": "batch_0071",
+      "block_count": 1,
+      "total_chars": 6239,
+      "block_ids": [
+        "b_239"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0071.json"
+    },
+    {
+      "batch_id": "batch_0072",
+      "block_count": 1,
+      "total_chars": 9868,
+      "block_ids": [
+        "b_240"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0072.json"
+    },
+    {
+      "batch_id": "batch_0073",
+      "block_count": 1,
+      "total_chars": 42,
+      "block_ids": [
+        "b_241"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0073.json"
+    },
+    {
+      "batch_id": "batch_0074",
+      "block_count": 1,
+      "total_chars": 3023,
+      "block_ids": [
+        "b_242"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0074.json"
+    },
+    {
+      "batch_id": "batch_0075",
+      "block_count": 2,
+      "total_chars": 758,
+      "block_ids": [
+        "b_247",
+        "b_248"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0075.json"
+    },
+    {
+      "batch_id": "batch_0076",
+      "block_count": 1,
+      "total_chars": 3860,
+      "block_ids": [
+        "b_249"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0076.json"
+    },
+    {
+      "batch_id": "batch_0077",
+      "block_count": 1,
+      "total_chars": 1685,
+      "block_ids": [
+        "b_250"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0077.json"
+    },
+    {
+      "batch_id": "batch_0078",
+      "block_count": 1,
+      "total_chars": 16,
+      "block_ids": [
+        "b_251"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0078.json"
+    },
+    {
+      "batch_id": "batch_0079",
+      "block_count": 1,
+      "total_chars": 3134,
+      "block_ids": [
+        "b_252"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0079.json"
+    },
+    {
+      "batch_id": "batch_0080",
+      "block_count": 8,
+      "total_chars": 1346,
+      "block_ids": [
+        "b_258",
+        "b_259",
+        "b_260",
+        "b_261",
+        "b_262",
+        "b_263",
+        "b_264",
+        "b_265"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0080.json"
+    },
+    {
+      "batch_id": "batch_0081",
+      "block_count": 5,
+      "total_chars": 1406,
+      "block_ids": [
+        "b_266",
+        "b_267",
+        "b_268",
+        "b_269",
+        "b_270"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0081.json"
+    },
+    {
+      "batch_id": "batch_0082",
+      "block_count": 7,
+      "total_chars": 1395,
+      "block_ids": [
+        "b_271",
+        "b_272",
+        "b_273",
+        "b_274",
+        "b_275",
+        "b_276",
+        "b_277"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0082.json"
+    },
+    {
+      "batch_id": "batch_0083",
+      "block_count": 8,
+      "total_chars": 1288,
+      "block_ids": [
+        "b_278",
+        "b_279",
+        "b_280",
+        "b_281",
+        "b_282",
+        "b_283",
+        "b_284",
+        "b_285"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0083.json"
+    },
+    {
+      "batch_id": "batch_0084",
+      "block_count": 5,
+      "total_chars": 1244,
+      "block_ids": [
+        "b_286",
+        "b_287",
+        "b_288",
+        "b_289",
+        "b_290"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0084.json"
+    },
+    {
+      "batch_id": "batch_0085",
+      "block_count": 6,
+      "total_chars": 1285,
+      "block_ids": [
+        "b_291",
+        "b_292",
+        "b_293",
+        "b_294",
+        "b_295",
+        "b_296"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0085.json"
+    },
+    {
+      "batch_id": "batch_0086",
+      "block_count": 5,
+      "total_chars": 1277,
+      "block_ids": [
+        "b_297",
+        "b_298",
+        "b_299",
+        "b_300",
+        "b_301"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0086.json"
+    },
+    {
+      "batch_id": "batch_0087",
+      "block_count": 7,
+      "total_chars": 1366,
+      "block_ids": [
+        "b_302",
+        "b_303",
+        "b_304",
+        "b_305",
+        "b_306",
+        "b_307",
+        "b_308"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0087.json"
+    },
+    {
+      "batch_id": "batch_0088",
+      "block_count": 2,
+      "total_chars": 339,
+      "block_ids": [
+        "b_309",
+        "b_310"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0088.json"
+    },
+    {
+      "batch_id": "batch_0089",
+      "block_count": 1,
+      "total_chars": 34579,
+      "block_ids": [
+        "b_311"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0089.json"
+    },
+    {
+      "batch_id": "batch_0090",
+      "block_count": 1,
+      "total_chars": 378,
+      "block_ids": [
+        "b_312"
+      ],
+      "payload_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\.literature_translator_tmp\\batches\\batch_0090.json"
+    }
+  ]
+}

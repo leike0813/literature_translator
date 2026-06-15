@@ -1,0 +1,95 @@
+{
+  "batch_id": "batch_0033",
+  "block_ids": [
+    "b_093"
+  ],
+  "total_chars": 2585,
+  "blocks": {
+    "b_093": {
+      "type": "paragraph",
+      "sentence_count": 20,
+      "sentences": [
+        [
+          1,
+          "<ENT_020> <REF_013> deals with the cross-attention and the instability of bipartite matching to overcome the slow training convergence of <ENT_008>."
+        ],
+        [
+          2,
+          "<ENT_020> proposes two modules based on an encoder network with feature pyramid networks (<ENT_075>) <REF_051> to accelerate the training convergence of <ENT_008>."
+        ],
+        [
+          3,
+          "In <FIG_004>, the orange block indicates <ENT_020>."
+        ],
+        [
+          4,
+          "These modules are <ENT_042> and <ENT_043>, which use a classical one-stage detector <ENT_077> <REF_098> and classical two-stage detector <ENT_076> <REF_002>, respectively."
+        ],
+        [
+          5,
+          "<ENT_042> used a new Feature of Interest (<ENT_078>) module to handle the multi-level features in the transformer encoder."
+        ],
+        [
+          6,
+          "Both modules use the bipartite matching mechanism to accelerate the training convergence."
+        ],
+        [
+          7,
+          "<ENT_042>: The TP-<ENT_077> module follows the <ENT_077> <REF_098> for designing the backbone and <ENT_075> <REF_051>."
+        ],
+        [
+          8,
+          "Firstly, the features extracted by the <ENT_015> backbone from the input image are fed to the <ENT_075> component to produce multi-level features."
+        ],
+        [
+          9,
+          "Two feature extraction heads, the classification head and the auxiliary head, use four convolutional layers and group normalization <REF_099>, which are shared across the feature pyramid stages."
+        ],
+        [
+          10,
+          "Then, the <ENT_078> classifier filters the concatenated output of these heads to select top-scored features."
+        ],
+        [
+          11,
+          "Finally, the transformer encoder network takes these FoIs and their positional encodings as input, providing class labels and bounding boxes as output."
+        ],
+        [
+          12,
+          "<ENT_043>: Like TP-<ENT_077>, this module extracts the features from the <ENT_015> backbone and produces multi-level features using the <ENT_075> component."
+        ],
+        [
+          13,
+          "In place of two feature extraction heads used in <ENT_042>, the <ENT_043> module follows the design of <ENT_011> <REF_002>."
+        ],
+        [
+          14,
+          "It uses a region proposal network (<ENT_079>) to find regions of interest (RoIs) to refine further."
+        ],
+        [
+          15,
+          "Each <ENT_035> in this module has an objectness score, as well as a predicted bounding box."
+        ],
+        [
+          16,
+          "<ENT_080> <REF_100> is applied on multi-level feature maps to take <ENT_035> information."
+        ],
+        [
+          17,
+          "After passing through a fully connected network, these extracted features are fed to the <ENT_040> encoder as input."
+        ],
+        [
+          18,
+          "The positional info of these <ENT_035> proposals is the four values <MATH_074> , where <MATH_075> represents the normalized value of center and <MATH_076> represents the normalized value of height and width."
+        ],
+        [
+          19,
+          "Finally, the transformer encoder network inputs these RoIs and their positional encoding for accurate predictions."
+        ],
+        [
+          20,
+          "The <ENT_077> and RCNN modules in <ENT_020> accelerate training convergence and improve the performance of the <ENT_008> network."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "batch_id": "batch_0034",
+  "block_ids": [
+    "b_096",
+    "b_097",
+    "b_098"
+  ],
+  "total_chars": 795,
+  "blocks": {
+    "b_096": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_044>."
+        ],
+        [
+          2,
+          "<ENT_021>"
+        ]
+      ]
+    },
+    "b_097": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "The cross-attention module in the <ENT_008> network needs high-quality input embeddings to predict accurate bounding boxes and class labels."
+        ],
+        [
+          2,
+          "The high-quality content embeddings increase the training convergence difficulty."
+        ],
+        [
+          3,
+          "<ENT_021> <REF_014> presents a conditional cross-attention mechanism to solve the training convergence issue of <ENT_008>."
+        ],
+        [
+          4,
+          "It differs from the simple <ENT_008> by input keys <MATH_077> and input queries <MATH_078> for cross-attention."
+        ],
+        [
+          5,
+          "In <FIG_004>, the yellow box represents conditional-<ENT_008>."
+        ],
+        [
+          6,
+          "The conditional queries are obtained from 2D coordinates along with the embedding output of the previous decoder layer."
+        ],
+        [
+          7,
+          "The predicted candidate box from decoder-embedding is as follows:"
+        ]
+      ]
+    },
+    "b_098": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nb o x = s i g ( F F N ( e ) + [ r ^ { T } 0 0 ] ^ { T } ) .\\tag{14}\n$$"
+        ]
+      ]
+    }
+  }
+}

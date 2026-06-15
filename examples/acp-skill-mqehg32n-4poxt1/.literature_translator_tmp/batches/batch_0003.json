@@ -1,0 +1,123 @@
+{
+  "batch_id": "batch_0003",
+  "block_ids": [
+    "b_018"
+  ],
+  "total_chars": 6150,
+  "blocks": {
+    "b_018": {
+      "type": "paragraph",
+      "sentence_count": 27,
+      "sentences": [
+        [
+          1,
+          "Object detection is a fundamental task in computer vision that involves locating and classifying objects within an image <REF_001>, with applications in autonomous driving, surveillance, robotics, and medical imaging."
+        ],
+        [
+          2,
+          "In autonomous driving, for example, accurately detecting pedestrians, vehicles, and traffic signs in real time is critical for safety."
+        ],
+        [
+          3,
+          "Traditionally, convolutional neural networks (CNNs), such as <ENT_011> <REF_002> and <ENT_012> <REF_003>, have served as the primary backbones for object detection models, achieving impressive performance."
+        ],
+        [
+          4,
+          "However, these models heavily rely on hand-crafted components like region proposal networks (RPNs) and post-processing steps such as non-maximum suppression (<ENT_013>) <REF_004>, which complicate the training pipeline and limit end-to-end optimization."
+        ],
+        [
+          5,
+          "The recent success of transformers in natural language processing (<ENT_007>) has motivated researchers to explore their potential in computer vision <REF_005>."
+        ],
+        [
+          6,
+          "The transformer architecture <REF_006> effectively captures long-range dependencies in sequential data, enabling global context modeling that is difficult for traditional CNNs."
+        ],
+        [
+          7,
+          "This capability makes transformers particularly attractive for object detection, where recognizing objects often depends on global context."
+        ],
+        [
+          8,
+          "The transformer architecture <REF_006> is characterized by its encoder–decoder structure and the use of self-attention and cross-attention mechanisms, which allow it to capture long-range dependencies across input sequences effectively."
+        ],
+        [
+          9,
+          "Unlike CNNs, which primarily focus on local features through convolutional kernels, transformers can model global relationships across an entire image."
+        ],
+        [
+          10,
+          "This capability makes transformers particularly suitable for object detection, where understanding the spatial and contextual relationships between multiple objects is crucial."
+        ],
+        [
+          11,
+          "Leveraging this strength, researchers have explored transformer-based approaches to develop end-to-end object detection frameworks that do not rely on hand-crafted components."
+        ],
+        [
+          12,
+          "In this context, <ENT_014> et al. (<NUM_008>) proposed the detection transformer (<ENT_008>) <REF_007>, a novel framework that replaces traditional region proposal-based methods with a end-to-end trainable architecture using a transformer encoder–decoder network."
+        ],
+        [
+          13,
+          "The <ENT_008> network demonstrates promising performance, outperforming conventional <ENT_015>-based object detectors <REF_008>, while also eliminating the need for components such as region proposal networks and post-processing steps like non-maximum suppression (<ENT_013>) <REF_004>."
+        ],
+        [
+          14,
+          "Despite these advantages, <ENT_008> has certain limitations, including slow training convergence and reduced performance on small objects, which have motivated numerous modifications and improvements in subsequent research."
+        ],
+        [
+          15,
+          "Since <ENT_008>’s introduction, numerous variants have emerged to address limitations such as slow convergence, small object detection, and computational efficiency."
+        ],
+        [
+          16,
+          "<FIG_001> illustrates the growth and evolution of <ENT_008> research, showing rising publications and citations, widespread architectural modifications, and a focus on key challenges like improving training stability, efficiency, and small object performance."
+        ],
+        [
+          17,
+          "This highlights the rapid expansion of transformer-based detection, emphasizing the need for a comprehensive review, to which numerous <ENT_008> variants have responded."
+        ],
+        [
+          18,
+          "<ENT_016> <REF_009> modifies the attention modules to process the image feature maps by considering the attention mechanism as the main reason for slow training convergence, while <ENT_017> <REF_010> proposes modifications to pre-train <ENT_008> similar to the pre-training of transformers in natural language processing."
+        ],
+        [
+          19,
+          "<ENT_018> <REF_011>, based on original <ENT_008> and <ENT_016>, examines the randomly initialized object probabilities, including reference points and object queries, which is one of the reasons for multiple training iterations."
+        ],
+        [
+          20,
+          "<ENT_019> <REF_012> introduces a spatially modulated co-attention module that replaces the existing co-attention mechanism in <ENT_008> to overcome slow training convergence, and <ENT_020> <REF_013> deals with cross-attention and the instability of bipartite matching."
+        ],
+        [
+          21,
+          "<ENT_021> <REF_014> presents a conditional cross-attention mechanism, while <ENT_022> <REF_015> considers a <ENT_015> backbone for feature extraction as an extra component and presents a transformer encoder–decoder network without a backbone."
+        ],
+        [
+          22,
+          "<ENT_023> <REF_016> proposes a PnP sampling module to reduce spatial redundancy and improve computational efficiency."
+        ],
+        [
+          23,
+          "<ENT_024> <REF_017> introduces dynamic attention in the encoder–decoder network, <ENT_027> <REF_018> demonstrates the transferability and versatility of the transformer from image recognition to detection, <ENT_025> <REF_019> proposes object queries as anchor points, <ENT_026> <REF_020> reduces computational cost via token filtering, <ENT_030> <REF_021> uses cross-scale attention in the decoder, <ENT_028> <REF_022> reformulates pre-training and fine-tuning, and <ENT_029> <REF_023> refines predicted locations to improve small object detection."
+        ],
+        [
+          24,
+          "Further improvements targeting training stability and small object performance include <ENT_033> <REF_024>, which uses noised object queries as additional decoder input to reduce the instability of the bipartite-matching mechanism, <ENT_032> <REF_025>, which considers the encoder an extra network between the backbone and decoder and introduces a 3D sampling process, <ENT_031> <REF_026>, which proposes an <ENT_035>-based method for detection refinement, and <ENT_034> <REF_027>, which uses positive and negative noised object queries to accelerate convergence and enhance performance on small objects."
+        ],
+        [
+          25,
+          "These successive innovations collectively address the limitations of the original <ENT_008> while retaining its advantages as a fully end-to-end transformer-based object detector."
+        ],
+        [
+          26,
+          "<ENT_028> <REF_022> reformulates the pre-training and fine-tuning stages for detection transformers."
+        ],
+        [
+          27,
+          "<ENT_029> <REF_023> refines the predicted locations by utilizing local information, as incorrect bounding box location reduces performance on small objects."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch_0064",
+  "original_batch": "batch_0064",
+  "blocks": {
+    "b_223": {
+      "type": "paragraph",
+      "sentences": [
+        "其中LDET是标准DETR损失，$L _ { \\mathrm { a u x } , h }$表示每个辅助头的一对多分配损失。",
+        "这种混合分配通过增加每批正样本数量改善梯度流动，通过额外反馈信号增强编码器监督，并在COCO和LVIS等基准上获得更好的检测性能。",
+        "通过在不改变推理过程的情况下丰富训练监督，Co-DETR实现了更快的收敛、更有效的学习以及基于DETR的目标检测器更高的精度。"
+      ]
+    },
+    "b_224": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/d02651a8844595ff0e89226c712f509c9644f1df46a487bdd3f97671c2cea1fc.jpg) Figure 10。",
+        "添加Co-DETR [37]、RT-DETR和LW-DETR [38]后原始DETR的结构。",
+        "此处，网络为简单的DETR网络，改进部分以小彩色方块标示。",
+        "浅红色指示块表示Co-DETR，蓝色色块表示LW-DETR，紫色色块表示RT-DETR。"
+      ]
+    },
+    "b_225": {
+      "type": "heading",
+      "sentences": [
+        "## 3.23.",
+        "LW-DETR"
+      ]
+    }
+  }
+}

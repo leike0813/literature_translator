@@ -1,0 +1,84 @@
+{
+  "batch_id": "batch_0045",
+  "block_ids": [
+    "b_151",
+    "b_153",
+    "b_154",
+    "b_155"
+  ],
+  "total_chars": 1248,
+  "blocks": {
+    "b_151": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "where I is the input image <MATH_105> that is reshaped into 2D tokens <MATH_106> Here, <MATH_015> represents the height, and <MATH_016> indicates the width of the input image."
+        ],
+        [
+          2,
+          "<MATH_021> is the total number of channels."
+        ],
+        [
+          3,
+          "<MATH_107> is each token resolution, and <MATH_108> is the total number of tokens."
+        ],
+        [
+          4,
+          "These tokens are mapped to <MATH_109> dimensions with linear projection, <MATH_110> The result of this projection is <MATH_111> ."
+        ],
+        [
+          5,
+          "The encoder also takes one hundred randomly initialized learnable tokens <MATH_112> ."
+        ],
+        [
+          6,
+          "To keep the positional information, positional embeddings <MATH_113> are also added."
+        ],
+        [
+          7,
+          "The encoder of the transformer contains a multi-head self-attention mechanism and one <ENT_074> block with a <ENT_086> <REF_108> non-linear activation function."
+        ],
+        [
+          8,
+          "Layer normalization (<ENT_087>) <REF_109> is added between each self-attention and <ENT_074> block as follows:"
+        ]
+      ]
+    },
+    "b_153": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r l } { \\acute { s } _ { n } } & { { } = M H S A t t n ( L N ( s _ { n - 1 } ) ) + s _ { n - 1 } , } \\end{array}\\tag{35}\n$$"
+        ]
+      ]
+    },
+    "b_154": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r l } { s _ { n } } & { { } = M L P ( L N ( \\acute { s } _ { n } ) ) + \\acute { s } _ { n } , } \\end{array}\\tag{36}\n$$"
+        ]
+      ]
+    },
+    "b_155": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where <MATH_114> is the encoder input sequence."
+        ],
+        [
+          2,
+          "In <FIG_006>, the top-right block indicates <ENT_027>."
+        ]
+      ]
+    }
+  }
+}

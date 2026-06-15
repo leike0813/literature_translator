@@ -1,0 +1,69 @@
+{
+  "batch_id": "batch_0032",
+  "block_ids": [
+    "b_090",
+    "b_091",
+    "b_092"
+  ],
+  "total_chars": 1029,
+  "blocks": {
+    "b_090": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "Here, <MATH_073> is the co-attention map."
+        ],
+        [
+          2,
+          "The difference between the co-attention module in <ENT_008> and this co-attention module is the addition of the logarithm of the spatialmap W. The decoder attention network has more attention near predicted box regions, which limits the search locations and thus converges the network faster."
+        ],
+        [
+          3,
+          "<ENT_019> improves training efficiency and small object detection."
+        ],
+        [
+          4,
+          "However, its success depends on accurate initial predictions of object centers and scales, making it sensitive to initialization and hyperparameters."
+        ]
+      ]
+    },
+    "b_091": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/10f0a4be4a6623af75fb24fa5bf<NUM_041>d63f648d4771a9cffaeb<NUM_042>ce5ba00.jpg) <FIG_004>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_019> <REF_012>, <ENT_020> <REF_013>, and <ENT_021> <REF_014>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The purple block indicates <ENT_019>, the orange block indicates <ENT_020>, and the yellow box represents <ENT_021>."
+        ]
+      ]
+    },
+    "b_092": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_043>."
+        ],
+        [
+          2,
+          "<ENT_020>"
+        ]
+      ]
+    }
+  }
+}

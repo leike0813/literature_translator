@@ -1,0 +1,1635 @@
+{
+  "batch_id": "batch_0089",
+  "block_ids": [
+    "b_311"
+  ],
+  "total_chars": 34579,
+  "blocks": {
+    "b_311": {
+      "type": "list",
+      "sentence_count": 405,
+      "sentences": [
+        [
+          1,
+          "53."
+        ],
+        [
+          2,
+          "Ülkü, I.; Akagündüz, E. A Survey on Deep Learning-based Architectures for Semantic Segmentation on 2D images. <ENT_046> <NUM_025>, <ENT_046>:<NUM_325>."
+        ],
+        [
+          3,
+          "54."
+        ],
+        [
+          4,
+          "Cheng, G.; Han, J. A Survey on Object Detection in Optical Remote Sensing Images. <ENT_046> <NUM_326>, <ENT_046>:<NUM_327>. [CrossRef]"
+        ],
+        [
+          5,
+          "55."
+        ],
+        [
+          6,
+          "Sommer, L.W.; Schuchert, T.; Beyerer, J. Fast Deep Vehicle Detection in Aerial Images."
+        ],
+        [
+          7,
+          "In Proceedings of the <NUM_330> IEEE Winter Conference on Applications of Computer Vision (WACV), Santa Rosa, CA, USA, <NUM_328> March <NUM_330>; pp. <NUM_329>. [CrossRef]"
+        ],
+        [
+          8,
+          "56."
+        ],
+        [
+          9,
+          "<ENT_118>, P.; Niu, X.; Dou, Y.; Xia, F. Airport Detection on Optical Satellite Images Using Deep Convolutional Neural Networks."
+        ],
+        [
+          10,
+          "IEEE Geosci."
+        ],
+        [
+          11,
+          "Remote Sens."
+        ],
+        [
+          12,
+          "Lett. <NUM_330>, 14, <NUM_331>. [CrossRef]"
+        ],
+        [
+          13,
+          "57."
+        ],
+        [
+          14,
+          "Bach, M.; Stumper, D.; Dietmayer, K. Deep Convolutional Traffic Light Recognition for Automated Driving."
+        ],
+        [
+          15,
+          "In Proceedings of the <NUM_024> 21st International Conference on Intelligent Transportation Systems (ITSC), Maui, HI, USA, <NUM_332> November <NUM_024>; pp. <NUM_333>. [CrossRef]"
+        ],
+        [
+          16,
+          "58. de la Escalera, A.; Moreno, L.; Salichs, M.; Armingol, J. Road traffic sign detection and classification."
+        ],
+        [
+          17,
+          "IEEE Trans."
+        ],
+        [
+          18,
+          "Ind."
+        ],
+        [
+          19,
+          "Electron. <NUM_335>, 44, <NUM_334>. [CrossRef]"
+        ],
+        [
+          20,
+          "59."
+        ],
+        [
+          21,
+          "<ENT_002>, T.; <ENT_005>, K.A.; Pagani, A.; <ENT_004>, M.; <ENT_003>, D.; <ENT_006>, M.Z. Mask-Aware Semi-Supervised Object Detection in Floor Plans."
+        ],
+        [
+          22,
+          "Appl."
+        ],
+        [
+          23,
+          "Sci. <NUM_021>, 12, <NUM_336>. [CrossRef]"
+        ],
+        [
+          24,
+          "60."
+        ],
+        [
+          25,
+          "Hariharan, B.; Arbelaez, P.; <ENT_119>, R.B.; Malik, J. Simultaneous Detection and Segmentation. <ENT_046> <NUM_337>, <ENT_046>:<NUM_338>. [CrossRef]"
+        ],
+        [
+          26,
+          "61."
+        ],
+        [
+          27,
+          "Hariharan, B.; Arbeláez, P.A.; <ENT_119>, R.B.; Malik, J. Hypercolumns for Object Segmentation and Fine-grained Localization. <ENT_046> <NUM_337>, <ENT_046>:<NUM_339>."
+        ],
+        [
+          28,
+          "62."
+        ],
+        [
+          29,
+          "<ENT_070>, J.; <ENT_120>, K.; <ENT_052>, J. Instance-aware Semantic Segmentation via Multi-task Network Cascades. <ENT_046> <NUM_340>, <ENT_046>:<NUM_341>."
+        ],
+        [
+          30,
+          "63."
+        ],
+        [
+          31,
+          "Karpathy, A.; Fei-Fei, L. Deep Visual-Semantic Alignments for Generating Image Descriptions. <ENT_046> <NUM_337>, <ENT_046>:<NUM_342>."
+        ],
+        [
+          32,
+          "64."
+        ],
+        [
+          33,
+          "Xu, K.; Ba, J.; Kiros, R.; Cho, K.; Courville, A.C.; Salakhutdinov, R.; Zemel, R.S.; Bengio, Y. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention. <ENT_046> <NUM_340>, <ENT_046>:<NUM_343>."
+        ],
+        [
+          34,
+          "65."
+        ],
+        [
+          35,
+          "Wu, Q.; Shen, C.; van den Hengel, A.; <ENT_061>, P.; Dick, A.R. Image Captioning and Visual Question Answering Based on Attributes and Their Related External Knowledge. <ENT_046> <NUM_326>, <ENT_046>:<NUM_344>."
+        ],
+        [
+          36,
+          "66."
+        ],
+        [
+          37,
+          "Bai, S.; An, S. A survey on automatic image caption generation."
+        ],
+        [
+          38,
+          "Neurocomputing <NUM_024>, 311, <NUM_345>. [CrossRef]"
+        ],
+        [
+          39,
+          "67."
+        ],
+        [
+          40,
+          "Kang, K.; Li, H.; Yan, J.; Zeng, X.; Yang, B.; Xiao, T.; <ENT_118>, C.; <ENT_061>, Z.; <ENT_061>, R.; <ENT_061>, X.; et al. T-<ENT_015>: Tubelets with Convolutional Neural Networks for Object Detection from Videos. <ENT_046> <NUM_326>, <ENT_046>:<NUM_346>. [CrossRef]"
+        ],
+        [
+          41,
+          "68."
+        ],
+        [
+          42,
+          "Arkin, E.; Yadikar, N.; Xu, X.; Aysa, A.; Ubul, K. A survey: Object detection methods from <ENT_015> to transformer."
+        ],
+        [
+          43,
+          "Multimed."
+        ],
+        [
+          44,
+          "Tools Appl. <NUM_021>, 82, <NUM_347>. [CrossRef]"
+        ],
+        [
+          45,
+          "69."
+        ],
+        [
+          46,
+          "Han, K.; <ENT_061>, Y.; <ENT_121>, H.; <ENT_121>, X.; Guo, J.; <ENT_122>, Z.; Tang, Y.; Xiao, A.; Xu, C.; Xu, Y.; et al. A Survey on Vision <ENT_040>."
+        ],
+        [
+          47,
+          "IEEE Trans."
+        ],
+        [
+          48,
+          "Pattern Anal."
+        ],
+        [
+          49,
+          "Mach."
+        ],
+        [
+          50,
+          "Intell. <NUM_022>, 45, <NUM_348>. [CrossRef]"
+        ],
+        [
+          51,
+          "70."
+        ],
+        [
+          52,
+          "Arkin, E.; Yadikar, N.; Muhtar, Y.; Ubul, K. A Survey of Object Detection Based on <ENT_015> and <ENT_040>."
+        ],
+        [
+          53,
+          "In Proceedings of the <NUM_020> IEEE 2nd International Conference on Pattern Recognition and Machine Learning (PRML), Chengdu, China, <NUM_349> July <NUM_020>; pp. <NUM_350>. [CrossRef]"
+        ],
+        [
+          54,
+          "71."
+        ],
+        [
+          55,
+          "Khan, S.; Naseer, M.; Hayat, M.; Zamir, S.W.; Khan, F.S.; Shah, M. <ENT_001> in Vision: A Survey."
+        ],
+        [
+          56,
+          "ACM Comput."
+        ],
+        [
+          57,
+          "Surv. <NUM_021>, 54, <NUM_351>. [CrossRef]"
+        ],
+        [
+          58,
+          "72."
+        ],
+        [
+          59,
+          "<ENT_122>, S.; Li, F.; <ENT_118>, H.; Yang, X.; Qi, X.; Su, H.; <ENT_123>, J.; <ENT_118>, L. <ENT_044>: Dynamic Anchor Boxes are Better Queries for <ENT_008>. <ENT_046> <NUM_021>, <ENT_046>:<NUM_352>. [CrossRef]"
+        ],
+        [
+          60,
+          "73."
+        ],
+        [
+          61,
+          "Zou, Z.; Shi, Z.; Guo, Y.; Ye, J. Object Detection in 20 Years: A Survey. <ENT_046> <NUM_025>, <ENT_046>:<NUM_353>. [CrossRef]"
+        ],
+        [
+          62,
+          "74."
+        ],
+        [
+          63,
+          "Zaidi, S.S.A.; Ansari, M.S.; Aslam, A.; Kanwal, N.; Asghar, M.N.; Lee, B. A Survey of Modern Deep Learning based Object Detection Models. <ENT_046> <NUM_020>, <ENT_046>:<NUM_354>. [CrossRef]"
+        ],
+        [
+          64,
+          "75."
+        ],
+        [
+          65,
+          "<ENT_124>, T.; Maire, M.; Belongie, S.J.; Bourdev, L.D.; <ENT_119>, R.B.; Hays, J.; Perona, P.; Ramanan, D.; Dollár, P.; Zitnick, C.L. Microsoft <ENT_057>: Common Objects in Context. <ENT_046> <NUM_337>, <ENT_046>:<NUM_355>."
+        ],
+        [
+          66,
+          "76."
+        ],
+        [
+          67,
+          "Jiao, L.; <ENT_118>, F.; <ENT_122>, F.; Yang, S.; Li, L.; Feng, Z.; Qu, R. A Survey of Deep Learning-based Object Detection. <ENT_046> <NUM_025>, <ENT_046>:<NUM_356>. [CrossRef]"
+        ],
+        [
+          68,
+          "77."
+        ],
+        [
+          69,
+          "Ahmed, M.; <ENT_005>, K.A.; Pagani, A.; <ENT_004>, M.; <ENT_003>, D.; <ENT_006>, M.Z. Survey and Performance Analysis of Deep Learning Based Object Detection in Challenging Environments."
+        ],
+        [
+          70,
+          "<ENT_009> <NUM_020>, 21, <NUM_357>. [CrossRef] [PubMed]"
+        ],
+        [
+          71,
+          "78."
+        ],
+        [
+          72,
+          "Everingham, M.; Gool, L.V.; Williams, C.K.I.; Winn, J.; Zisserman, A. The Pascal Visual Object Classes (VOC) Challenge."
+        ],
+        [
+          73,
+          "Int."
+        ],
+        [
+          74,
+          "J. Comput."
+        ],
+        [
+          75,
+          "Vis. <NUM_359>, 88, <NUM_358>."
+        ],
+        [
+          76,
+          "Available online: <URL_029> bject-classes-voc-challenge/ (accessed on 25 September <NUM_005>). [CrossRef]"
+        ],
+        [
+          77,
+          "79."
+        ],
+        [
+          78,
+          "<ENT_124>, T.Y.; Dollár, P.; <ENT_119>, R.; <ENT_120>, K.; Hariharan, B.; Belongie, S. Feature Pyramid Networks for Object Detection."
+        ],
+        [
+          79,
+          "In Proceedings of the <NUM_330> IEEE Conference on Computer Vision and Pattern Recognition (<ENT_048>), Honolulu, HI, USA, <NUM_360> July <NUM_330>; pp. <NUM_361>. [CrossRef]"
+        ],
+        [
+          80,
+          "80."
+        ],
+        [
+          81,
+          "<ENT_120>, K.; <ENT_118>, X.; <ENT_125>, S.; <ENT_052>, J. Deep Residual Learning for Image Recognition. <ENT_046> <NUM_340>, <ENT_046>:<NUM_362>. [CrossRef]"
+        ],
+        [
+          82,
+          "81."
+        ],
+        [
+          83,
+          "Krizhevsky, A.; Sutskever, I.; Hinton, G.E. <ENT_060> Classification with Deep Convolutional Neural Networks."
+        ],
+        [
+          84,
+          "In Proceedings of the Advances in Neural Information Processing Systems, Lake Tahoe, NV, USA, <NUM_363> December <NUM_364>; Pereira, F., Burges, C., Bottou, L., Weinberger, K., Eds.; Curran Associates, Inc.: Red Hook, NY, USA, <NUM_364>; Volume 25."
+        ],
+        [
+          85,
+          "Available online: https: //proceedings.neurips.cc/paper/<NUM_364>/file/c3<NUM_366>2d3b9d6b76c<NUM_365>a68c45b-Paper.pdf (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          86,
+          "82."
+        ],
+        [
+          87,
+          "Bar, A.; <ENT_061>, X.; Kantorov, V.; Reed, C.J.; Herzig, R.; Chechik, G.; Rohrbach, A.; Darrell, T.; Globerson, A. DETReg: Unsupervised Pretraining with Region Priors for Object Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_367>."
+        ],
+        [
+          88,
+          "83."
+        ],
+        [
+          89,
+          "Bateni, P.; Barber, J.; van de Meent, J.; Wood, F. Improving Few-Shot Visual Classification with Unlabelled Examples. <ENT_046> <NUM_008>, <ENT_046>:<NUM_368>."
+        ],
+        [
+          90,
+          "84."
+        ],
+        [
+          91,
+          "<ENT_061>, X.; Yang, X.; <ENT_118>, S.; Li, Y.; Feng, L.; <ENT_126>, S.; Lyu, C.; <ENT_121>, K.; <ENT_118>, W. Consistent Targets Provide Better Supervision in Semi-supervised Object Detection. <ENT_046> <NUM_021>, <ENT_046>:<NUM_369>. [CrossRef]"
+        ],
+        [
+          92,
+          "85."
+        ],
+        [
+          93,
+          "Li, Y.; Huang, D.; Qin, D.; <ENT_061>, L.; Gong, B. Improving Object Detection with Selective Self-supervised Self-training. <ENT_046> <NUM_008>, <ENT_046>:<NUM_370>. [CrossRef]"
+        ],
+        [
+          94,
+          "86."
+        ],
+        [
+          95,
+          "<ENT_005>, K.A.; <ENT_003>, D.; <ENT_006>, M.Z. Spatio-Temporal Learnable Proposals for End-to-End Video Object Detection. <ENT_046> <NUM_021>, <ENT_046>:<NUM_371>."
+        ],
+        [
+          96,
+          "87."
+        ],
+        [
+          97,
+          "<ENT_005>, K.A.; Pagani, A.; <ENT_003>, D.; <ENT_006>, M.Z. BoxMask: Revisiting Bounding Box Supervision for Video Object Detection."
+        ],
+        [
+          98,
+          "In Proceedings of the <NUM_022> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA, <NUM_372> January <NUM_022>; pp. <NUM_373>. [CrossRef]"
+        ],
+        [
+          99,
+          "88."
+        ],
+        [
+          100,
+          "Caron, M.; Touvron, H.; Misra, I.; Jégou, H.; Mairal, J.; Bojanowski, P.; Joulin, A. Emerging Properties in Self-Supervised Vision <ENT_001>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_374>. [CrossRef]"
+        ],
+        [
+          101,
+          "89."
+        ],
+        [
+          102,
+          "Li, C.; Yang, J.; <ENT_118>, P.; <ENT_073>, M.; Xiao, B.; <ENT_070>, X.; Yuan, L.; <ENT_073>, J. Efficient Self-supervised Vision <ENT_001> for Representation Learning. <ENT_046> <NUM_020>, <ENT_046>:<NUM_375>."
+        ],
+        [
+          103,
+          "90."
+        ],
+        [
+          104,
+          "<ENT_122>, W.; Anguelov, D.; Erhan, D.; Szegedy, C.; Reed, S.E.; Fu, C.; Berg, A.C. SSD: Single Shot MultiBox Detector. <ENT_046> <NUM_340>, <ENT_046>:<NUM_376>."
+        ],
+        [
+          105,
+          "91."
+        ],
+        [
+          106,
+          "Redmon, J.; Divvala, S.K.; <ENT_119>, R.B.; Farhadi, A. You Only Look Once: Unified, Real-Time Object Detection. <ENT_046> <NUM_340>, <ENT_046>:<NUM_377>."
+        ],
+        [
+          107,
+          "92."
+        ],
+        [
+          108,
+          "Redmon, J.; Farhadi, A. YOLO9000: Better, Faster, Stronger. <ENT_046> <NUM_326>, <ENT_046>:<NUM_378>. [CrossRef]"
+        ],
+        [
+          109,
+          "93."
+        ],
+        [
+          110,
+          "Bochkovskiy, A.; <ENT_061>, C.; Liao, H.M. YOLOv4: Optimal Speed and Accuracy of Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_379>. [CrossRef]"
+        ],
+        [
+          111,
+          "94."
+        ],
+        [
+          112,
+          "Zhou, X.; <ENT_061>, D.; Krähenbühl, P. Objects as Points. <ENT_046> <NUM_025>, <ENT_046>:<NUM_380>."
+        ],
+        [
+          113,
+          "95."
+        ],
+        [
+          114,
+          "Fu, C.; <ENT_122>, W.; Ranga, A.; Tyagi, A.; Berg, A.C. DSSD: Deconvolutional Single Shot Detector. <ENT_046> <NUM_330>, <ENT_046>:<NUM_381>. [CrossRef]"
+        ],
+        [
+          115,
+          "96."
+        ],
+        [
+          116,
+          "Jeong, J.; Park, H.; Kwak, N. Enhancement of SSD by concatenating feature maps for object detection. <ENT_046> <NUM_330>, <ENT_046>:<NUM_382>. [CrossRef]"
+        ],
+        [
+          117,
+          "97."
+        ],
+        [
+          118,
+          "<ENT_118>, S.; Wen, L.; Bian, X.; Lei, Z.; Li, S.Z. Single-Shot Refinement Neural Network for Object Detection. <ENT_046> <NUM_330>, <ENT_046>:<NUM_383>."
+        ],
+        [
+          119,
+          "98."
+        ],
+        [
+          120,
+          "Law, H.; Deng, J. CornerNet: Detecting Objects as Paired Keypoints. <ENT_046> <NUM_024>, <ENT_046>:<NUM_384>."
+        ],
+        [
+          121,
+          "99."
+        ],
+        [
+          122,
+          "<ENT_120>, K.; <ENT_118>, X.; <ENT_125>, S.; <ENT_052>, J. Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition. <ENT_046> <NUM_337>, <ENT_046>:<NUM_385>."
+        ],
+        [
+          123,
+          "100."
+        ],
+        [
+          124,
+          "<ENT_070>, J.; Li, Y.; <ENT_120>, K.; <ENT_052>, J. R-FCN: Object Detection via Region-based Fully Convolutional Networks. <ENT_046> <NUM_326>, <ENT_046>:<NUM_386>."
+        ],
+        [
+          125,
+          "101."
+        ],
+        [
+          126,
+          "<ENT_120>, K.; Gkioxari, G.; Dollár, P.; <ENT_119>, R. Mask R-<ENT_015>."
+        ],
+        [
+          127,
+          "In Proceedings of the <NUM_330> IEEE International Conference on Computer Vision (<ENT_047>), Venice, Italy, <NUM_387> October <NUM_330>; pp. <NUM_388>. [CrossRef]"
+        ],
+        [
+          128,
+          "102."
+        ],
+        [
+          129,
+          "Qiao, S.; <ENT_121>, L.; Yuille, A.L. DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution. <ENT_046> <NUM_008>, <ENT_046>:<NUM_389>. [CrossRef]"
+        ],
+        [
+          130,
+          "103."
+        ],
+        [
+          131,
+          "<ENT_121>, K.; Pang, J.; <ENT_061>, J.; Xiong, Y.; Li, X.; <ENT_052>, S.; Feng, W.; <ENT_122>, Z.; Shi, J.; Ouyang, W.; et al. Hybrid Task Cascade for Instance Segmentation. <ENT_046> <NUM_025>, <ENT_046>:<NUM_390>. [CrossRef]"
+        ],
+        [
+          132,
+          "104."
+        ],
+        [
+          133,
+          "Cai, Z.; Vasconcelos, N. Cascade R-<ENT_015>: Delving into High Quality Object Detection. <ENT_046> <NUM_330>, <ENT_046>:<NUM_391>. [CrossRef]"
+        ],
+        [
+          134,
+          "105."
+        ],
+        [
+          135,
+          "Iandola, F.N.; Moskewicz, M.W.; Ashraf, K.; Han, S.; Dally, W.J.; Keutzer, K. SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size. <ENT_046> <NUM_326>, <ENT_046>:<NUM_392>."
+        ],
+        [
+          136,
+          "106."
+        ],
+        [
+          137,
+          "Howard, A.G.; <ENT_123>, M.; <ENT_121>, B.; Kalenichenko, D.; <ENT_061>, W.; Weyand, T.; Andreetto, M.; Adam, H. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. <ENT_046> <NUM_330>, <ENT_046>:<NUM_393>. [CrossRef]"
+        ],
+        [
+          138,
+          "107."
+        ],
+        [
+          139,
+          "Sandler, M.; Howard, A.G.; <ENT_123>, M.; Zhmoginov, A.; <ENT_121>, L. Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation. <ENT_046> <NUM_024>, <ENT_046>:<NUM_394>."
+        ],
+        [
+          140,
+          "108."
+        ],
+        [
+          141,
+          "Howard, A.; Sandler, M.; Chu, G.; <ENT_121>, L.; <ENT_121>, B.; Tan, M.; <ENT_061>, W.; <ENT_123>, Y.; Pang, R.; Vasudevan, V.; et al. Searching for MobileNetV3. <ENT_046> <NUM_025>, <ENT_046>:<NUM_395>. [CrossRef]"
+        ],
+        [
+          142,
+          "109."
+        ],
+        [
+          143,
+          "<ENT_118>, X.; Zhou, X.; <ENT_124>, M.; <ENT_052>, J. ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices. <ENT_046> <NUM_330>, <ENT_046>:<NUM_396>. [CrossRef]"
+        ],
+        [
+          144,
+          "110."
+        ],
+        [
+          145,
+          "<ENT_061>, R.J.; Li, X.; Ao, S.; Ling, C.X. Pelee: A Real-Time Object Detection System on Mobile Devices. <ENT_046> <NUM_024>, <ENT_046>:<NUM_397>."
+        ],
+        [
+          146,
+          "111."
+        ],
+        [
+          147,
+          "Ma, N.; <ENT_118>, X.; Zheng, H.; <ENT_052>, J. ShuffleNet V2: Practical Guidelines for Efficient <ENT_015> Architecture Design. <ENT_046> <NUM_024>, <ENT_046>:<NUM_398>. [CrossRef]"
+        ],
+        [
+          148,
+          "112."
+        ],
+        [
+          149,
+          "Tan, M.; <ENT_121>, B.; Pang, R.; Vasudevan, V.; Le, Q.V. MnasNet: Platform-Aware Neural Architecture Search for Mobile. <ENT_046> <NUM_024>, <ENT_046>:<NUM_399>."
+        ],
+        [
+          150,
+          "113."
+        ],
+        [
+          151,
+          "Yousaf, A.; Sazonov, E. Food Intake Detection in the Face of Limited Sensor Signal Annotations."
+        ],
+        [
+          152,
+          "In Proceedings of the <NUM_023> Tenth International Conference on Communications and Electronics (ICCE), Da Nang, Vietnam, 31 July–2 August <NUM_023>; pp. <NUM_400>. [CrossRef]"
+        ],
+        [
+          153,
+          "114."
+        ],
+        [
+          154,
+          "Cai, H.; Gan, C.; Han, S. Once for All: Train One Network and Specialize it for Efficient Deployment. <ENT_046> <NUM_025>, <ENT_046>:<NUM_401>."
+        ],
+        [
+          155,
+          "115."
+        ],
+        [
+          156,
+          "Chabot, F.; Chaouch, M.; Rabarisoa, J.; Teulière, C.; Chateau, T. Deep MANTA: A Coarse-to-fine Many-Task Network for joint 2D and 3D vehicle analysis from monocular image. <ENT_046> <NUM_330>, <ENT_046>:<NUM_402>."
+        ],
+        [
+          157,
+          "116."
+        ],
+        [
+          158,
+          "Mousavian, A.; Anguelov, D.; Flynn, J.; Kosecka, J. 3D Bounding Box Estimation Using Deep Learning and Geometry. <ENT_046> <NUM_326>, <ENT_046>:<NUM_403>."
+        ],
+        [
+          159,
+          "117."
+        ],
+        [
+          160,
+          "Li, B.; Ouyang, W.; Sheng, L.; Zeng, X.; <ENT_061>, X. GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving. <ENT_046> <NUM_025>, <ENT_046>:<NUM_404>. [CrossRef]"
+        ],
+        [
+          161,
+          "118."
+        ],
+        [
+          162,
+          "Li, P.; <ENT_121>, X.; Shen, S. Stereo R-<ENT_015> based 3D Object Detection for Autonomous Driving. <ENT_046> <NUM_025>, <ENT_046>:<NUM_405>. [CrossRef]"
+        ],
+        [
+          163,
+          "119."
+        ],
+        [
+          164,
+          "Shi, X.; Ye, Q.; <ENT_121>, X.; <ENT_121>, C.; <ENT_121>, Z.; Kim, T. Geometry-based Distance Decomposition for Monocular 3D Object Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_406>."
+        ],
+        [
+          165,
+          "120."
+        ],
+        [
+          166,
+          "Ma, X.; <ENT_118>, Y.; Xu, D.; Zhou, D.; Yi, S.; Li, H.; Ouyang, W. Delving into Localization Errors for Monocular 3D Object Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_407>. [CrossRef]"
+        ],
+        [
+          167,
+          "121."
+        ],
+        [
+          168,
+          "<ENT_122>, Y.; <ENT_061>, L.; <ENT_122>, M. YOLOStereo3D: A Step Back to 2D for Efficient Stereo 3D Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_408>. [CrossRef]"
+        ],
+        [
+          169,
+          "122."
+        ],
+        [
+          170,
+          "Yin, T.; Zhou, X.; Krähenbühl, P. Center-based 3D Object Detection and Tracking. <ENT_046> <NUM_008>, <ENT_046>:<NUM_409>."
+        ],
+        [
+          171,
+          "123."
+        ],
+        [
+          172,
+          "Zhou, Y.; Tuzel, O. VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection. <ENT_046> <NUM_330>, <ENT_046>:<NUM_410>."
+        ],
+        [
+          173,
+          "124."
+        ],
+        [
+          174,
+          "Lang, A.H.; Vora, S.; Caesar, H.; Zhou, L.; Yang, J.; Beijbom, O. PointPillars: Fast Encoders for Object Detection from Point Clouds. <ENT_046> <NUM_024>, <ENT_046>:<NUM_411>."
+        ],
+        [
+          175,
+          "125."
+        ],
+        [
+          176,
+          "Xu, Q.; Zhong, Y.; Neumann, U. Behind the Curtain: Learning Occluded Shapes for 3D Object Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_412>. [CrossRef]"
+        ],
+        [
+          177,
+          "126."
+        ],
+        [
+          178,
+          "Zheng, W.; Tang, W.; <ENT_121>, S.; Jiang, L.; Fu, C. CIA-SSD: Confident <ENT_054>-Aware Single-Stage Object Detector from Point Cloud. <ENT_046> <NUM_008>, <ENT_046>:<NUM_413>. [CrossRef]"
+        ],
+        [
+          179,
+          "127."
+        ],
+        [
+          180,
+          "Zheng, W.; Tang, W.; Jiang, L.; Fu, C. <ENT_083>-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud. <ENT_046> <NUM_020>, <ENT_046>:<NUM_414>."
+        ],
+        [
+          181,
+          "128."
+        ],
+        [
+          182,
+          "Deng, J.; Shi, S.; Li, P.; Zhou, W.; <ENT_118>, Y.; Li, H. Voxel R-<ENT_015>: Towards High Performance Voxel-based 3D Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_415>. [CrossRef]"
+        ],
+        [
+          183,
+          "129."
+        ],
+        [
+          184,
+          "Sheng, H.; Cai, S.; <ENT_122>, Y.; Deng, B.; Huang, J.; Hua, X.; <ENT_127>, M. Improving 3D Object Detection with Channel-wise <ENT_040>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_416>. [CrossRef]"
+        ],
+        [
+          185,
+          "130."
+        ],
+        [
+          186,
+          "Mao, J.; Xue, Y.; Niu, M.; Bai, H.; Feng, J.; Liang, X.; Xu, H.; Xu, C. Voxel <ENT_040> for 3D Object Detection. <ENT_046> <NUM_020>, <ENT_046>:<NUM_417>. [CrossRef]"
+        ],
+        [
+          187,
+          "131."
+        ],
+        [
+          188,
+          "Vora, S.; Lang, A.H.; Helou, B.; Beijbom, O. PointPainting: Sequential Fusion for 3D Object Detection. <ENT_046> <NUM_025>, <ENT_046>:<NUM_418>."
+        ],
+        [
+          189,
+          "132."
+        ],
+        [
+          190,
+          "Ku, J.; Mozifian, M.; Lee, J.; Harakeh, A.; Waslander, S.L. Joint 3D Proposal Generation and Object Detection from View Aggregation. <ENT_046> <NUM_330>, <ENT_046>:<NUM_419>."
+        ],
+        [
+          191,
+          "133."
+        ],
+        [
+          192,
+          "Liang, M.; Yang, B.; <ENT_061>, S.; Urtasun, R. Deep Continuous Fusion for Multi-Sensor 3D Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_420>. [CrossRef]"
+        ],
+        [
+          193,
+          "134."
+        ],
+        [
+          194,
+          "Yoo, J.H.; Kim, Y.; Kim, J.S.; Choi, J.W. 3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_421>."
+        ],
+        [
+          195,
+          "135."
+        ],
+        [
+          196,
+          "Pang, S.; Morris, D.; Radha, H. CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_422>."
+        ],
+        [
+          197,
+          "136."
+        ],
+        [
+          198,
+          "Ye, L.; Rochan, M.; <ENT_122>, Z.; <ENT_061>, Y. Cross-Modal Self-Attention Network for Referring Image Segmentation. <ENT_046> <NUM_025>, <ENT_046>:<NUM_423>."
+        ],
+        [
+          199,
+          "137."
+        ],
+        [
+          200,
+          "Xie, E.; <ENT_061>, W.; Yu, Z.; Anandkumar, A.; Alvarez, J.M.; Luo, P. SegFormer: Simple and Efficient Design for Semantic Segmentation with <ENT_001>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_424>. [CrossRef]"
+        ],
+        [
+          201,
+          "138."
+        ],
+        [
+          202,
+          "Zheng, S.; Lu, J.; <ENT_127>, H.; <ENT_123>, X.; Luo, Z.; <ENT_061>, Y.; Fu, Y.; Feng, J.; Xiang, T.; Torr, P.H.S.; et al. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with <ENT_001>. <ENT_046> <NUM_008>, <ENT_046>:<NUM_425>."
+        ],
+        [
+          203,
+          "139."
+        ],
+        [
+          204,
+          "Strudel, R.; Pinel, R.G.; Laptev, I.; Schmid, C. Segmenter: <ENT_040> for Semantic Segmentation. <ENT_046> <NUM_020>, <ENT_046>:<NUM_426>. [CrossRef]"
+        ],
+        [
+          205,
+          "140."
+        ],
+        [
+          206,
+          "Ramachandran, P.; Parmar, N.; <ENT_128>, A.; Bello, I.; Levskaya, A.; Shlens, J. Stand-Alone Self-Attention in Vision Models. <ENT_046> <NUM_025>, <ENT_046>:<NUM_427>."
+        ],
+        [
+          207,
+          "141."
+        ],
+        [
+          208,
+          "<ENT_061>, W.; Xie, E.; Li, X.; Fan, D.; Song, K.; Liang, D.; Lu, T.; Luo, P.; Shao, L. Pyramid Vision <ENT_040>: A Versatile Backbone for Dense Prediction without Convolutions. <ENT_046> <NUM_020>, <ENT_046>:<NUM_428>. [CrossRef]"
+        ],
+        [
+          209,
+          "142."
+        ],
+        [
+          210,
+          "Kirillov, A.; <ENT_120>, K.; <ENT_119>, R.B.; Rother, C.; Dollár, P. Panoptic Segmentation. <ENT_046> <NUM_024>, <ENT_046>:<NUM_429>."
+        ],
+        [
+          211,
+          "143."
+        ],
+        [
+          212,
+          "<ENT_061>, H.; <ENT_123>, Y.; Green, B.; Adam, H.; Yuille, A.L.; <ENT_121>, L. Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation. <ENT_046> <NUM_008>, <ENT_046>:<NUM_430>."
+        ],
+        [
+          213,
+          "144."
+        ],
+        [
+          214,
+          "Neuhold, G.; Ollmann, T.; Bulò, S.R.; Kontschieder, P. The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes."
+        ],
+        [
+          215,
+          "In Proceedings of the <NUM_330> IEEE International Conference on Computer Vision (<ENT_047>), Venice, Italy, <NUM_387> October <NUM_330>; pp. <NUM_431>. [CrossRef]"
+        ],
+        [
+          216,
+          "145."
+        ],
+        [
+          217,
+          "Cordts, M.; Omran, M.; Ramos, S.; Rehfeld, T.; Enzweiler, M.; Benenson, R.; Franke, U.; Roth, S.; Schiele, B. The Cityscapes Dataset for Semantic Urban Scene Understanding. <ENT_046> <NUM_326>, <ENT_046>:<NUM_432>. [CrossRef]"
+        ],
+        [
+          218,
+          "146."
+        ],
+        [
+          219,
+          "Reed, S.; Akata, Z.; Yan, X.; Logeswaran, L.; Schiele, B.; Lee, H. Generative Adversarial Text to Image Synthesis."
+        ],
+        [
+          220,
+          "In Proceedings of the 33rd International Conference on Machine Learning, New York, NY, USA, <NUM_433> June <NUM_326>; Balcan, M.F., Weinberger, K.Q., Eds.; Proceedings of Machine Learning Research: New York, NY, USA, <NUM_326>; Volume 48, pp. <NUM_434>."
+        ],
+        [
+          221,
+          "Available online: <URL_030> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          222,
+          "147."
+        ],
+        [
+          223,
+          "<ENT_118>, H.; Xu, T.; Li, H.; <ENT_118>, S.; Huang, X.; <ENT_061>, X.; Metaxas, D.N. StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks. <ENT_046> <NUM_326>, <ENT_046>:<NUM_435>."
+        ],
+        [
+          224,
+          "148."
+        ],
+        [
+          225,
+          "<ENT_118>, H.; Xu, T.; Li, H.; <ENT_118>, S.; <ENT_061>, X.; Huang, X.; Metaxas, D.N. StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks. <ENT_046> <NUM_330>, <ENT_046>:<NUM_436>."
+        ],
+        [
+          226,
+          "149."
+        ],
+        [
+          227,
+          "Xu, T.; <ENT_118>, P.; Huang, Q.; <ENT_118>, H.; Gan, Z.; Huang, X.; <ENT_120>, X. AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks. <ENT_046> <NUM_330>, <ENT_046>:<NUM_437>."
+        ],
+        [
+          228,
+          "150."
+        ],
+        [
+          229,
+          "Goodfellow, I.J.; Pouget-Abadie, J.; Mirza, M.; Xu, B.; Warde-Farley, D.; Ozair, S.; Courville, A.; Bengio, Y. Generative Adversarial Networks. <ENT_046> <NUM_337>, <ENT_046>:<NUM_438>. [CrossRef]"
+        ],
+        [
+          230,
+          "151."
+        ],
+        [
+          231,
+          "Murahari, M.D.; Reddy; Sk, M.; Basha, M.M.M.; Hari, M.N.C.; Student, P. DALL-E: CREATING IMAGES FROM TEXT. <NUM_020>."
+        ],
+        [
+          232,
+          "Available online: <URL_031>:<NUM_439> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          233,
+          "152."
+        ],
+        [
+          234,
+          "<ENT_061>, X.; Yeshwanth, C.; Nießner, M. SceneFormer: Indoor Scene Generation with <ENT_001>. <ENT_046> <NUM_008>, <ENT_046>:<NUM_440>."
+        ],
+        [
+          235,
+          "153."
+        ],
+        [
+          236,
+          "<ENT_121>, M.; Radford, A.; Child, R.; Wu, J.; Jun, H.; Luan, D.; Sutskever, I. Generative Pretraining From Pixels."
+        ],
+        [
+          237,
+          "In Proceedings of the 37th International Conference on Machine Learning, Virtual Event, <NUM_441> July <NUM_008>; III, H.D., Singh, A., Eds.; Proceedings of Machine Learning Research (PMLR): New York, NY, USA, <NUM_008>; Volume 119, pp. <NUM_442>."
+        ],
+        [
+          238,
+          "Available online: https: //proceedings.mlr.press/v119/chen20s.html (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          239,
+          "154."
+        ],
+        [
+          240,
+          "Esser, P.; Rombach, R.; Ommer, B. Taming <ENT_001> for High-Resolution Image Synthesis. <ENT_046> <NUM_008>, <ENT_046>:<NUM_443>."
+        ],
+        [
+          241,
+          "155."
+        ],
+        [
+          242,
+          "Jiang, Y.; Chang, S.; <ENT_061>, Z. <ENT_065>: Two <ENT_001> Can Make One Strong <ENT_064>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_444>."
+        ],
+        [
+          243,
+          "156."
+        ],
+        [
+          244,
+          "Bhunia, A.K.; Khan, S.H.; Cholakkal, H.; Anwer, R.M.; Khan, F.S.; Shah, M. Handwriting <ENT_001>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_445>. [CrossRef]"
+        ],
+        [
+          245,
+          "157."
+        ],
+        [
+          246,
+          "Krizhevsky, A.; Hinton, G. Learning Multiple Layers of Features from Tiny Images; Technical Report; University of Toronto: Toronto, ON, Canada, <NUM_359>."
+        ],
+        [
+          247,
+          "Available online: <URL_032> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          248,
+          "158."
+        ],
+        [
+          249,
+          "Coates, A.; Ng, A.; Lee, H. An Analysis of Single-Layer Networks in Unsupervised Feature Learning."
+        ],
+        [
+          250,
+          "In Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics, Fort Lauderdale, FL, USA, <NUM_446> April <NUM_448>; Gordon, G., Dunson, D., Dudík, M., Eds.; Proceedings of Machine Learning Research: New York, NY, USA, <NUM_448>; Volume 15, pp. <NUM_447>."
+        ],
+        [
+          251,
+          "Available online: <URL_033> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          252,
+          "159."
+        ],
+        [
+          253,
+          "<ENT_121>, T.; Kornblith, S.; Norouzi, M.; Hinton, G.E. A Simple Framework for Contrastive Learning of Visual Representations. <ENT_046> <NUM_008>, <ENT_046>:<NUM_449>. [CrossRef]"
+        ],
+        [
+          254,
+          "160."
+        ],
+        [
+          255,
+          "Deng, J.; Dong, W.; Socher, R.; Li, L.J.; Li, K.; Fei-Fei, L. <ENT_060>: A large-scale hierarchical image database."
+        ],
+        [
+          256,
+          "In Proceedings of the <NUM_359> IEEE Conference on Computer Vision and Pattern Recognition, Miami, FL, USA, <NUM_450> June <NUM_359>; pp. <NUM_451>. [CrossRef]"
+        ],
+        [
+          257,
+          "161."
+        ],
+        [
+          258,
+          "<ENT_120>, K.; Fan, H.; Wu, Y.; Xie, S.; <ENT_119>, R.B. Momentum Contrast for Unsupervised Visual Representation Learning. <ENT_046> <NUM_025>, <ENT_046>:<NUM_452>."
+        ],
+        [
+          259,
+          "162."
+        ],
+        [
+          260,
+          "Bachman, P.; Hjelm, R.D.; Buchwalter, W. Learning Representations by Maximizing Mutual Information Across Views. <ENT_046> <NUM_025>, <ENT_046>:<NUM_453>. [CrossRef]"
+        ],
+        [
+          261,
+          "163."
+        ],
+        [
+          262,
+          "Hénaff, O.J.; Srinivas, A.; Fauw, J.D.; Razavi, A.; Doersch, C.; Eslami, S.M.A.; van den Oord, A. Data-Efficient Image Recognition with Contrastive Predictive Coding. <ENT_046> <NUM_025>, <ENT_046>:<NUM_454>."
+        ],
+        [
+          263,
+          "164."
+        ],
+        [
+          264,
+          "Radford, A.; Metz, L.; Chintala, S. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. <ENT_046> <NUM_340>, <ENT_046>:<NUM_455>."
+        ],
+        [
+          265,
+          "Available online: <URL_031>:<NUM_456> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          266,
+          "165."
+        ],
+        [
+          267,
+          "<ENT_073>, C.; <ENT_121>, Y.; <ENT_122>, S.; Tan, Z.; Yan, S. AdversarialNAS: Adversarial Neural Architecture Search for GANs. <ENT_046> <NUM_025>, <ENT_046>:<NUM_457>."
+        ],
+        [
+          268,
+          "166."
+        ],
+        [
+          269,
+          "Karras, T.; Laine, S.; Aittala, M.; Hellsten, J.; Lehtinen, J.; Aila, T. Analyzing and Improving the Image Quality of StyleGAN. <ENT_046> <NUM_025>, <ENT_046>:<NUM_458>."
+        ],
+        [
+          270,
+          "167."
+        ],
+        [
+          271,
+          "Yang, F.; Yang, H.; Fu, J.; Lu, H.; Guo, B. Learning Texture <ENT_040> Network for Image Super-Resolution. <ENT_046> <NUM_008>, <ENT_046>:<NUM_459>. [CrossRef]"
+        ],
+        [
+          272,
+          "168."
+        ],
+        [
+          273,
+          "<ENT_121>, H.; <ENT_061>, Y.; Guo, T.; Xu, C.; Deng, Y.; <ENT_122>, Z.; Ma, S.; Xu, C.; Xu, C.; <ENT_073>, W. Pre-Trained Image Processing <ENT_040>. <ENT_046> <NUM_008>, <ENT_046>:<NUM_460>."
+        ],
+        [
+          274,
+          "169."
+        ],
+        [
+          275,
+          "Liang, J.; <ENT_129>, J.; <ENT_052>, G.; <ENT_118>, K.; Van Gool, L.; Timofte, R. SwinIR: Image Restoration Using Swin <ENT_040>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_461>. [CrossRef]"
+        ],
+        [
+          276,
+          "170."
+        ],
+        [
+          277,
+          "<ENT_061>, Z.; Cun, X.; Bao, J.; <ENT_122>, J. Uformer: A General U-Shaped <ENT_040> for Image Restoration. <ENT_046> <NUM_020>, <ENT_046>:<NUM_462>. [CrossRef]"
+        ],
+        [
+          278,
+          "171."
+        ],
+        [
+          279,
+          "Kumar, M.; Weissenborn, D.; Kalchbrenner, N. Colorization <ENT_040>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_463>."
+        ],
+        [
+          280,
+          "172."
+        ],
+        [
+          281,
+          "Antol, S.; Agrawal, A.; Lu, J.; Mitchell, M.; Batra, D.; Zitnick, C.L.; Parikh, D. VQA: Visual Question Answering. <ENT_046> <NUM_340>, <ENT_046>:<NUM_464>."
+        ],
+        [
+          282,
+          "173."
+        ],
+        [
+          283,
+          "Zellers, R.; Bisk, Y.; Farhadi, A.; Choi, Y. From Recognition to Cognition: Visual Commonsense Reasoning. <ENT_046> <NUM_024>, <ENT_046>:<NUM_465>."
+        ],
+        [
+          284,
+          "174."
+        ],
+        [
+          285,
+          "Lee, K.; <ENT_121>, X.; Hua, G.; Hu, H.; <ENT_120>, X. Stacked Cross Attention for Image-Text Matching. <ENT_046> <NUM_024>, <ENT_046>:<NUM_466>. [CrossRef]"
+        ],
+        [
+          286,
+          "175."
+        ],
+        [
+          287,
+          "Vinyals, O.; Toshev, A.; Bengio, S.; Erhan, D. Show and Tell: A Neural Image Caption Generator. <ENT_046> <NUM_337>, <ENT_046>:<NUM_467>."
+        ],
+        [
+          288,
+          "176."
+        ],
+        [
+          289,
+          "<ENT_121>, Y.; Li, L.; Yu, L.; Kholy, A.E.; Ahmed, F.; Gan, Z.; Cheng, Y.; <ENT_122>, J. UNITER: Learning UNiversal Image-TExt Representations. <ENT_046> <NUM_025>, <ENT_046>:<NUM_468>."
+        ],
+        [
+          290,
+          "177."
+        ],
+        [
+          291,
+          "Li, X.; Yin, X.; Li, C.; <ENT_118>, P.; Hu, X.; <ENT_118>, L.; <ENT_061>, L.; Hu, H.; Dong, L.; Wei, F.; et al. Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks. <ENT_046> <NUM_008>, <ENT_046>:<NUM_469>."
+        ],
+        [
+          292,
+          "178."
+        ],
+        [
+          293,
+          "<ENT_052>, C.; Myers, A.; Vondrick, C.; Murphy, K.; Schmid, C. VideoBERT: A Joint Model for Video and Language Representation Learning. <ENT_046> <NUM_025>, <ENT_046>:<NUM_470>. [CrossRef]"
+        ],
+        [
+          294,
+          "179."
+        ],
+        [
+          295,
+          "Li, G.; Duan, N.; <ENT_126>, Y.; Jiang, D.; Zhou, M. Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training. <ENT_046> <NUM_025>, <ENT_046>:<NUM_471>. [CrossRef]"
+        ],
+        [
+          296,
+          "180."
+        ],
+        [
+          297,
+          "Li, L.H.; Yatskar, M.; Yin, D.; Hsieh, C.; Chang, K. VisualBERT: A Simple and Performant Baseline for Vision and Language. <ENT_046> <NUM_025>, <ENT_046>:<NUM_472>. [CrossRef]"
+        ],
+        [
+          298,
+          "181."
+        ],
+        [
+          299,
+          "Su, W.; <ENT_123>, X.; <ENT_129>, Y.; Li, B.; Lu, L.; Wei, F.; <ENT_070>, J. VL-BERT: Pre-training of Generic Visual-Linguistic Representations. <ENT_046> <NUM_025>, <ENT_046>:<NUM_473>."
+        ],
+        [
+          300,
+          "182."
+        ],
+        [
+          301,
+          "Tan, H.; Bansal, M. LXMERT: Learning Cross-Modality Encoder Representations from <ENT_001>. <ENT_046> <NUM_025>, <ENT_046>:<NUM_474>. [CrossRef]"
+        ],
+        [
+          302,
+          "183."
+        ],
+        [
+          303,
+          "Lu, J.; Batra, D.; Parikh, D.; Lee, S. ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks. <ENT_046> <NUM_025>, <ENT_046>:<NUM_475>."
+        ],
+        [
+          304,
+          "184."
+        ],
+        [
+          305,
+          "Lee, S.; Yu, Y.; Kim, G.; Breuel, T.M.; Kautz, J.; Song, Y. Parameter Efficient Multimodal <ENT_001> for Video Representation Learning. <ENT_046> <NUM_008>, <ENT_046>:<NUM_476>."
+        ],
+        [
+          306,
+          "185."
+        ],
+        [
+          307,
+          "<ENT_052>, N.; <ENT_123>, Y.; Hu, X. Faster R-<ENT_015> Based Table Detection Combining Corner Locating."
+        ],
+        [
+          308,
+          "In Proceedings of the <NUM_025> International Conference on Document Analysis and Recognition (ICDAR), Sydney, NSW, Australia, <NUM_450> September <NUM_025>; pp. <NUM_477>. [CrossRef]"
+        ],
+        [
+          309,
+          "186."
+        ],
+        [
+          310,
+          "Parmar, N.; <ENT_128>, A.; Uszkoreit, J.; Kaiser, L.; Shazeer, N.; Ku, A. Image <ENT_040>. <ENT_046> <NUM_024>, <ENT_046>:<NUM_478>."
+        ],
+        [
+          311,
+          "187."
+        ],
+        [
+          312,
+          "Bello, I.; Zoph, B.; <ENT_128>, A.; Shlens, J.; Le, Q.V. Attention Augmented Convolutional Networks. <ENT_046> <NUM_025>, <ENT_046>:<NUM_479>."
+        ],
+        [
+          313,
+          "188."
+        ],
+        [
+          314,
+          "Rezatofighi, S.H.; Tsoi, N.; Gwak, J.; Sadeghian, A.; Reid, I.D.; Savarese, S. Generalized Intersection over Union: A Metric and a Loss for Bounding Box Regression. <ENT_046> <NUM_025>, <ENT_046>:<NUM_480>. [CrossRef]"
+        ],
+        [
+          315,
+          "189. van den Oord, A.; Li, Y.; Babuschkin, I.; Simonyan, K.; Vinyals, O.; Kavukcuoglu, K.; van den Driessche, G.; Lockhart, E.; Cobo, L.C.; Stimberg, F.; et al. Parallel WaveNet: Fast High-Fidelity Speech Synthesis. <ENT_046> <NUM_330>, <ENT_046>:<NUM_481>."
+        ],
+        [
+          316,
+          "190."
+        ],
+        [
+          317,
+          "Gu, J.; Bradbury, J.; Xiong, C.; Li, V.O.K.; Socher, R. Non-Autoregressive Neural Machine Translation. <ENT_046> <NUM_330>, <ENT_046>:<NUM_482>."
+        ],
+        [
+          318,
+          "191."
+        ],
+        [
+          319,
+          "Ghazvininejad, M.; Levy, O.; <ENT_122>, Y.; Zettlemoyer, L. Mask-Predict: Parallel Decoding of Conditional Masked Language Models."
+        ],
+        [
+          320,
+          "In Proceedings of the <NUM_025> Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Hong Kong, China, <NUM_483> November <NUM_025>; Inui, K., Jiang, J., Ng, V., Wan, X., Eds.; Association for Computational Linguistics: Stroudsburg, PA, USA, <NUM_025>; pp. <NUM_484>. [CrossRef]"
+        ],
+        [
+          321,
+          "192."
+        ],
+        [
+          322,
+          "Stewart, R.; Andriluka, M. End-to-end people detection in crowded scenes. <ENT_046> <NUM_340>, <ENT_046>:<NUM_485>."
+        ],
+        [
+          323,
+          "193."
+        ],
+        [
+          324,
+          "Romera-Paredes, B.; Torr, P.H.S. Recurrent Instance Segmentation. <ENT_046> <NUM_340>, <ENT_046>:<NUM_486>."
+        ],
+        [
+          325,
+          "194."
+        ],
+        [
+          326,
+          "Park, E.; Berg, A.C. Learning to decompose for object detection and instance segmentation. <ENT_046> <NUM_340>, <ENT_046>:<NUM_487>."
+        ],
+        [
+          327,
+          "195."
+        ],
+        [
+          328,
+          "<ENT_125>, M.; Zemel, R.S. End-to-End Instance Segmentation and Counting with Recurrent Attention. <ENT_046> <NUM_326>, <ENT_046>:<NUM_488>."
+        ],
+        [
+          329,
+          "196."
+        ],
+        [
+          330,
+          "Salvador, A.; Bellver, M.; Baradad, M.; Marqués, F.; Torres, J.; Giró-i-Nieto, X. Recurrent Neural Networks for Semantic Instance Segmentation. <ENT_046> <NUM_330>, <ENT_046>:<NUM_489>."
+        ],
+        [
+          331,
+          "197."
+        ],
+        [
+          332,
+          "<ENT_070>, J.; Qi, H.; Xiong, Y.; Li, Y.; <ENT_118>, G.; Hu, H.; Wei, Y. Deformable Convolutional Networks. <ENT_046> <NUM_330>, <ENT_046>:<NUM_490>. [CrossRef]"
+        ],
+        [
+          333,
+          "198."
+        ],
+        [
+          334,
+          "<ENT_123>, X.; Hu, H.; <ENT_124>, S.; <ENT_070>, J. Deformable ConvNets v2: More Deformable, Better Results. <ENT_046> <NUM_024>, <ENT_046>:<NUM_491>. [CrossRef]"
+        ],
+        [
+          335,
+          "199."
+        ],
+        [
+          336,
+          "<ENT_118>, H.; <ENT_061>, J. Towards Adversarially Robust Object Detection. <ENT_046> <NUM_025>, <ENT_046>:<NUM_492>. [CrossRef]"
+        ],
+        [
+          337,
+          "200."
+        ],
+        [
+          338,
+          "Wu, Y.; <ENT_121>, Y.; Yuan, L.; <ENT_122>, Z.; <ENT_061>, L.; Li, H.; Fu, Y. Rethinking Classification and Localization in R-<ENT_015>. <ENT_046> <NUM_025>, <ENT_046>:<NUM_493>. [CrossRef]"
+        ],
+        [
+          339,
+          "201."
+        ],
+        [
+          340,
+          "Song, G.; <ENT_122>, Y.; <ENT_061>, X. Revisiting the Sibling Head in Object Detector. <ENT_046> <NUM_008>, <ENT_046>:<NUM_494>. [CrossRef]"
+        ],
+        [
+          341,
+          "202."
+        ],
+        [
+          342,
+          "Dong, L.; Yang, N.; <ENT_061>, W.; Wei, F.; <ENT_122>, X.; <ENT_061>, Y.; <ENT_073>, J.; Zhou, M.; Hon, H. Unified Language Model Pre-training for Natural Language Understanding and Generation. <ENT_046> <NUM_025>, <ENT_046>:<NUM_495>. [CrossRef]"
+        ],
+        [
+          343,
+          "203."
+        ],
+        [
+          344,
+          "Srivastava, N.; Hinton, G.; Krizhevsky, A.; Sutskever, I.; Salakhutdinov, R. Dropout: A Simple Way to Prevent Neural Networks from Overfitting."
+        ],
+        [
+          345,
+          "J. Mach."
+        ],
+        [
+          346,
+          "Learn."
+        ],
+        [
+          347,
+          "Res. <NUM_337>, 15, <NUM_496>."
+        ],
+        [
+          348,
+          "Available online: <URL_034> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          349,
+          "204."
+        ],
+        [
+          350,
+          "<ENT_052>, P.; <ENT_118>, R.; Jiang, Y.; Kong, T.; Xu, C.; Zhan, W.; Tomizuka, M.; Li, L.; Yuan, Z.; <ENT_061>, C.; et al. Sparse R-<ENT_015>: End-to-End Object Detection with Learnable Proposals. <ENT_046> <NUM_008>, <ENT_046>:<NUM_497>."
+        ],
+        [
+          351,
+          "205."
+        ],
+        [
+          352,
+          "<ENT_118>, X.; Wan, F.; <ENT_122>, C.; Ji, R.; Ye, Q. FreeAnchor: Learning to Match Anchors for Visual Object Detection. <ENT_046> <NUM_025>, <ENT_046>:<NUM_498>. [CrossRef]"
+        ],
+        [
+          353,
+          "206."
+        ],
+        [
+          354,
+          "Kim, K.; Lee, H.S. Probabilistic Anchor Assignment with <ENT_054> Prediction for Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_499>. [CrossRef]"
+        ],
+        [
+          355,
+          "207."
+        ],
+        [
+          356,
+          "Li, H.; Wu, Z.; <ENT_123>, C.; Xiong, C.; Socher, R.; Davis, L.S. Learning from Noisy Anchors for One-stage Object Detection. <ENT_046> <NUM_025>, <ENT_046>:<NUM_500>."
+        ],
+        [
+          357,
+          "208."
+        ],
+        [
+          358,
+          "Tian, Z.; Shen, C.; <ENT_121>, H.; <ENT_120>, T. <ENT_077>: Fully Convolutional One-Stage Object Detection."
+        ],
+        [
+          359,
+          "In Proceedings of the <NUM_025> IEEE/CVF International Conference on Computer Vision (<ENT_047>), Seoul, Republic of Korea, 27 October–2 November <NUM_025>; pp. <NUM_501>. [CrossRef]"
+        ],
+        [
+          360,
+          "209."
+        ],
+        [
+          361,
+          "Wu, Y.; <ENT_120>, K. Group Normalization. <ENT_046> <NUM_024>, <ENT_046>:<NUM_502>. [CrossRef]"
+        ],
+        [
+          362,
+          "210."
+        ],
+        [
+          363,
+          "<ENT_121>, Y.; Kalantidis, Y.; Li, J.; Yan, S.; Feng, J. A2-Nets: Double Attention Networks. <ENT_046> <NUM_024>, <ENT_046>:<NUM_503>."
+        ],
+        [
+          364,
+          "211."
+        ],
+        [
+          365,
+          "<ENT_124>, T.Y.; RoyChowdhury, A.; Maji, S. Bilinear <ENT_015> Models for Fine-Grained Visual Recognition."
+        ],
+        [
+          366,
+          "In Proceedings of the <NUM_340> IEEE International Conference on Computer Vision (<ENT_047>), Santiago, Chile, <NUM_504> December <NUM_340>; pp. <NUM_505>. [CrossRef]"
+        ],
+        [
+          367,
+          "212."
+        ],
+        [
+          368,
+          "<ENT_061>, X.; <ENT_118>, S.; Yu, Z.; Feng, L.; <ENT_118>, W. Scale-Equalizing Pyramid Convolution for Object Detection."
+        ],
+        [
+          369,
+          "In Proceedings of the <NUM_008> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<ENT_048>), Seattle, WA, USA, <NUM_506> June <NUM_008>; pp. <NUM_507>."
+        ],
+        [
+          370,
+          "Available online: <URL_031>:<NUM_508> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          371,
+          "213."
+        ],
+        [
+          372,
+          "Hu, J.; Shen, L.; <ENT_052>, G. Squeeze-and-Excitation Networks. <ENT_046> <NUM_330>, <ENT_046>:<NUM_509>."
+        ],
+        [
+          373,
+          "214."
+        ],
+        [
+          374,
+          "Jiang, Z.; Yu, W.; Zhou, D.; <ENT_121>, Y.; Feng, J.; Yan, S. <ENT_084>: Improving BERT with Span-based Dynamic Convolution. <ENT_046> <NUM_008>, <ENT_046>:<NUM_510>."
+        ],
+        [
+          375,
+          "215."
+        ],
+        [
+          376,
+          "Beal, J.; Kim, E.; Tzeng, E.; Park, D.H.; Zhai, A.; Kislyuk, D. Toward <ENT_040>-Based Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_511>. [CrossRef]"
+        ],
+        [
+          377,
+          "216."
+        ],
+        [
+          378,
+          "<ENT_123>, B.; <ENT_061>, J.; Jiang, Z.; <ENT_130>, F.; <ENT_122>, S.; Li, Z.; <ENT_052>, J. AutoAssign: Differentiable Label Assignment for Dense Object Detection. <ENT_046> <NUM_008>, <ENT_046>:<NUM_512>. [CrossRef]"
+        ],
+        [
+          379,
+          "217."
+        ],
+        [
+          380,
+          "Hendrycks, D.; Gimpel, K. Bridging Nonlinearities and Stochastic Regularizers with Gaussian Error Linear Units. <ENT_046> <NUM_326>, <ENT_046>:<NUM_513>. [CrossRef]"
+        ],
+        [
+          381,
+          "218."
+        ],
+        [
+          382,
+          "Ba, J.L.; Kiros, J.R.; Hinton, G.E. Layer Normalization. <ENT_046> <NUM_326>, <ENT_046>:<NUM_514>. [CrossRef]"
+        ],
+        [
+          383,
+          "219."
+        ],
+        [
+          384,
+          "Ma, X.; Kong, X.; <ENT_061>, S.; Zhou, C.; May, J.; Ma, H.; Zettlemoyer, L. Luna: Linear Unified Nested Attention. <ENT_046> <NUM_020>, <ENT_046>:<NUM_515>. [CrossRef]"
+        ],
+        [
+          385,
+          "220."
+        ],
+        [
+          386,
+          "Shen, Z.; <ENT_118>, M.; Yi, S.; Yan, J.; <ENT_127>, H. Factorized Attention: Self-Attention with Linear Complexities. <ENT_046> <NUM_024>, <ENT_046>:<NUM_516>."
+        ],
+        [
+          387,
+          "221."
+        ],
+        [
+          388,
+          "Ge, Z.; <ENT_122>, S.; <ENT_061>, F.; Li, Z.; <ENT_052>, J. YOLOX: Exceeding <ENT_091> Series in <NUM_020>. <ENT_046> <NUM_020>, <ENT_046>:<NUM_517>. [CrossRef]"
+        ],
+        [
+          389,
+          "222."
+        ],
+        [
+          390,
+          "Oquab, M.; Darcet, T.; Moutakanni, T.; Vo, H.; Szafraniec, M.; Khalidov, V.; Fernandez, P.; Haziza, D.; Massa, F.; El-Nouby, A.; et al. <ENT_096>: Learning Robust Visual Features without Supervision. <ENT_046> <NUM_023>, <ENT_046>:<NUM_518>."
+        ],
+        [
+          391,
+          "Available online: <URL_035> (accessed on 25 September <NUM_005>). [CrossRef]"
+        ],
+        [
+          392,
+          "223."
+        ],
+        [
+          393,
+          "Siméoni, O.; Vo, H.V.; Seitzer, M.; Baldassarre, F.; Oquab, M.; Jose, C.; Khalidov, V.; Szafraniec, M.; Yi, S.; Ramamonjisoa, M.; et al. <ENT_097>. <ENT_046> <NUM_005>, <ENT_046>:<NUM_519>."
+        ],
+        [
+          394,
+          "Available online: <URL_036> (accessed on 25 September <NUM_005>). [PubMed]"
+        ],
+        [
+          395,
+          "224."
+        ],
+        [
+          396,
+          "Lv, W.; <ENT_127>, Y.; Chang, Q.; Huang, K.; <ENT_061>, G.; <ENT_122>, Y. <ENT_100>: Improved Baseline with Bag-of-Freebies for Real-Time Detection <ENT_040>. <ENT_046> <NUM_023>, <ENT_046>:<NUM_520>."
+        ],
+        [
+          397,
+          "Available online: <URL_037> (accessed on 25 September <NUM_005>)."
+        ],
+        [
+          398,
+          "225."
+        ],
+        [
+          399,
+          "<ENT_061>, S.; Xia, C.; Lv, F.; Shi, Y. <ENT_101>: Real-time End-to-End Object Detection with Hierarchical Dense Positive Supervision. <ENT_046> <NUM_023>, <ENT_046>:<NUM_521>."
+        ],
+        [
+          400,
+          "226."
+        ],
+        [
+          401,
+          "Powers, D.M.W. Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation. <ENT_046> <NUM_008>, <ENT_046>:<NUM_522>. [CrossRef]"
+        ],
+        [
+          402,
+          "227."
+        ],
+        [
+          403,
+          "Touvron, H.; Cord, M.; Douze, M.; Massa, F.; Sablayrolles, A.; Jégou, H. Training data-efficient image transformers & distillation through attention. <ENT_046> <NUM_008>, <ENT_046>:<NUM_523>."
+        ],
+        [
+          404,
+          "228."
+        ],
+        [
+          405,
+          "<ENT_122>, Z.; <ENT_124>, Y.; <ENT_129>, Y.; Hu, H.; Wei, Y.; <ENT_118>, Z.; <ENT_124>, S.; Guo, B. Swin <ENT_040>: Hierarchical Vision <ENT_040> using Shifted Windows. <ENT_046> <NUM_020>, <ENT_046>:<NUM_524>. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

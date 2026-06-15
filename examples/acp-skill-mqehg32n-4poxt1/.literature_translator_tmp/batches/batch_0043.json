@@ -1,0 +1,93 @@
+{
+  "batch_id": "batch_0043",
+  "block_ids": [
+    "b_142",
+    "b_143",
+    "b_144",
+    "b_145",
+    "b_146",
+    "b_147",
+    "b_148"
+  ],
+  "total_chars": 739,
+  "blocks": {
+    "b_142": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nq e ^ { * } = M H S A t t n ( q e , q e , q e ) .\\tag{31}\n$$"
+        ]
+      ]
+    },
+    "b_143": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "Then, these query embeddings are passed through the fully connected layer (dynamic filters) as follows:"
+        ]
+      ]
+    },
+    "b_144": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nF i l t e r ^ { q e } = F C ( q e ^ { * } ) .\\tag{32}\n$$"
+        ]
+      ]
+    },
+    "b_145": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "Finally, cross-attention between features and object queries is performed with 1 × 1 convolution using dynamic filters <MATH_104>"
+        ]
+      ]
+    },
+    "b_146": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nq e ^ { F } = C o n _ { 1 \\times 1 } ( F , F i l t e r ^ { q e } ) .\\tag{33}\n$$"
+        ]
+      ]
+    },
+    "b_147": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "These features are passed through <ENT_081> layers to provide various predictions as updated object-embedding, updated box-encoding, and the object class."
+        ],
+        [
+          2,
+          "This process eases the learning of the cross-attention module by focusing on sparse areas and then spreading to global regions."
+        ]
+      ]
+    },
+    "b_148": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_049>."
+        ],
+        [
+          2,
+          "<ENT_027>"
+        ]
+      ]
+    }
+  }
+}

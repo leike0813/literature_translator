@@ -1,0 +1,50 @@
+{
+  "batch_id": "batch_0002",
+  "block_ids": [
+    "b_012",
+    "b_017"
+  ],
+  "total_chars": 683,
+  "blocks": {
+    "b_012": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "Academic Editor: Liang-Jian Deng Received: 16 August <NUM_005> Revised: 24 September <NUM_005> Accepted: 26 September <NUM_005> Published: 1 October <NUM_005> Citation: <ENT_002>, T.; <ENT_005>, K.A.; <ENT_004>, M.; <ENT_003>, D.; <ENT_006>, M.Z. Object Detection with <ENT_001>: A Review."
+        ],
+        [
+          2,
+          "<ENT_009> <NUM_005>, 25, <NUM_006>. <URL_001> Copyright: © <NUM_005> by the authors."
+        ],
+        [
+          3,
+          "Licensee <ENT_010>, Basel, Switzerland."
+        ],
+        [
+          4,
+          "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<URL_002> nses/by/<NUM_007>/)."
+        ],
+        [
+          5,
+          "Keywords: transformer; object detection; <ENT_008>; computer vision; deep neural networks"
+        ]
+      ]
+    },
+    "b_017": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## 1."
+        ],
+        [
+          2,
+          "Introduction"
+        ]
+      ]
+    }
+  }
+}

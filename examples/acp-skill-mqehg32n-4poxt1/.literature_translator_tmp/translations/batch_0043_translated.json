@@ -1,0 +1,50 @@
+{
+  "batch_id": "batch_0043",
+  "original_batch": "batch_0043",
+  "blocks": {
+    "b_142": {
+      "type": "equation",
+      "sentences": [
+        "$$\nq e ^ { * } = M H S A t t n ( q e , q e , q e ) .\\tag{31}\n$$"
+      ]
+    },
+    "b_143": {
+      "type": "paragraph",
+      "sentences": [
+        "然后，这些查询嵌入通过全连接层（动态滤波器）传递，如下所示："
+      ]
+    },
+    "b_144": {
+      "type": "equation",
+      "sentences": [
+        "$$\nF i l t e r ^ { q e } = F C ( q e ^ { * } ) .\\tag{32}\n$$"
+      ]
+    },
+    "b_145": {
+      "type": "paragraph",
+      "sentences": [
+        "最后，使用动态滤波器<MATH_104>通过1×1卷积执行特征与目标查询之间的交叉注意力"
+      ]
+    },
+    "b_146": {
+      "type": "equation",
+      "sentences": [
+        "$$\nq e ^ { F } = C o n _ { 1 \\times 1 } ( F , F i l t e r ^ { q e } ) .\\tag{33}\n$$"
+      ]
+    },
+    "b_147": {
+      "type": "paragraph",
+      "sentences": [
+        "这些特征通过<ENT_081>层传递，以提供多种预测结果，包括更新的目标嵌入、更新的框编码和目标类别。",
+        "该过程通过先聚焦稀疏区域再扩展到全局区域，简化了交叉注意力模块的学习。"
+      ]
+    },
+    "b_148": {
+      "type": "heading",
+      "sentences": [
+        "## <NUM_049>.",
+        "<ENT_027>"
+      ]
+    }
+  }
+}

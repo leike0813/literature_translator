@@ -1,0 +1,55 @@
+{
+  "batch_id": "batch_0025",
+  "block_ids": [
+    "b_067"
+  ],
+  "total_chars": 1622,
+  "blocks": {
+    "b_067": {
+      "type": "paragraph",
+      "sentence_count": 10,
+      "sentences": [
+        [
+          1,
+          "Multi-Scale Feature Maps: High-resolution input image features increase the network efficiency, specifically for small objects."
+        ],
+        [
+          2,
+          "However, this is computationally expensive."
+        ],
+        [
+          3,
+          "<ENT_016> provides high-resolution features without affecting the computation."
+        ],
+        [
+          4,
+          "It uses a feature pyramid containing high and low-resolution features rather than the original high-resolution input image feature map."
+        ],
+        [
+          5,
+          "This feature pyramid has an input image resolution of <MATH_039> and 1/32 and contains its relative positional embeddings."
+        ],
+        [
+          6,
+          "Furthermore, <ENT_016> replaces the attention module in <ENT_008> with the multi-scale deformable attention module to reduce computational complexity and improve performance."
+        ],
+        [
+          7,
+          "While <ENT_016> accelerates training and improves small object detection, designing effective sampling offsets and managing multi-scale feature interactions remain critical to achieving optimal performance."
+        ],
+        [
+          8,
+          "Algorithm 1 illustrates the step-by-step implementation of the multi-scale deformable attention mechanism, complementing the mathematical formulation presented above."
+        ],
+        [
+          9,
+          "Algorithm 1: Multi-scale deformable attention in <ENT_016>."
+        ],
+        [
+          10,
+          "Input: Feature maps <MATH_040> , Query features <MATH_041> Reference points <MATH_042> Sampling offsets <MATH_043> Output: Updated query features <MATH_044> 1 for each query <MATH_045> do 2 Initialize attention result <MATH_046> 3 for each attention head <MATH_047> do 4 for each sampling point <MATH_048> to K do 5 Compute sampling location: <MATH_049> 6 Interpolate feature: <MATH_050> SampleFeature <MATH_051> 7 Update attention: <MATH_052> 8 Aggregate z across heads and update <MATH_053> 9 return <MATH_044>"
+        ]
+      ]
+    }
+  }
+}

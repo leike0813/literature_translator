@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch_0090",
+  "block_ids": [
+    "b_312"
+  ],
+  "total_chars": 378,
+  "blocks": {
+    "b_312": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of <ENT_010> and/or the editor(s)."
+        ],
+        [
+          2,
+          "<ENT_010> and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "batch_id": "batch_0059",
+  "block_ids": [
+    "b_202",
+    "b_203",
+    "b_204"
+  ],
+  "total_chars": 1328,
+  "blocks": {
+    "b_202": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "where <MATH_137> ."
+        ],
+        [
+          2,
+          "The <MATH_138> indicates the boxk is inside the <MATH_139> and <MATH_140> represents no overlapping between bo <MATH_141> and boxl."
+        ],
+        [
+          3,
+          "This position vector is updated at every stage of the decoder network."
+        ],
+        [
+          4,
+          "The <ENT_032> decoder module takes a content vector and a positional vector as input object queries."
+        ],
+        [
+          5,
+          "For this, multi-scale features taken from the <ENT_015> backbone are converted into a 3D feature space, as the decoder should consider <MATH_133> space as well as be adjustable in terms of scales of detected objects."
+        ],
+        [
+          6,
+          "It takes the sampled features from this feature space as input."
+        ],
+        [
+          7,
+          "It applies the <ENT_032> mechanism to provide final predictions of input queries without using an encoder network to reduce the computational complexity of detection transformers."
+        ]
+      ]
+    },
+    "b_203": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_064>."
+        ],
+        [
+          2,
+          "<ENT_031>"
+        ]
+      ]
+    },
+    "b_204": {
+      "type": "paragraph",
+      "sentence_count": 6,
+      "sentences": [
+        [
+          1,
+          "<ENT_031> <REF_026> proposes an <ENT_035>-based method for detection refinement to improve the attention mechanism in <ENT_008>."
+        ],
+        [
+          2,
+          "In <FIG_009>, the purple color block denotes <ENT_031>."
+        ],
+        [
+          3,
+          "It contains two main modules: a multi-level recurrent mechanism and a glimpse-based decoder."
+        ],
+        [
+          4,
+          "In the multi-level recurrent mechanism, bounding boxes detected in the previous level are considered to get glimpse features."
+        ],
+        [
+          5,
+          "These are converted into refined attention using earlier attention in describing objects."
+        ],
+        [
+          6,
+          "The k-th processing level is as follows:"
+        ]
+      ]
+    }
+  }
+}

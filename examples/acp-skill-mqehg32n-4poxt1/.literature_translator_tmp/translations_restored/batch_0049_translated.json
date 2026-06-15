@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch_0049",
+  "original_batch": "batch_0049",
+  "blocks": {
+    "b_165": {
+      "type": "paragraph",
+      "sentences": [
+        "其中DeformAttn为可变形注意力，FFN为前馈网络，LN为层归一化。",
+        "然后，解码器交叉注意力图（DAM）累积解码器目标查询的注意力权重，网络通过最小化预测与二值化DAM之间的损失进行训练，如下所示："
+      ]
+    },
+    "b_166": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathcal { L } _ { d a m } = \\frac { - 1 } { M } \\sum _ { k = 1 } ^ { M } B C E L o s s ( s n ( x _ { f } ) , D A M _ { k } ^ { b } ) ,\\tag{38}\n$$"
+      ]
+    },
+    "b_167": {
+      "type": "paragraph",
+      "sentences": [
+        "其中BCELoss为二元交叉熵（BCE）损失，$D A M _ { k } ^ { b }$为编码器令牌的第k个二值化DAM值，sn为评分网络。",
+        "通过这种方式，sparse-DETR通过显著减少编码器令牌来最小化计算量。"
+      ]
+    },
+    "b_168": {
+      "type": "heading",
+      "sentences": [
+        "## 3.14.",
+        "$D ^ { 2 }$ ETR"
+      ]
+    }
+  }
+}

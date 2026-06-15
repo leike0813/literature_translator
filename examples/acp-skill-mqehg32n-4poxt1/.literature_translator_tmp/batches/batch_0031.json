@@ -1,0 +1,64 @@
+{
+  "batch_id": "batch_0031",
+  "block_ids": [
+    "b_086",
+    "b_087",
+    "b_088",
+    "b_089"
+  ],
+  "total_chars": 1059,
+  "blocks": {
+    "b_086": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "where object query q provides a prediction center in normalized form by a sigmoid activation function after two layers of <ENT_074>."
+        ],
+        [
+          2,
+          "These predicted centers are un-normalized to obtain the input image’s center coordinates <MATH_067> and <MATH_068> ."
+        ],
+        [
+          3,
+          "The object query also estimates the object scales as <MATH_069> and <MATH_070> ."
+        ],
+        [
+          4,
+          "After the prediction of the object scale and center, <ENT_072> provides a Gaussian-like weight map as follows:"
+        ]
+      ]
+    },
+    "b_087": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbf { W } ( x , y ) = e x p \\left( - \\frac { ( x - e _ { w _ { i } } ) ^ { 2 } } { \\beta l _ { w _ { i } } ^ { 2 } } - \\frac { ( y - e _ { h _ { i } } ) ^ { 2 } } { \\beta l _ { h _ { i } } ^ { 2 } } \\right) ,\\tag{12}\n$$"
+        ]
+      ]
+    },
+    "b_088": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "where <MATH_071> is the hyperparameter to regulate the bandwidth, and <MATH_072> is the spatial parameter of weight map W. It provides high attention to spatial locations closer to the center and low attention to spatial locations away from the center."
+        ]
+      ]
+    },
+    "b_089": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nA _ { i } = S o f t m a x ( \\frac { q _ { i } k _ { i } ^ { T } } { \\sqrt { d } } + \\mathbf { l o g } \\mathbf { W } ) v _ { i } .\\tag{13}\n$$"
+        ]
+      ]
+    }
+  }
+}

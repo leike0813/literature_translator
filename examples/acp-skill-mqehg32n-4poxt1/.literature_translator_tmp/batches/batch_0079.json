@@ -1,0 +1,83 @@
+{
+  "batch_id": "batch_0079",
+  "block_ids": [
+    "b_252"
+  ],
+  "total_chars": 3134,
+  "blocks": {
+    "b_252": {
+      "type": "paragraph",
+      "sentence_count": 17,
+      "sentences": [
+        [
+          1,
+          "Detection transformers have transformed object detection by enabling fully end-to-end models that eliminate the need for proposal generation and complex post-processing, while also providing insights into the inner workings of deep neural networks."
+        ],
+        [
+          2,
+          "This review presented a detailed overview of <ENT_008> and its variants, focusing on recent advancements designed to improve performance and training convergence."
+        ],
+        [
+          3,
+          "In particular, modifications to the attention module in the encoder–decoder network and updates to object queries have enhanced training stability and performance, especially for small objects."
+        ],
+        [
+          4,
+          "Other improvements include backbone refinements, query design enhancements, and attention mechanism optimizations, all of which contribute to better accuracy and efficiency."
+        ],
+        [
+          5,
+          "From this survey, several high-level patterns emerge."
+        ],
+        [
+          6,
+          "Slow convergence and limited small-object detection remain central challenges, driving innovations in attention mechanisms, query design, and backbone architecture."
+        ],
+        [
+          7,
+          "Across <ENT_008> variants, commonalities include the use of transformer-based attention, modular encoder–decoder design, and strategies to increase positive supervision, while differences arise in how variants balance accuracy versus efficiency, implement multi-scale feature fusion, and assign object queries."
+        ],
+        [
+          8,
+          "Research diverges along two primary paths: accuracy-focused methods leverage deeper backbones and extensive pre-training, while efficiency-oriented approaches adopt lightweight, sparse, or deformable architectures such as <ENT_039> and <ENT_037>, which achieve competitive performance with lower computational cost."
+        ],
+        [
+          9,
+          "Recent trends further emphasize efficiency, multitask learning, and cross-modal integration, enabling faster convergence, improved generalization, and broader scene understanding that encompasses detection, segmentation, tracking, and vision–language reasoning."
+        ],
+        [
+          10,
+          "Key insights from this survey indicate that model design is increasingly shaped by the trade-off between real-time deployment and high accuracy, and that modular, adaptive architectures are central to achieving this balance."
+        ],
+        [
+          11,
+          "Overall, <ENT_008> has evolved into a modular and flexible framework capable of balancing accuracy and efficiency."
+        ],
+        [
+          12,
+          "Future directions point toward adaptive architectures that dynamically allocate computational resources based on input complexity, robust training strategies for challenging environments, and richer contextual reasoning through multimodal integration."
+        ],
+        [
+          13,
+          "By uniting architectural innovation with practical deployment considerations, transformers are poised to drive the next generation of scalable, intelligent, and versatile visual perception systems."
+        ],
+        [
+          14,
+          "Author Contributions: writing, review and editing , T.S.; review , K.A.H. and M.Z.A.; supervision and project administration, M.L. and D.S. All authors have read and agreed to the published version of the manuscript."
+        ],
+        [
+          15,
+          "Funding: The work was partially funded by the European project AIRISE under Grant Agreement ID <NUM_324>."
+        ],
+        [
+          16,
+          "Acknowledgments: All included in this paper have consented to the acknowledgment."
+        ],
+        [
+          17,
+          "Conflicts of Interest: The authors declare no conflict of interest."
+        ]
+      ]
+    }
+  }
+}

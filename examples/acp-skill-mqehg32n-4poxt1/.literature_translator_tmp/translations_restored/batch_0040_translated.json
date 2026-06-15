@@ -1,0 +1,62 @@
+{
+  "batch_id": "batch_0040",
+  "original_batch": "batch_0040",
+  "blocks": {
+    "b_126": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { \\dot { \\mathbf { v } } _ { b } = \\mathbf { v _ { b } } \\mathbf { w } ^ { \\mathbf { p } } . } \\end{array}\\tag{25}\n$$"
+      ]
+    },
+    "b_127": {
+      "type": "paragraph",
+      "sentences": [
+        "聚合权重在未采样区域上通过Softmax进行归一化，如下所示："
+      ]
+    },
+    "b_128": {
+      "type": "equation",
+      "sentences": [
+        "$$\na _ { b m } = \\frac { e _ { b m } ^ { a } } { \\sum _ { \\hat { b } = 1 } ^ { N - Z } e ^ { a } \\hat { b } m } .\\tag{26}\n$$"
+      ]
+    },
+    "b_129": {
+      "type": "paragraph",
+      "sentences": [
+        "通过使用归一化聚合权重，获得新的特征向量为未采样区域提供信息："
+      ]
+    },
+    "b_130": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbf { v } _ { m } = \\sum _ { b = 1 } ^ { Z - N } \\hat { \\mathbf { v } } _ { b } \\times a _ { b m } .\\tag{27}\n$$"
+      ]
+    },
+    "b_131": {
+      "type": "paragraph",
+      "sentences": [
+        "考虑所有Z个聚合权重，粗粒度背景上下文特征向量如下："
+      ]
+    },
+    "b_132": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbb { V } _ { c } = \\{ \\mathbf { v } _ { m } , | b = 1 , . . . , M _ { b } \\} .\\tag{28}\n$$"
+      ]
+    },
+    "b_133": {
+      "type": "paragraph",
+      "sentences": [
+        "池化采样器利用聚合权重在不同尺度上提供上下文信息。",
+        "此处，部分特征向量可能提供局部上下文，而其他特征向量可能捕获全局上下文。"
+      ]
+    },
+    "b_134": {
+      "type": "heading",
+      "sentences": [
+        "## 3.10.",
+        "Dynamic-DETR"
+      ]
+    }
+  }
+}

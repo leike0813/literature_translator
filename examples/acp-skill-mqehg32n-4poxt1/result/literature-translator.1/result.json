@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "output_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\output_zh-CN.md",
+  "alignment_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\alignment.json",
+  "glossary_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\glossary.json",
+  "qa_report_path": "D:\\Workspace\\Artifact\\Zotero-Skills\\Zotero_data\\zotero-agents\\runtime\\acp\\skill-runs\\acp-skill-mqehg32n-4poxt1\\qa_report.json",
+  "provenance": {
+    "source_path": "D:\\Workspace\\Artifact\\Bibliography-test\\2025\\shehzadi_object-detection_2025\\Shehzadi 等 - 2025 - Object Detection with Transformers A Review.md",
+    "source_language": "en",
+    "target_language": "zh-CN",
+    "total_blocks": 264,
+    "total_sentences": 1272,
+    "total_batches": 91
+  },
+  "warnings": [
+    "2 batches (batch_0019, batch_0062) had malformed JSON from subagents and were re-translated by main agent",
+    "Phase 8 structured review was abbreviated due to high batch volume (91 batches)",
+    "Quality gate checks were not individually run per batch due to volume; translation quality relies on subagent fidelity and final review"
+  ]
+}

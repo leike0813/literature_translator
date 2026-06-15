@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch_0065",
+  "block_ids": [
+    "b_226",
+    "b_227"
+  ],
+  "total_chars": 1400,
+  "blocks": {
+    "b_226": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "<ENT_037> <REF_029> is a lightweight, transformer-based object detection model designed for high accuracy and real-time performance."
+        ],
+        [
+          2,
+          "It streamlines the standard <ENT_008> architecture by using an optimized vision transformer (<ENT_038>) encoder and a shallow decoder."
+        ],
+        [
+          3,
+          "The model first processes an input image by breaking it into patches and extracting features through the encoder."
+        ],
+        [
+          4,
+          "These features are then refined via a convolutional projection layer before being passed to the decoder, which uses a set of object queries to predict bounding boxes and class labels."
+        ],
+        [
+          5,
+          "In <FIG_010>, the blue block indicates <ENT_037>."
+        ],
+        [
+          6,
+          "<ENT_037> further improves efficiency through several strategies: interleaved window and global attention reduce the complexity of self-attention, multi-level feature aggregation captures richer representations, and window-major feature map organization optimizes attention computation."
+        ],
+        [
+          7,
+          "During training, the model employs deformable cross-attention to focus on relevant regions, IoUaware classification loss to enhance localization accuracy, and encoder–decoder pre-training to learn robust features."
+        ],
+        [
+          8,
+          "The total training loss combines classification, bounding box regression, and <ENT_054> losses to guide learning effectively."
+        ]
+      ]
+    },
+    "b_227": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nL _ { \\mathrm { t o t a l } } = L _ { \\mathrm { c l s } } + L _ { \\mathrm { b o x } } + \\lambda _ { \\mathrm { g i o u } } L _ { \\mathrm { G I o U } } ,\\tag{54}\n$$"
+        ]
+      ]
+    }
+  }
+}

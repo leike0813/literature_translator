@@ -1,0 +1,65 @@
+{
+  "batch_id": "batch_0039",
+  "original_batch": "batch_0039",
+  "blocks": {
+    "b_115": {
+      "type": "paragraph",
+      "sentences": [
+        "此处，预测的信息值被视为调制因子，用于对精细特征向量进行采样："
+      ]
+    },
+    "b_116": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbb { V } _ { f } = [ v _ { z } \\times a _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{21}\n$$"
+      ]
+    },
+    "b_117": {
+      "type": "paragraph",
+      "sentences": [
+        "为了使学习稳定，对特征向量进行归一化："
+      ]
+    },
+    "b_118": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbb { V } _ { f } = [ L _ { n o r m } ( v _ { z } ) \\times a _ { z } , | z = 1 , . . . , N _ { s } ] .\\tag{22}\n$$"
+      ]
+    },
+    "b_119": {
+      "type": "paragraph",
+      "sentences": [
+        "此处，$L _ { n o r m }$为层归一化，$N _ { s } = \\alpha Z ,$，其中α为轮询比例因子。",
+        "该采样模块减少了训练计算量。",
+        "池化采样器：池化采样器获取前景目标的精细特征。",
+        "池化采样器压缩背景区域中提供上下文信息的剩余特征向量。",
+        "受双重注意力操作[210]和双线性池化[211]的启发，它执行加权池化以获得少量背景特征$M _ { b }$。",
+        "背景区域的剩余特征向量如下："
+      ]
+    },
+    "b_122": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\mathbb { V } _ { b } = \\mathbb { V } \\backslash \\mathbb { V } _ { f } = \\{ \\mathbf { v } _ { b } , | b = 1 , . . . , Z - N \\} .\\tag{23}\n$$"
+      ]
+    },
+    "b_123": {
+      "type": "paragraph",
+      "sentences": [
+        "聚合权重${ \\bf a _ { b } } \\in \\mathbb { R } ^ { M _ { \\mathrm { b } } }$通过将特征与权值$\\mathbf { w } ^ { s } \\in \\mathbb { R } ^ { c _ { i } \\times M _ { b } }$投影获得，如下所示："
+      ]
+    },
+    "b_124": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { \\mathbf { a } _ { b } = \\mathbf { v } _ { b } \\mathbf { w } ^ { s } . } \\end{array}\\tag{24}\n$$"
+      ]
+    },
+    "b_125": {
+      "type": "paragraph",
+      "sentences": [
+        "具有可学习权重$\\mathbf { w } ^ { p } \\in \\mathbb { R } ^ { c _ { i } \\times c _ { i } }$的投影特征如下获得："
+      ]
+    }
+  }
+}

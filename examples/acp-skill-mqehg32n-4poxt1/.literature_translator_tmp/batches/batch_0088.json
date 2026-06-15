@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch_0088",
+  "block_ids": [
+    "b_309",
+    "b_310"
+  ],
+  "total_chars": 339,
+  "blocks": {
+    "b_309": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "51. Liu, L.; Ouyang, W.; Wang, X.; Fieguth, P.W.; Chen, J.; Liu, X.; Pietikäinen, M. Deep Learning for Generic Object Detection: A Survey. arXiv 2018, arXiv:1809.02165. [CrossRef]"
+        ]
+      ]
+    },
+    "b_310": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "52. Enzweiler, M.; Gavrila, D.M. Monocular Pedestrian Detection: Survey and Experiments. IEEE Trans. Pattern Anal. Mach. Intell. 2009, 31, 2179–2195. [CrossRef]"
+        ]
+      ]
+    }
+  }
+}

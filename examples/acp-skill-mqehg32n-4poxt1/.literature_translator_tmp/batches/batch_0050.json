@@ -1,0 +1,89 @@
+{
+  "batch_id": "batch_0050",
+  "block_ids": [
+    "b_169",
+    "b_170",
+    "b_171"
+  ],
+  "total_chars": 1369,
+  "blocks": {
+    "b_169": {
+      "type": "paragraph",
+      "sentence_count": 13,
+      "sentences": [
+        [
+          1,
+          "Much work <REF_111> has been proposed to make the training convergence faster by modifying the cross-attention module."
+        ],
+        [
+          2,
+          "Many researchers <REF_009> used multi-scale feature maps to improve performance for small objects."
+        ],
+        [
+          3,
+          "However, the solution for high computation complexity has yet to be proposed."
+        ],
+        [
+          4,
+          "<ENT_030> <REF_021> achieves better performance with low computational cost."
+        ],
+        [
+          5,
+          "Without an encoder module, the decoder directly uses the fine-fused feature maps provided by the backbone network with a novel cross-scale attention module."
+        ],
+        [
+          6,
+          "The <ENT_030> contains two main modules: a backbone and a decoder."
+        ],
+        [
+          7,
+          "The backbone network based on a pyramid vision transformer (<ENT_090>) consists of two parallel layers: one for cross-scale interaction and another for intra-scale interaction."
+        ],
+        [
+          8,
+          "This backbone contains four transformer levels to provide multi-scale feature maps."
+        ],
+        [
+          9,
+          "All levels have the same architecture, depending on the basic module of the selected transformer."
+        ],
+        [
+          10,
+          "The backbone also contains three fusing levels in parallel with four transformer levels."
+        ],
+        [
+          11,
+          "These fusing levels provide a cross-scale fusion of input features."
+        ],
+        [
+          12,
+          "The i-th fusing level is shown in the light green block of <FIG_007>."
+        ],
+        [
+          13,
+          "The cross-scale attention is formulated as follows:"
+        ]
+      ]
+    },
+    "b_170": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nf _ { j } = \\mathbf { L } _ { j } ( f _ { j - 1 } ) ,\\tag{39}\n$$"
+        ]
+      ]
+    },
+    "b_171": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nf _ { j } ^ { \\ast } = S A ( f _ { q } , f _ { k } , f _ { v } ) ,\\tag{40}\n$$"
+        ]
+      ]
+    }
+  }
+}

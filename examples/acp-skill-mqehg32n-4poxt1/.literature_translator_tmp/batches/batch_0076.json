@@ -1,0 +1,27 @@
+{
+  "batch_id": "batch_0076",
+  "block_ids": [
+    "b_249"
+  ],
+  "total_chars": 3860,
+  "blocks": {
+    "b_249": {
+      "type": "table",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td>Methods</td><td>Publications</td><td> Advantages</td><td>Limitations</td></tr><tr><td><ENT_017> <REF_010> <ENT_041> <URL_019> <NUM_020></td><td>Pre-training for Multi-tasks learning and Multi-queries localization.</td><td>Pre-training for patch localization, <ENT_015> and transformers pre-training needs to integrate.</td></tr><tr><td><ENT_018> <REF_011></td><td><ENT_046> <NUM_020></td><td>Reduces decoder layers by employing dense and sparse set based network</td><td>Increase in <ENT_110> twice compared to original <ENT_008>.</td></tr><tr><td><ENT_019> <REF_012> <ENT_041> https: //github.com/gaopengcuhk/<ENT_019></td><td><ENT_047> <NUM_020></td><td>Regression-aware mechanism to increase convergence speed</td><td>Low performance in detecting small objects.</td></tr><tr><td><ENT_020> <REF_013> <ENT_041> https: / /github.com/Edward-<ENT_052>/TSP-Detection</td><td><ENT_047> <NUM_020></td><td>Deals with issues of Hungarian loss and the cross-attention mechanism of <ENT_040>.</td><td>Uses proposals in <ENT_042> and feature points in <ENT_043> as in <ENT_015>-based detectors.</td></tr><tr><td><ENT_021> <REF_014><ENT_041> <URL_020> ub.com/Atten4Vis/ConditionalDETR</td><td><ENT_047> <NUM_020></td><td>Conditional queries remove dependency on content embeddings and ease the training.</td><td>Performs beter than <ENT_008> and deformable-<ENT_008> for stronger backbones.</td></tr><tr><td><ENT_022> <REF_015> <ENT_041> <URL_021> <NUM_020></td><td>Pure transformer network without backbone.</td><td>Low performance on small objects.</td></tr><tr><td><ENT_023> <REF_016> <ENT_041> <URL_022> <NUM_020></td><td>Sampling module provides foreground and a small quantity of background features.</td><td>Breaks 2d spatial structure by taking foreground tokens and reducing background tokens.</td></tr><tr><td><ENT_024> <REF_017></td><td><ENT_047> <NUM_020></td><td>Dynamic attention provides small feature resolution and improves training convergence.</td><td>Still dependent on <ENT_015> networks as convolution-based encoder and an ROI-based decoder.</td></tr><tr><td><ENT_027> <REF_018> <ENT_041> <URL_023> <NUM_020></td><td>Convert <ENT_038> pre-trained on <ENT_117> dataset into Object detector.</td><td>Pre-trained <ENT_038> still needs improvements as it requires long training epochs.</td></tr><tr><td><ENT_025> <REF_019> <ENT_041> htps://github.c om/megvii-research/AnchorDETR</td><td><ENT_050> <NUM_021></td><td>Object queries as anchor points that predict multiple objects at one position.</td><td>Consider queries as 2D anchor points which ignore object scale.</td></tr><tr><td>Spare-<ENT_008> <REF_020> <ENT_041> https: //github.com/kakaobrain/sparse-detr</td><td><ENT_049> <NUM_021></td><td>Improve performance by updating tokens referenced by the decoder.</td><td>Performance is strongly dependent on the backbone specifically for large objects.</td></tr><tr><td>D²ETR <REF_021> <ENT_041> <URL_024> baba/easyrobust/tree/main/ddetr</td><td><ENT_046> <NUM_021></td><td>Decoder-only transformer network to reduce computational cost.</td><td>Decreases computation comlexity significantly but has low performance on small objects.</td></tr><tr><td><ENT_028> <REF_022> <ENT_041> https: // github.com/encounter1997/<ENT_028></td><td><ENT_049> <NUM_021></td><td>Pre-Training of the encoder-only transformer.</td><td>Low performance on large objects.</td></tr><tr><td><ENT_029> <REF_023> <ENT_041> <URL_025> <NUM_021></td><td>Refine coarse features to improve localization accuracy of small objects.</td><td>Addition of three new modules increase network size.</td></tr><tr><td><ENT_044> <REF_038> <ENT_041> https: // github.com/IDEA-Research/<ENT_044></td><td><ENT_049> <NUM_021></td><td>Anchor-boxes as queries, attention for different scale objects.</td><td>Positional prior for only foreground objects.</td></tr></table>"
+        ],
+        [
+          2,
+          "<TBL_004>."
+        ],
+        [
+          3,
+          "Cont."
+        ]
+      ]
+    }
+  }
+}

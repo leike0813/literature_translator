@@ -1,0 +1,79 @@
+{
+  "batch_id": "batch_0057",
+  "block_ids": [
+    "b_189",
+    "b_191",
+    "b_192",
+    "b_194",
+    "b_195"
+  ],
+  "total_chars": 1359,
+  "blocks": {
+    "b_189": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "<ENT_032> <REF_025> considers the encoder an extra network between the backbone and decoder that limits the performance and slows the training convergence because of its design complexity."
+        ],
+        [
+          2,
+          "<ENT_032> provides a detection transformer network without an encoder."
+        ],
+        [
+          3,
+          "In <FIG_008>, the light green box represents <ENT_032>."
+        ],
+        [
+          4,
+          "The main modules of <ENT_032> are explained as follows."
+        ],
+        [
+          5,
+          "Three-dimensional feature space: For the 3D feature space, the input feature map from the <ENT_015> backbone with the downsampling stride <MATH_125> is first transformed by a linear layer to the same <MATH_126> channel and computed the coordinate of its z-axis as follows:"
+        ]
+      ]
+    },
+    "b_191": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nz _ { i } ^ { f } = l o g _ { 2 } ( s _ { i } ^ { f } / s _ { b } ) ,\\tag{43}\n$$"
+        ]
+      ]
+    },
+    "b_192": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "where the height <MATH_015> and width <MATH_016> of feature maps (different strides) is rescaled to <MATH_127> and <MATH_128> , where <MATH_129> Three-dimensional feature-sampling process: In the sampling process, the query generates <MATH_130> groups of vectors to <MATH_130> points, <MATH_131> , where each vector is dependent on its content vector <MATH_078> by a linear layer <MATH_132> as follows:"
+        ]
+      ]
+    },
+    "b_194": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n( \\Delta x _ { j } , \\Delta y _ { j } , \\Delta z _ { j } ) I _ { p } = L _ { i } ( q _ { i } ) .\\tag{44}\n$$"
+        ]
+      ]
+    },
+    "b_195": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "These offset values are converted into sampling positions with regard to the position vector of the object query as follows:"
+        ]
+      ]
+    }
+  }
+}

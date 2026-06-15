@@ -1,0 +1,85 @@
+{
+  "batch_id": "batch_0053",
+  "block_ids": [
+    "b_178",
+    "b_179",
+    "b_180"
+  ],
+  "total_chars": 1259,
+  "blocks": {
+    "b_178": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_059>."
+        ],
+        [
+          2,
+          "<ENT_029>"
+        ]
+      ]
+    },
+    "b_179": {
+      "type": "paragraph",
+      "sentence_count": 10,
+      "sentences": [
+        [
+          1,
+          "<ENT_029> <REF_023> observes that <ENT_057>-style metric average precision (<ENT_092>) results for small objects on detection transformers at low <ENT_054> threshold values are better than CNNbased detectors."
+        ],
+        [
+          2,
+          "It refines the predicted locations by utilizing local information, as incorrect bounding box location reduces performance on small objects."
+        ],
+        [
+          3,
+          "<ENT_029> introduces the transformer-enhanced <ENT_075> (<ENT_051>) module, coarse layers, and fine layers into the decoder network of <ENT_008>."
+        ],
+        [
+          4,
+          "In <FIG_007>, the blue box represents <ENT_029>."
+        ],
+        [
+          5,
+          "The <ENT_051> module provides the same functionality as <ENT_075>, has non-local features E4 and E4 extracted from the backbone, and E5 features taken from the encoder output."
+        ],
+        [
+          6,
+          "The features of the <ENT_051> module and the encoder network are fed to the decoder as input."
+        ],
+        [
+          7,
+          "The decoder modules introduce a coarse block and a fine block."
+        ],
+        [
+          8,
+          "The coarse block selects foreground features from the global context."
+        ],
+        [
+          9,
+          "The fine block has two modules: adaptive scale-fusion (<ENT_093>) and local cross-attention (<ENT_094>), further refining coarse boxes."
+        ],
+        [
+          10,
+          "In summary, these modules refine and enrich the features by fusing global and local information to improve detection transformer performance."
+        ]
+      ]
+    },
+    "b_180": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_060>."
+        ],
+        [
+          2,
+          "<ENT_044>"
+        ]
+      ]
+    }
+  }
+}

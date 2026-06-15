@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch_0053",
+  "original_batch": "batch_0053",
+  "blocks": {
+    "b_178": {
+      "type": "heading",
+      "sentences": [
+        "## 3.16.",
+        "CF-DETR"
+      ]
+    },
+    "b_179": {
+      "type": "paragraph",
+      "sentences": [
+        "CF-DETR [34]观察到在低IoU阈值下，检测Transformer上基于COCO风格的度量平均精度（AP）对小目标的结果优于基于CNN的检测器。",
+        "它通过利用局部信息来细化预测位置，因为不正确的边界框位置会降低小目标的性能。",
+        "CF-DETR将Transformer增强的FPN（TEF）模块、粗层和细层引入DETR的解码器网络。",
+        "在Figure 7中，蓝色方块表示CF-DETR。",
+        "TEF模块提供与FPN相同的功能，具有从骨干网络提取的非局部特征E4和E4，以及从编码器输出获取的E5特征。",
+        "TEF模块和编码器网络的特征作为输入送入解码器。",
+        "解码器模块引入了粗块和细块。",
+        "粗块从全局上下文中选择前景特征。",
+        "细块包含两个模块：自适应尺度融合（ASF）和局部交叉注意力（LCA），进一步细化粗框。",
+        "总之，这些模块通过融合全局和局部信息来细化和丰富特征，以提升检测Transformer的性能。"
+      ]
+    },
+    "b_180": {
+      "type": "heading",
+      "sentences": [
+        "## 3.17.",
+        "DAB-DETR"
+      ]
+    }
+  }
+}

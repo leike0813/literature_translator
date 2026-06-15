@@ -1,0 +1,13 @@
+{
+  "total_blocks": 261,
+  "by_type": {
+    "bib_item": 52,
+    "equation": 54,
+    "figure_caption": 15,
+    "heading": 38,
+    "list": 1,
+    "paragraph": 90,
+    "table": 8,
+    "table_caption": 3
+  }
+}

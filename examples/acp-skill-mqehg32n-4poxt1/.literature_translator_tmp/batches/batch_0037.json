@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0037",
+  "block_ids": [
+    "b_105",
+    "b_106",
+    "b_107"
+  ],
+  "total_chars": 1004,
+  "blocks": {
+    "b_105": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "where reshape function reorganizes <MATH_083> patches into <MATH_084> feature maps."
+        ],
+        [
+          2,
+          "The term stretch denotes unfolding <MATH_084> feature maps to <MATH_085> patches."
+        ],
+        [
+          3,
+          "Here, the fully connected layer parameters are <MATH_086> , and <MATH_087> ."
+        ],
+        [
+          4,
+          "The <ENT_082> activation is its non-linear map function, and the sig generates the final attention."
+        ],
+        [
+          5,
+          "The channel attention in this module provides local information as the relationship between the channels of the patches is the same as the spatial relation in the pixels of the feature maps."
+        ]
+      ]
+    },
+    "b_106": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/c3ab6bc56c1b38c<NUM_046>fd30c9cebab649faa4a81bb0637a11c0fbd75f681c16.jpg) <FIG_005>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_022> <REF_015>, <ENT_023> <REF_016>, and <ENT_024> <REF_017>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The Magenta block indicates <ENT_022>, the blue block indicates <ENT_023>, and the green box represents <ENT_024>."
+        ]
+      ]
+    },
+    "b_107": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_047>."
+        ],
+        [
+          2,
+          "<ENT_023>"
+        ]
+      ]
+    }
+  }
+}

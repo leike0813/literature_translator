@@ -1,0 +1,96 @@
+{
+  "batch_id": "batch_0080",
+  "block_ids": [
+    "b_258",
+    "b_259",
+    "b_260",
+    "b_261",
+    "b_262",
+    "b_263",
+    "b_264",
+    "b_265"
+  ],
+  "total_chars": 1346,
+  "blocks": {
+    "b_258": {
+      "type": "heading",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "## References"
+        ]
+      ]
+    },
+    "b_259": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "1. Ren, S.; He, K.; Girshick, R.B.; Sun, J. Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks. arXiv 2015, arXiv:1506.01497. [CrossRef]"
+        ]
+      ]
+    },
+    "b_260": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "2. Girshick, R.B. Fast R-CNN. arXiv 2015, arXiv:1504.08083. [CrossRef]"
+        ]
+      ]
+    },
+    "b_261": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "3. Redmon, J.; Farhadi, A. YOLOv3: An Incremental Improvement. arXiv 2018, arXiv:1804.02767. [CrossRef]"
+        ]
+      ]
+    },
+    "b_262": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "4. Lin, T.; Goyal, P.; Girshick, R.B.; He, K.; Dollár, P. Focal Loss for Dense Object Detection. arXiv 2017, arXiv:1708.02002."
+        ]
+      ]
+    },
+    "b_263": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "5. Shehzadi, T.; Majid, A.; Hameed, M.; Farooq, A.; Yousaf, A. Intelligent predictor using cancer-related biologically information extraction from cancer transcriptomes. In Proceedings of the 2020 International Symposium on Recent Advances in Electrical Engineering & Computer Sciences (RAEE & CS), Islamabad, Pakistan, 20–22 October 2020; Volume 5, pp. 1–5. [CrossRef]"
+        ]
+      ]
+    },
+    "b_264": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "6. Sarode, S.; Khan, M.S.U.; Shehzadi, T.; Stricker, D.; Afzal, M.Z. Classroom-Inspired Multi-mentor Distillation with Adaptive Learning Strategies. In Proceedings of the Intelligent Systems and Applications, Amsterdam, The Netherlands, 27–28 August 2025; Arai, K., Ed.; Springer Nature: Cham, Switzerland, 2025; pp. 294–324. [CrossRef]"
+        ]
+      ]
+    },
+    "b_265": {
+      "type": "bib_item",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "7. Girshick, R.B.; Donahue, J.; Darrell, T.; Malik, J. Rich feature hierarchies for accurate object detection and semantic segmentation. arXiv 2013, arXiv:1311.2524."
+        ]
+      ]
+    }
+  }
+}

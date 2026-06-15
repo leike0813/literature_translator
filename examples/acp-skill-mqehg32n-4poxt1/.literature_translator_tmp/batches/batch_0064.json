@@ -1,0 +1,65 @@
+{
+  "batch_id": "batch_0064",
+  "block_ids": [
+    "b_223",
+    "b_224",
+    "b_225"
+  ],
+  "total_chars": 1058,
+  "blocks": {
+    "b_223": {
+      "type": "paragraph",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "where LDET is the standard <ENT_008> loss and <MATH_161> represents the one-to-many assignment loss from each auxiliary head."
+        ],
+        [
+          2,
+          "This hybrid assignment improves gradient flow by increasing the number of positive samples per batch, enhances encoder supervision through additional feedback signals, and leads to better detection performance on benchmarks such as <ENT_057> and <ENT_099>."
+        ],
+        [
+          3,
+          "By enriching training supervision without altering the inference process, <ENT_036> enables faster convergence, more effective learning, and higher accuracy in DETRbased object detectors."
+        ]
+      ]
+    },
+    "b_224": {
+      "type": "figure_caption",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "![](Images_GFP684MN/d02651a8<NUM_070>5ff<NUM_069>c712f509c9644f1df46a487bdd3f97671c2cea1fc.jpg) <FIG_010>."
+        ],
+        [
+          2,
+          "The structure of the original <ENT_008> after the addition of <ENT_036> <REF_026>, <ENT_039>, and <ENT_037> <REF_027>."
+        ],
+        [
+          3,
+          "Here, the network is a simple <ENT_008> network, along with improvement indicated with small colored boxes."
+        ],
+        [
+          4,
+          "The light red indicator block represents <ENT_036>, blue color block indicates <ENT_037>, and the purple color block indicates <ENT_039>."
+        ]
+      ]
+    },
+    "b_225": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_071>."
+        ],
+        [
+          2,
+          "<ENT_037>"
+        ]
+      ]
+    }
+  }
+}

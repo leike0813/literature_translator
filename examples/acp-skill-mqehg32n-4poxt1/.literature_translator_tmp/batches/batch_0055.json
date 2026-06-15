@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0055",
+  "block_ids": [
+    "b_183",
+    "b_184",
+    "b_185"
+  ],
+  "total_chars": 1468,
+  "blocks": {
+    "b_183": {
+      "type": "paragraph",
+      "sentence_count": 5,
+      "sentences": [
+        [
+          1,
+          "The decoder network contains two main networks: a self-attention network to update queries and a cross-attention network to find feature probing."
+        ],
+        [
+          2,
+          "The difference between the self-attention of the original <ENT_008> and <ENT_044> is that the query and key matrices also have position information taken from bounding box coordinates."
+        ],
+        [
+          3,
+          "The cross-attention module concatenates the position and content information in key and query matrices and determines their corresponding heads."
+        ],
+        [
+          4,
+          "The decoder takes input embeddings as content queries and anchor boxes as positional queries to find object probabilities related to anchors and content queries."
+        ],
+        [
+          5,
+          "This way, dynamic box coordinates used as object queries provide better prediction, making the training convergence faster and increasing detection results for small objects."
+        ]
+      ]
+    },
+    "b_184": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_062>."
+        ],
+        [
+          2,
+          "<ENT_033>"
+        ]
+      ]
+    },
+    "b_185": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "<ENT_033> <REF_024> uses noised object queries as an additional decoder input to reduce the instability of the bipartite-matching mechanism in <ENT_008>, which causes the slow convergence problem."
+        ],
+        [
+          2,
+          "In <FIG_008>, the dark green block indicates <ENT_033>."
+        ],
+        [
+          3,
+          "The decoder queries have two parts: the denoising part, containing noised ground-truth box-label pairs as input, and the matching part, containing learnable anchors as input."
+        ],
+        [
+          4,
+          "The matching part <MATH_123> determines the resemblance between the ground-truth label pairs and the decoder output, while the denoising part <MATH_124> attempts to reconstruct the ground-truth objects as follows:"
+        ]
+      ]
+    }
+  }
+}

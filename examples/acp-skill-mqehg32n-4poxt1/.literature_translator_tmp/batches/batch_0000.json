@@ -1,0 +1,52 @@
+{
+  "batch_id": "batch_0000",
+  "block_ids": [
+    "b_001",
+    "b_002",
+    "b_003",
+    "b_009"
+  ],
+  "total_chars": 697,
+  "blocks": {
+    "b_001": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "Review"
+        ]
+      ]
+    },
+    "b_002": {
+      "type": "heading",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "# Object Detection with <ENT_001>: A Review"
+        ]
+      ]
+    },
+    "b_003": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "Tahira <ENT_002> 1,2,3,\\* , Khurram Azeem <ENT_005> 1,2,3 , Marcus <ENT_004> 4 , Didier <ENT_003> 1,2,3 and Muhammad Zeshan <ENT_006> 1,2,3 Department of Computer Science, Technical University of Kaiserslautern, <NUM_001> Kaiserslautern, Germany; muhammad\\_zeshan.afzal@dfki.de (M.Z.A.) 2 Mindgarage Lab, Technical University of Kaiserslautern, <NUM_001> Kaiserslautern, Germany 3 German Research Institute for Artificial Intelligence (DFKI), <NUM_001> Kaiserslautern, Germany 4 Department of Computer Science, Electrical and Space Engineering, Luleå University of Technology, 971 87 Luleå, Sweden Correspondence: tahira.shehzadi@dfki.de"
+        ]
+      ]
+    },
+    "b_009": {
+      "type": "heading",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "## Abstract"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch_0010",
+  "original_batch": "batch_0010",
+  "blocks": {
+    "b_033": {
+      "type": "table",
+      "sentences": [
+        "<table><tr><td>标题</td><td>年份</td><td>发表场所</td><td>描述</td></tr><tr><td>Advanced Deep-Learning Techniques forSalient and Category-SpecificObject Detection: ASurvey<REF_039></td><td><NUM_024></td><td>SPM</td><td>提供了不同目标检测领域的概述，包括目标检测（OD）、显著目标检测（SOD）和特定类别检测。</td></tr><tr><td>Object Detection in 20 Years: A Survey <REF_040></td><td><NUM_025></td><td><ENT_055></td><td>本文概述了目标检测器的发展历程。</td></tr><tr><td>Deep Learning for Generic Object Detection: A Survey <REF_041></td><td><NUM_025></td><td><ENT_056></td><td>关于通用目标检测深度学习技术的综述。</td></tr><tr><td>A Survey on Deep Learning-based Architectures for Semantic Segmentationon2Dimages <REF_042></td><td><NUM_008></td><td>PRJ</td><td>综述了基于深度学习的语义分割方法。</td></tr><tr><td>A Survey of Modern Deep Learning based Object Detection Models<REF_043></td><td><NUM_020></td><td>ICV</td><td>简要概述了基于深度学习的（基于回归的单阶段和基于候选的两阶段）目标检测器。</td></tr><tr><td>A Survey of Object Detection Based on <ENT_015> and <ENT_040> <REF_044></td><td><NUM_020></td><td>PRML</td><td>综述了基于深度学习的目标检测器的优缺点，并介绍了基于Transformer的方法。</td></tr><tr><td><ENT_001> in computational visual media: A survey <REF_045></td><td><NUM_020></td><td>CVM</td><td>关注使用视觉Transformer方法的骨干网络设计和底层视觉。</td></tr><tr><td>A survey: object detection methods from <ENT_015> to transformer <REF_046></td><td><NUM_021></td><td>MTA</td><td>比较了各种基于<ENT_015>的检测网络，并介绍了基于Transformer的检测网络。</td></tr><tr><td>A Survey on Vision <ENT_040> <REF_047></td><td><NUM_022></td><td><ENT_055></td><td>本文提供了视觉Transformer的概述，并专注于总结视觉Transformer（ViT）领域的最先进研究。</td></tr></table>"
+      ]
+    }
+  }
+}

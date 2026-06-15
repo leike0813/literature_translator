@@ -1,0 +1,73 @@
+{
+  "batch_id": "batch_0030",
+  "block_ids": [
+    "b_083",
+    "b_084",
+    "b_085"
+  ],
+  "total_chars": 1370,
+  "blocks": {
+    "b_083": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "The decoder of the <ENT_008> takes object queries as input that are responsible for object detection in various spatial locations."
+        ],
+        [
+          2,
+          "These object queries combine with spatial features from the encoder."
+        ],
+        [
+          3,
+          "The co-attention mechanism in <ENT_008> involves computing a set of attention maps between the object queries and the image features to provide class labels and bounding box locations."
+        ],
+        [
+          4,
+          "However, the visual regions in the decoder of <ENT_008> related to object query might be irrelevant to the predicted bounding boxes."
+        ],
+        [
+          5,
+          "This is one of the reasons that <ENT_008> needs many training epochs to find suitable visual locations to identify corresponding objects correctly."
+        ],
+        [
+          6,
+          "<ENT_073> et al. <REF_012> introduced a spatially modulated coattention (<ENT_072>) module that replaces the existing co-attention mechanism in <ENT_008> to overcome the slow training convergence of <ENT_008>."
+        ],
+        [
+          7,
+          "In <FIG_004>, the purple block represents <ENT_019>."
+        ],
+        [
+          8,
+          "The object queries estimate the scale and center of its corresponding object, which are further used to set up a 2D spatial weight map."
+        ],
+        [
+          9,
+          "The initial estimate of scale <MATH_065> and center <MATH_066> of a Gaussian-like distribution for object queries q is provided as follows:"
+        ]
+      ]
+    },
+    "b_084": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\ne _ { h _ { i } } ^ { n r m } , e _ { w _ { i } } ^ { n r m } = s i g m o i d ( M L P ( q ) ) ,\\tag{10}\n$$"
+        ]
+      ]
+    },
+    "b_085": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nl _ { h _ { i } } , l _ { w _ { i } } = F C ( q ) ,\\tag{11}\n$$"
+        ]
+      ]
+    }
+  }
+}

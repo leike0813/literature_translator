@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch_0008",
+  "block_ids": [
+    "b_032"
+  ],
+  "total_chars": 1645,
+  "blocks": {
+    "b_032": {
+      "type": "table",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td rowspan=\"2\">Methods</td><td colspan=\"4\">Modifications</td><td rowspan=\"2\">Publication</td><td rowspan=\"2\">Highlights</td></tr><tr><td>Bk</td><td>Pre</td><td>Attn</td><td>Qry</td></tr><tr><td><ENT_032> <REF_025> <ENT_041> https: //github.com/MCG-NJU/<ENT_032></td><td></td><td></td><td></td><td></td><td><ENT_048> <NUM_021></td><td>3D sampling module, Adaptive mixing module in the decoder</td></tr><tr><td><ENT_053> <REF_026> <ENT_041> https: //github.com/zhechen/<ENT_016>-<ENT_053></td><td></td><td></td><td></td><td></td><td><ENT_048> <NUM_021></td><td>A multi-level recurrent mechanism and a glimpse-based decoder</td></tr><tr><td><ENT_034> <REF_027> <ENT_041> https: //github.com/facebookresearch/dino</td><td></td><td></td><td></td><td></td><td><ENT_046> <NUM_021></td><td>Contrastive denoising module, positive and negative noised object queries</td></tr><tr><td><ENT_036> <REF_028> <ENT_041> https: / / github.com/Sense-X/<ENT_036></td><td></td><td></td><td></td><td></td><td><ENT_047> <NUM_022></td><td>Collaborative hybrid assignments for faster convergence and improved training stability</td></tr><tr><td><ENT_037> <REF_029> <ENT_041> https: // github.com/Atten4Vis/<ENT_037></td><td></td><td></td><td></td><td></td><td><ENT_046> <NUM_023></td><td>Lightweight <ENT_008> with optimized <ENT_038> encoder, shallow decoder,and global attention</td></tr><tr><td><ENT_039> <REF_030> <ENT_041> https: //github.com/lyuwenyu/<ENT_039></td><td></td><td></td><td>√</td><td>√</td><td><ENT_048> <NUM_023></td><td>Hybrid encoder with multi-scale features, <ENT_054>-aware query selection,adaptable inference speed</td></tr></table>"
+        ]
+      ]
+    }
+  }
+}

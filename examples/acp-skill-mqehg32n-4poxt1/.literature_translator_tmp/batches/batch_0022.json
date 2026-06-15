@@ -1,0 +1,58 @@
+{
+  "batch_id": "batch_0022",
+  "block_ids": [
+    "b_061",
+    "b_062"
+  ],
+  "total_chars": 1116,
+  "blocks": {
+    "b_061": {
+      "type": "paragraph",
+      "sentence_count": 8,
+      "sentences": [
+        [
+          1,
+          "The attention module of <ENT_008> provides a uniform weight value to all pixels of the input feature map at the initialization stage."
+        ],
+        [
+          2,
+          "These weights need many epochs for training convergence to find informative pixel locations."
+        ],
+        [
+          3,
+          "However, it requires high computation and extensive memory."
+        ],
+        [
+          4,
+          "The encoder’s self-attention has complexity <MATH_013> ."
+        ],
+        [
+          5,
+          "In contrast, the decoder’s cross-attention has complexity <MATH_014> ."
+        ],
+        [
+          6,
+          "Formally, <MATH_015> and <MATH_016> denote the height and width of the input feature map, respectively, and N represents object queries fed as input to the decoder."
+        ],
+        [
+          7,
+          "Let <MATH_017> denote a query element with feature <MATH_018> and <MATH_019> represents a key vector with feature <MATH_020> where <MATH_021> is the input features dimension, <MATH_022> and <MATH_023> indicate the set of key and query vectors, respectively."
+        ],
+        [
+          8,
+          "Then, the feature of multi-head attention (<ENT_069>) is computed by the following:"
+        ]
+      ]
+    },
+    "b_062": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { M H A t t n ( z _ { q } , x ) = \\sum _ { j = 1 } ^ { J } W _ { j } [ \\sum _ { k \\in \\Omega _ { k } } A _ { j q k } . W _ { j } ^ { \\prime } x _ { k } ] , } \\end{array}\\tag{5}\n$$"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "batch_id": "batch_0020",
+  "block_ids": [
+    "b_057",
+    "b_058"
+  ],
+  "total_chars": 690,
+  "blocks": {
+    "b_057": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "where <MATH_005> and <MATH_006> are the predicted class and target label, respectively."
+        ],
+        [
+          2,
+          "The term <MATH_007> is the optimal-assignment factor; <MATH_008> and <MATH_009> are ground-truth and predicted bounding boxes."
+        ],
+        [
+          3,
+          "The term yˆ and <MATH_010> are the prediction and ground-truth of objects, respectively."
+        ],
+        [
+          4,
+          "Specifically, the bounding box loss is a linear combination of the generalized <ENT_054> (<ENT_067>) loss <REF_089> and of the L1 loss, as in the following equation:"
+        ]
+      ]
+    },
+    "b_058": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathcal { L } _ { b b o x } = \\lambda _ { i } \\mathcal { L } _ { i o u } ( b _ { k } , \\hat { b } _ { \\sigma ( k ) } ) + \\lambda _ { l 1 } \\parallel b _ { k } - \\hat { b } _ { \\sigma ( k ) } \\parallel _ { 1 } ,\\tag{4}\n$$"
+        ]
+      ]
+    }
+  }
+}

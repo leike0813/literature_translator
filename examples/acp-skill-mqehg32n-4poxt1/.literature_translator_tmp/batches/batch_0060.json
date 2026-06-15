@@ -1,0 +1,116 @@
+{
+  "batch_id": "batch_0060",
+  "block_ids": [
+    "b_205",
+    "b_206",
+    "b_207",
+    "b_208",
+    "b_209",
+    "b_210",
+    "b_211",
+    "b_212"
+  ],
+  "total_chars": 1436,
+  "blocks": {
+    "b_205": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\left\\{ \\begin{array} { l l } { \\displaystyle O _ { c l a s s } ( k ) = D F _ { c l a s s } ( H _ { d e } ( k ) ) , } \\\\ { O _ { b b o x } ( k ) = D F _ { b b o x } ( H _ { d e } ( k ) ) + O _ { b b o x } ( k - 1 ) , } \\end{array} \\right.\\tag{48}\n$$"
+        ]
+      ]
+    },
+    "b_206": {
+      "type": "paragraph",
+      "sentence_count": 4,
+      "sentences": [
+        [
+          1,
+          "where <MATH_142> and <MATH_143> ."
+        ],
+        [
+          2,
+          "Here, <MATH_144> and <MATH_145> represent the total number of predicted objects and classes, respectively."
+        ],
+        [
+          3,
+          "<MATH_146> and <MATH_147> are functions that convert the input features into desired outputs."
+        ],
+        [
+          4,
+          "<MATH_148> is the attention of this level after decoding as follows:"
+        ]
+      ]
+    },
+    "b_207": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nH _ { d e } ( k ) = [ H _ { g m } ( k ) , H _ { d e } ( k - 1 ) ] ,\\tag{49}\n$$"
+        ]
+      ]
+    },
+    "b_208": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where <MATH_149> refers to the glimpse features according to <MATH_150> and previous levels."
+        ],
+        [
+          2,
+          "These glimpse features are transformed using multi-head cross-attention into refined attention outputs according to previous attention outputs as follows:"
+        ]
+      ]
+    },
+    "b_209": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nH _ { g m } ( k ) = A t t n ( V ( k ) , H _ { d e } ( k - 1 ) ) .\\tag{50}\n$$"
+        ]
+      ]
+    },
+    "b_210": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "For extracting glimpse features <MATH_151> , the following operation is performed:"
+        ]
+      ]
+    },
+    "b_211": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nV ( k ) = F E _ { e x t } ( X , R I ( { \\cal O } _ { b b o x } ( k - 1 ) , \\alpha ( k ) ) ) ,\\tag{51}\n$$"
+        ]
+      ]
+    },
+    "b_212": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "where <MATH_152> is the feature extraction function, <MATH_153> is a scalar parameter, and RI is the <ENT_035> computation."
+        ],
+        [
+          2,
+          "In this way, region of interest (<ENT_035>)-based refinement modules make the training convergence of the detection transformer faster and provide better performance."
+        ]
+      ]
+    }
+  }
+}

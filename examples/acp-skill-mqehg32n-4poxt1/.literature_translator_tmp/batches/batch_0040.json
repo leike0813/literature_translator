@@ -1,0 +1,115 @@
+{
+  "batch_id": "batch_0040",
+  "block_ids": [
+    "b_126",
+    "b_127",
+    "b_128",
+    "b_129",
+    "b_130",
+    "b_131",
+    "b_132",
+    "b_133",
+    "b_134"
+  ],
+  "total_chars": 1016,
+  "blocks": {
+    "b_126": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { \\dot { \\mathbf { v } } _ { b } = \\mathbf { v _ { b } } \\mathbf { w } ^ { \\mathbf { p } } . } \\end{array}\\tag{25}\n$$"
+        ]
+      ]
+    },
+    "b_127": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "The aggregated weights are normalized over the non-sampled regions with <ENT_071> as follows:"
+        ]
+      ]
+    },
+    "b_128": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\na _ { b m } = \\frac { e _ { b m } ^ { a } } { \\sum _ { \\hat { b } = 1 } ^ { N - Z } e ^ { a } \\hat { b } m } .\\tag{26}\n$$"
+        ]
+      ]
+    },
+    "b_129": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "By using the normalized aggregation weight, the new feature vector is obtained to provide information for non-sampled regions:"
+        ]
+      ]
+    },
+    "b_130": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbf { v } _ { m } = \\sum _ { b = 1 } ^ { Z - N } \\hat { \\mathbf { v } } _ { b } \\times a _ { b m } .\\tag{27}\n$$"
+        ]
+      ]
+    },
+    "b_131": {
+      "type": "paragraph",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "By considering all Z aggregation weights, the coarse background contextual feature vector is as follows:"
+        ]
+      ]
+    },
+    "b_132": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathbb { V } _ { c } = \\{ \\mathbf { v } _ { m } , | b = 1 , . . . , M _ { b } \\} .\\tag{28}\n$$"
+        ]
+      ]
+    },
+    "b_133": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "The pool sampler provides contextual information at different scales using aggregation weights."
+        ],
+        [
+          2,
+          "Here, some feature vectors may provide local context while others may capture the global context."
+        ]
+      ]
+    },
+    "b_134": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_048>."
+        ],
+        [
+          2,
+          "<ENT_024>"
+        ]
+      ]
+    }
+  }
+}

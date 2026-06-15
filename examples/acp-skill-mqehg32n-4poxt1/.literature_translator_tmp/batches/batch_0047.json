@@ -1,0 +1,83 @@
+{
+  "batch_id": "batch_0047",
+  "block_ids": [
+    "b_158"
+  ],
+  "total_chars": 1779,
+  "blocks": {
+    "b_158": {
+      "type": "paragraph",
+      "sentence_count": 17,
+      "sentences": [
+        [
+          1,
+          "<ENT_008> uses learnable embeddings as object queries in the decoder network."
+        ],
+        [
+          2,
+          "These input embeddings do not have a clear physical meaning and cannot illustrate where to focus."
+        ],
+        [
+          3,
+          "It is challenging to optimize the network as object queries concentrate on something other than specific regions."
+        ],
+        [
+          4,
+          "<ENT_025> <REF_019> solves this issue by proposing object queries as anchor points that are extensively used in <ENT_015>-based object detectors."
+        ],
+        [
+          5,
+          "This query design can provide multiple object predictions in one region."
+        ],
+        [
+          6,
+          "Moreover, a few modifications in the attention are proposed that reduce the memory cost and improve performance."
+        ],
+        [
+          7,
+          "In <FIG_006>, the yellow block shows <ENT_025>."
+        ],
+        [
+          8,
+          "The two main contributions of <ENT_025>, query and attention variant design, are explained as follows."
+        ],
+        [
+          9,
+          "Row and Column Decoupled-Attention: <ENT_008> requires huge GPU memory, as in <REF_110>, because of the complexity of the cross-attention module."
+        ],
+        [
+          10,
+          "It is more complex than the self-attention module in the decoder."
+        ],
+        [
+          11,
+          "Although <ENT_016> reduces memory cost, it still causes random memory access, making the network slower."
+        ],
+        [
+          12,
+          "Row– column decoupled attention (<ENT_088>), as shown in the blue block of <FIG_006>, reduces memory and provides similar or better efficiency."
+        ],
+        [
+          13,
+          "Anchor Points as Object Queries: The <ENT_015>-based object detectors consider anchor points as the relative position of the input feature maps."
+        ],
+        [
+          14,
+          "In contrast, transformer-based detectors take uniform grid locations, handcraft locations, or learned locations as anchor points."
+        ],
+        [
+          15,
+          "<ENT_025> considers two types of anchor points: learned anchor locations and grid anchor locations."
+        ],
+        [
+          16,
+          "The grid anchor locations are input image grid points."
+        ],
+        [
+          17,
+          "The learned anchor locations are uniform distributions from 0 to 1 (randomly initialized) and updated using the learned parameters."
+        ]
+      ]
+    }
+  }
+}

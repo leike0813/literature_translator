@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch_0048",
+  "original_batch": "batch_0048",
+  "blocks": {
+    "b_161": {
+      "type": "heading",
+      "sentences": [
+        "## 3.13.",
+        "Sparse-DETR"
+      ]
+    },
+    "b_162": {
+      "type": "paragraph",
+      "sentences": [
+        "Sparse-DETR [31]通过可学习的交叉注意力图预测器过滤编码器令牌。",
+        "在解码器网络中区分这些令牌后，它仅关注前景令牌以降低计算成本。",
+        "Sparse-DETR引入了评分模块、编码器中的辅助头和解码器的Top-k查询选择模块。",
+        "在Figure 6中，浅橙色方块表示Sparse-DETR。",
+        "首先，它使用评分网络确定输入到编码器的令牌的显著性，选择前$\\rho \\%$个令牌。",
+        "其次，辅助头从编码器网络的输出中获取前k个令牌。",
+        "最后，前k个令牌被用作解码器目标查询。",
+        "显著令牌预测模块使用阈值$\\rho$对从骨干特征图中提取的编码器令牌进行细化，并更新特征$x _ { l } - 1$，如下所示："
+      ]
+    },
+    "b_164": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { x _ { 1 } ^ { \\mathbf { m } } = \\left\\{ \\begin{array} { l l } { x _ { l - 1 } ^ { m } } & { m \\not \\in \\Omega _ { r } ^ { q } } \\\\ { L N \\big ( F F N ( y _ { l } ^ { m } ) + y _ { l } ^ { m } \\big ) } & { m \\in \\Omega _ { r } ^ { q } , } \\end{array} \\right. } \\\\ { w h e r e } & { y _ { l } ^ { m } = L N \\big ( D e f o r m A t t n ( x _ { l - 1 } ^ { m } , x _ { l - 1 } \\big ) + x _ { l - 1 } ^ { m } \\big ) , } \\end{array}\\tag{37}\n$$"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "batch_id": "batch_0041",
+  "block_ids": [
+    "b_135",
+    "b_137"
+  ],
+  "total_chars": 1092,
+  "blocks": {
+    "b_135": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "<ENT_024> <REF_017> introduces dynamic attention in the encoder–decoder network of <ENT_008> to solve the slow training convergence issue and detection of small objects."
+        ],
+        [
+          2,
+          "Firstly, a convolutional dynamic encoder is proposed to have different attention types to the selfattention module of the encoder network to make the training convergence faster."
+        ],
+        [
+          3,
+          "The attention of this encoder depends on various factors such as spatial effect, scale effect and input feature dimensions effect."
+        ],
+        [
+          4,
+          "Secondly, ROI-based dynamic attention is replaced with cross-attention in the decoder network."
+        ],
+        [
+          5,
+          "This decoder helps to focus on small objects, reduces learning difficulty and converges the network faster."
+        ],
+        [
+          6,
+          "In <FIG_005>, the bottom right box represents <ENT_024>."
+        ],
+        [
+          7,
+          "This dynamic encoder–decoder network is explained in detail as follows."
+        ],
+        [
+          8,
+          "Dynamic Encoder: The <ENT_024> uses a convolutional approach for the selfattention module."
+        ],
+        [
+          9,
+          "Given the feature vectors <MATH_098> , where n = 5 represents object detectors from the feature pyramid, the multi-scale self-attention (MSA) is as follows:"
+        ]
+      ]
+    },
+    "b_137": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\nA t t n = M S A ( F ) . F .\\tag{29}\n$$"
+        ]
+      ]
+    }
+  }
+}

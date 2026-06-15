@@ -1,0 +1,64 @@
+{
+  "batch_id": "batch_0019",
+  "block_ids": [
+    "b_053",
+    "b_054",
+    "b_055",
+    "b_056"
+  ],
+  "total_chars": 1162,
+  "blocks": {
+    "b_053": {
+      "type": "paragraph",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "Here, <MATH_001> is a set of ground-truth (GT) objects."
+        ],
+        [
+          2,
+          "It provides boxes for both object and “no object” classes, where N is the total number of objects to be detected."
+        ],
+        [
+          3,
+          "<MATH_002> represents the duplicate-free matching cost between predicted objects <MATH_003> and groundtruth <MATH_004> as defined below:"
+        ]
+      ]
+    },
+    "b_054": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\mathcal { L } _ { m } ( y _ { k } , \\hat { y } _ { \\sigma ( k ) } ) = - \\mathbb { 1 } _ { \\{ c _ { k } \\neq \\phi \\} } \\hat { p } _ { \\sigma ( k ) } ( c _ { k } ) + \\mathbb { 1 } _ { \\{ c _ { k } \\neq \\phi \\} } \\mathcal { L } _ { b b o x } ( b _ { k } , \\hat { b } _ { \\hat { \\sigma } } ( k ) ) .\\tag{2}\n$$"
+        ]
+      ]
+    },
+    "b_055": {
+      "type": "paragraph",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "The next step is to compute the Hungarian loss by determining the optimal matching between ground-truth (GT) and detected boxes regarding the bounding-box region and label."
+        ],
+        [
+          2,
+          "The loss is reduced by stochastic gradient descent (<ENT_066>)."
+        ]
+      ]
+    },
+    "b_056": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { \\mathcal { L } _ { H } ( y , \\hat { y } ) = \\sum _ { k = 1 } ^ { N } [ - l o g \\hat { p } _ { \\hat { \\sigma } ( k ) } ( c _ { k } ) + \\mathbb { 1 } _ { \\{ c _ { k } \\neq \\phi \\} } \\mathcal { L } _ { b o x } ( b _ { k } , \\hat { b } _ { \\hat { \\sigma } } ( k ) ) ] , } \\end{array}\\tag{3}\n$$"
+        ]
+      ]
+    }
+  }
+}

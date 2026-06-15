@@ -1,0 +1,22 @@
+{
+  "batch_id": "batch_0046",
+  "original_batch": "batch_0046",
+  "blocks": {
+    "b_156": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/71a9e6b3c55efe5d187d458daff9c72bb0d7baaee7ae6d991e6189a8ff5a45ab.jpg) Figure 6。",
+        "添加YOLOS-DETR [29]、Anchor-DETR [30]和Sparse-DETR [31]后的原始DETR结构。",
+        "此处，网络是一个简单的DETR网络，改进部分用小的彩色方块标示。",
+        "黄色方块表示YOLOS-DETR，浅蓝色方块表示Anchor-DETR，浅橙色方块表示Sparse-DETR。"
+      ]
+    },
+    "b_157": {
+      "type": "heading",
+      "sentences": [
+        "## 3.12.",
+        "Anchor-DETR"
+      ]
+    }
+  }
+}

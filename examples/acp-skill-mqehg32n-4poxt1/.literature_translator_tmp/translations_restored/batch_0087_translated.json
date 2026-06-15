@@ -1,0 +1,48 @@
+{
+  "batch_id": "batch_0087",
+  "original_batch": "batch_0087",
+  "blocks": {
+    "b_302": {
+      "type": "bib_item",
+      "sentences": [
+        "44. Chen, G.; Wang, H.; Chen, K.; Li, Z.; Song, Z.; Liu, Y.; Chen, W.; Knoll, A. A Survey of the Four Pillars for Small Object Detection: Multiscale Representation, Contextual Information, Super-Resolution, and Region Proposal. IEEE Trans. Syst. Man Cybern. Syst. 2022, 52, 936–953. [CrossRef]"
+      ]
+    },
+    "b_303": {
+      "type": "bib_item",
+      "sentences": [
+        "45. Agarwal, S.; du Terrail, J.O.; Jurie, F. Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks. arXiv 2018, arXiv:1809.03193."
+      ]
+    },
+    "b_304": {
+      "type": "bib_item",
+      "sentences": [
+        "46. Yang, M.H.; Kriegman, D.; Ahuja, N. Detecting faces in images: A survey. IEEE Trans. Pattern Anal. Mach. Intell. 2002, 24, 34–58. [CrossRef]"
+      ]
+    },
+    "b_305": {
+      "type": "bib_item",
+      "sentences": [
+        "47. Zhao, B.; Feng, J.; Wu, X.; Yan, S. A survey on deep learning-based fine-grained object classification and semantic segmentation. Int. J. Autom. Comput. 2017, 14, 119–135. Available online: https://api.semanticscholar.org/CorpusID:53076119 (accessed on 25 September 2025). [CrossRef]"
+      ]
+    },
+    "b_306": {
+      "type": "bib_item",
+      "sentences": [
+        "48. Goswami, T.; Barad, Z.; Desai, P.; Nikita, P. Text Detection and Recognition in images: A survey. arXiv 2018, arXiv:1803.07278. [CrossRef]"
+      ]
+    },
+    "b_307": {
+      "type": "bib_item",
+      "sentences": [
+        "49. Chaudhari, S.; Polatan, G.; Ramanath, R.; Mithal, V. An Attentive Survey of Attention Models. arXiv 2019, arXiv:1904.02874. [CrossRef]"
+      ]
+    },
+    "b_308": {
+      "type": "bib_item",
+      "sentences": [
+        "50. Han, J.; Zhang, D.; Cheng, G.; Liu, N.; Xu, D. Advanced Deep-Learning Techniques for Salient and Category-Specific Object Detection: A Survey. IEEE Signal Process. Mag. 2018, 35, 84–100. [CrossRef]"
+      ]
+    }
+  }
+}

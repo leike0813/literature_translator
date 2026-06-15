@@ -1,0 +1,43 @@
+{
+  "batch_id": "batch_0028",
+  "block_ids": [
+    "b_077"
+  ],
+  "total_chars": 1503,
+  "blocks": {
+    "b_077": {
+      "type": "paragraph",
+      "sentence_count": 7,
+      "sentences": [
+        [
+          1,
+          "where <MATH_055> is the interaction parameter of object queries <MATH_056> and <MATH_057> ."
+        ],
+        [
+          2,
+          "Though object queries are divided into groups, these queries do not have explicit groups during downstream training tasks."
+        ],
+        [
+          3,
+          "Therefore, these queries are randomly shuffled during pre-training by masking <NUM_038> query patches to zero, similar to dropout <REF_095>."
+        ],
+        [
+          4,
+          "Although <ENT_017> improves convergence and query learning, the pre-training may not always transfer perfectly to downstream detection tasks, and its grouping and masking mechanisms require careful tuning to avoid convergence or performance issues."
+        ],
+        [
+          5,
+          "Algorithm 2 shows the patch detection pre-training procedure, where random patches are cropped, assigned to query subsets with attention masking, and the model is trained to predict patch locations while reconstructing features, improving robustness and convergence."
+        ],
+        [
+          6,
+          "Algorithm 2: Patch detection pre-training in <ENT_017>."
+        ],
+        [
+          7,
+          "Input: Input image I, Random patch set <MATH_058> Object queries Q Output: Pre-trained <ENT_008> model 1 Randomly crop patches from I to form <MATH_059> 2 Extract image features with frozen backbone; 3 for each patch <MATH_060> do 4 Assign p to a subset of queries <MATH_061> 5 Apply attention mask to restrict attention within <MATH_062> 6 Decoder predicts patch location and size; 7 Compute localization loss <MATH_063> and feature reconstruction loss <MATH_064> 8 Shuffle query assignments and mask <NUM_038> queries (dropout-style); 9 Backpropagate and update model parameters."
+        ]
+      ]
+    }
+  }
+}

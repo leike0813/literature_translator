@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch_0036",
+  "original_batch": "batch_0036",
+  "blocks": {
+    "b_101": {
+      "type": "paragraph",
+      "sentences": [
+        "DETR使用CNN骨干网络提取局部特征，并通过Transformer的编码器-解码器网络获取全局上下文。",
+        "WB-DETR [26]证明了在检测Transformer中使用CNN骨干网络进行特征提取并非必需。",
+        "它包含一个不含骨干网络的Transformer网络。",
+        "它将输入图像序列化，并将局部特征直接作为每个独立令牌输入编码器。",
+        "Transformer自注意力网络提供全局信息，能够准确获取输入图像令牌之间的上下文关系。",
+        "然而，由于Transformer缺乏局部特征建模能力，需要包含每个令牌的局部特征以及相邻令牌之间的信息。",
+        "LIE-T2T（局部信息增强-T2T）模块通过重组和展开相邻补丁，并在展开后关注每个补丁的通道维度来解决这一问题。",
+        "在Figure 5中，右上角的方块表示WB-DETR的LIE-T2T模块。",
+        "LIE-T2T模块的迭代过程如下："
+      ]
+    },
+    "b_102": {
+      "type": "equation",
+      "sentences": [
+        "$$\nP = s t r e t c h ( r e s h a p e ( P i ) ) ,\\tag{15}\n$$"
+      ]
+    },
+    "b_103": {
+      "type": "equation",
+      "sentences": [
+        "$$\nQ = s i g ( e _ { 2 } \\cdot R e L U ( e _ { 1 } \\cdot P ) ) ,\\tag{16}\n$$"
+      ]
+    },
+    "b_104": {
+      "type": "equation",
+      "sentences": [
+        "$$\nP _ { i + 1 } = e _ { 3 } \\cdot ( P \\cdot Q ) ,\\tag{17}\n$$"
+      ]
+    }
+  }
+}

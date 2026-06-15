@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch_0006",
+  "block_ids": [
+    "b_030"
+  ],
+  "total_chars": 580,
+  "blocks": {
+    "b_030": {
+      "type": "table_caption",
+      "sentence_count": 6,
+      "sentences": [
+        [
+          1,
+          "<TBL_001>."
+        ],
+        [
+          2,
+          "Overview of improvements in the detection transformer (<ENT_008>) to make training convergence faster and improve performance for small objects."
+        ],
+        [
+          3,
+          "Here, Bk represents the backbone, Pre denotes pre-training, Attn indicates attention, and Qry represents the query of the transformer network."
+        ],
+        [
+          4,
+          "Each method represents an improvement over the baseline <ENT_008>, and the green check marks indicate where modifications were introduced."
+        ],
+        [
+          5,
+          "The main contributions of each network are summarized in the last column."
+        ],
+        [
+          6,
+          "All <ENT_041> links in this Table are accessed on 25 September <NUM_005>."
+        ]
+      ]
+    }
+  }
+}

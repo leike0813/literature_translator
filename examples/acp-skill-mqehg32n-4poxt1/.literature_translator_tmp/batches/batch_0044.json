@@ -1,0 +1,62 @@
+{
+  "batch_id": "batch_0044",
+  "block_ids": [
+    "b_149",
+    "b_150"
+  ],
+  "total_chars": 1413,
+  "blocks": {
+    "b_149": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "Vision transformer (<ENT_038>) <REF_005>, inherited from <ENT_007>, performs well on the image recognition task."
+        ],
+        [
+          2,
+          "<ENT_038>-FRCNN <REF_106> uses a pre-trained backbone (<ENT_038>) for a <ENT_015>-based detector."
+        ],
+        [
+          3,
+          "It utilizes convolution neural networks and relies on strong 2D inductive biases and regionwise pooling operations for object-level perception."
+        ],
+        [
+          4,
+          "Other similar works, such as <ENT_008> <REF_007>, introduce 2D inductive bias using CNNs and pyramidal features."
+        ],
+        [
+          5,
+          "<ENT_027> <REF_018> presents the transferability and versatility of the transformer from image recognition to detection in the sequence aspect using the least information about the spatial design of the input."
+        ],
+        [
+          6,
+          "It closely follows the <ENT_038> architecture with two simple modifications."
+        ],
+        [
+          7,
+          "Firstly, it removes the image-classification patches (CLS) and adds randomly initialized one hundred detection patches (DET) as <REF_107> along with the input patch embeddings for object detection."
+        ],
+        [
+          8,
+          "Secondly, similar to <ENT_008>, a bipartite matching loss is used instead of the <ENT_038> classification loss."
+        ],
+        [
+          9,
+          "The transformer encoder takes the generated sequence as input as follows:"
+        ]
+      ]
+    },
+    "b_150": {
+      "type": "equation",
+      "sentence_count": 1,
+      "sentences": [
+        [
+          1,
+          "$$\n\\begin{array} { r } { s _ { 0 } = [ \\mathbf { I } _ { p } ^ { 1 } \\mathbf { L } ; \\cdot \\cdot \\cdot ; \\mathbf { I } _ { p } ^ { M } \\mathbf { L } ; \\mathbf { I } _ { d } ^ { 1 } ; \\cdot \\cdot \\cdot ; \\mathbf { I } _ { d } ^ { 1 0 0 } ] + \\mathbf { P E } , } \\end{array}\\tag{34}\n$$"
+        ]
+      ]
+    }
+  }
+}

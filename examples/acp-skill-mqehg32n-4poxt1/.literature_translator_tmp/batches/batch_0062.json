@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0062",
+  "block_ids": [
+    "b_217"
+  ],
+  "total_chars": 1760,
+  "blocks": {
+    "b_217": {
+      "type": "paragraph",
+      "sentence_count": 12,
+      "sentences": [
+        [
+          1,
+          "where <MATH_159> is the distance between the anchor and bounding box, and <MATH_160> is the function that provides the top K elements in x. The λ parameter is the threshold value for generating noise for anchors that are fed as input object queries to the decoder."
+        ],
+        [
+          2,
+          "It provides two types of anchor queries: positive with threshold value less than <MATH_154> and negative with noise threshold values greater than <MATH_154> and less than <MATH_155> ."
+        ],
+        [
+          3,
+          "This way, the anchors with no ground-truth nearby are labeled as “no object”."
+        ],
+        [
+          4,
+          "Thus, <ENT_034> makes the training convergence faster and improves performance for small objects."
+        ],
+        [
+          5,
+          "<ENT_096> <REF_113> is a self-supervised vision transformer model developed by Meta AI."
+        ],
+        [
+          6,
+          "It was trained on a large-scale dataset of 142 million images without any labels or annotations."
+        ],
+        [
+          7,
+          "<ENT_096> <REF_113> produces high-performance visual features that can be directly employed with classifiers as simple as linear layers on a variety of computer vision tasks."
+        ],
+        [
+          8,
+          "These visual features are robust and perform well across domains without any requirement for fine-tuning."
+        ],
+        [
+          9,
+          "<ENT_097> <REF_114>, also developed by Meta AI, is the third generation of the <ENT_034> framework."
+        ],
+        [
+          10,
+          "It is a 7-billion-parameter Vision <ENT_040> trained on <NUM_067> billion images without labels."
+        ],
+        [
+          11,
+          "<ENT_097> <REF_114> introduces several innovations, including Gram anchoring, which stabilizes dense feature maps during training, and axial RoPE (Rotary Positional Embeddings) with jittering, which enhances the model’s robustness to varying image resolutions, scales, and aspect ratios."
+        ],
+        [
+          12,
+          "These advancements enable <ENT_097> <REF_114> to achieve state-of-the-art performance across a wide range of vision tasks, including object detection, semantic segmentation, and depth estimation."
+        ]
+      ]
+    }
+  }
+}

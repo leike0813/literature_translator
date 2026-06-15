@@ -1,0 +1,23 @@
+{
+  "batch_id": "batch_0002",
+  "original_batch": "batch_0002",
+  "blocks": {
+    "b_012": {
+      "type": "paragraph",
+      "sentences": [
+        "学术编辑：Liang-Jian Deng 收稿日期：2025年8月16日 修回日期：2025年9月24日 接受日期：2025年9月26日 发表日期：2025年10月1日 引用格式：Shehzadi, T.; Hashmi, K.A.; Liwicki, M.; Stricker, D.; Afzal, M.Z. 基于Transformers的目标检测：综述。",
+        "Sensors 2025, 25, 6025. https://doi.org/10.3390/s25196025 版权：© 2025 作者所有。",
+        "出版方 MDPI，巴塞尔，瑞士。",
+        "本文为开放获取文章，依据知识共享署名（CC BY）许可（https://creativecommons.org/lice nses/by/4.0/）的条款和条件分发。",
+        "关键词：Transformer；目标检测；DETR；计算机视觉；深度神经网络"
+      ]
+    },
+    "b_017": {
+      "type": "heading",
+      "sentences": [
+        "## 1.",
+        "引言"
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "batch_id": "batch_0015",
+  "block_ids": [
+    "b_042",
+    "b_043"
+  ],
+  "total_chars": 1215,
+  "blocks": {
+    "b_042": {
+      "type": "paragraph",
+      "sentence_count": 9,
+      "sentences": [
+        [
+          1,
+          "Previously, text-to-image generation methods <REF_068> were based on GANs <REF_069>."
+        ],
+        [
+          2,
+          "<ENT_062> et al. <REF_070> introduced a transformer-based model for generating high-quality images from provided text details."
+        ],
+        [
+          3,
+          "<ENT_040> networks are also applied for image synthesis <REF_071>, which is important for learning unsupervised and generative models for downstream tasks."
+        ],
+        [
+          4,
+          "Feature learning with an unsupervised training procedure <REF_072> achieves state-of-the-art performance on two datasets <REF_073>, while <ENT_063> <REF_074> provides comparable performance on <REF_075>."
+        ],
+        [
+          5,
+          "The iGPT image generation network <REF_072> does not include pre-training procedures similar to language modeling tasks."
+        ],
+        [
+          6,
+          "However, unsupervised <ENT_015>-based networks <REF_076> consider prior knowledge as the architectural layout, attention mechanism, and regularization."
+        ],
+        [
+          7,
+          "Generative adversarial networks (<ENT_064>) <REF_069> with <ENT_015>-based backbones are appealing for image synthesis <REF_077>."
+        ],
+        [
+          8,
+          "<ENT_065> <REF_078> is a strong <ENT_064> network where the generator and discriminator contain transformer modules."
+        ],
+        [
+          9,
+          "These transformer-based networks boost performance for scene and image generation tasks."
+        ]
+      ]
+    },
+    "b_043": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_029>."
+        ],
+        [
+          2,
+          "<ENT_001> for Low-Level Vision"
+        ]
+      ]
+    }
+  }
+}

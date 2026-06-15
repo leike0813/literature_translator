@@ -1,0 +1,25 @@
+{
+  "batch_id": "batch_0012",
+  "original_batch": "batch_0012",
+  "blocks": {
+    "b_033b": {
+      "type": "paragraph",
+      "sentences": [
+        "本文其余部分安排如下。",
+        "第2节涉及目标检测和Transformer在各类视觉中的应用。",
+        "第3节是主要部分，详细阐述了检测Transformer中的修改。",
+        "<SEC_001>涉及评估协议，第4节提供了检测Transformer的比较评估。",
+        "第5节讨论了开放性挑战和未来方向。",
+        "最后，第6节总结了全文。"
+      ]
+    },
+    "b_034": {
+      "type": "heading",
+      "sentences": ["## 2.", "视觉中的目标检测与<ENT_001>"]
+    },
+    "b_035": {
+      "type": "heading",
+      "sentences": ["## <NUM_026>.", "目标检测"]
+    }
+  }
+}

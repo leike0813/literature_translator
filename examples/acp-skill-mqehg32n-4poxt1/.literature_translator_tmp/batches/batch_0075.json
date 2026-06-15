@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch_0075",
+  "block_ids": [
+    "b_247",
+    "b_248"
+  ],
+  "total_chars": 758,
+  "blocks": {
+    "b_247": {
+      "type": "table_caption",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "<TBL_004>."
+        ],
+        [
+          2,
+          "Overview of the advantages and limitations of detection transformers."
+        ],
+        [
+          3,
+          "All <ENT_041> links in this Table are accessed on 25 September <NUM_005>."
+        ]
+      ]
+    },
+    "b_248": {
+      "type": "table",
+      "sentence_count": 3,
+      "sentences": [
+        [
+          1,
+          "<table><tr><td>Methods</td><td>Publications</td><td>Advantages</td><td>Limitations</td></tr><tr><td><ENT_008> <REF_007> <ENT_041> <URL_017> <NUM_008></td><td>Removes the need for hand-designed components like <ENT_013> or anchor generation.</td><td>Low performance on small objects and slow training convergence.</td></tr><tr><td><ENT_016> <REF_009> <ENT_041> <URL_018> eformable-<ENT_008></td><td><ENT_049> <NUM_020></td><td>Deformable attention network, which makes training convergence faster.compared to <ENT_008>.</td><td>Number of encoder tokens increases by 20 times</td></tr></table>"
+        ],
+        [
+          2,
+          "<TBL_004>."
+        ],
+        [
+          3,
+          "Cont."
+        ]
+      ]
+    }
+  }
+}

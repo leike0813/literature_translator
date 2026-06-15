@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_0070",
+  "block_ids": [
+    "b_238"
+  ],
+  "total_chars": 872,
+  "blocks": {
+    "b_238": {
+      "type": "table_caption",
+      "sentence_count": 12,
+      "sentences": [
+        [
+          1,
+          "<TBL_003>."
+        ],
+        [
+          2,
+          "Performance comparison of all <ENT_008>-based detection transformers on the <ENT_057> minival set."
+        ],
+        [
+          3,
+          "Here, networks labeled with DC5 take a dilated feature map."
+        ],
+        [
+          4,
+          "The <ENT_054> threshold values are set to <NUM_078> and <NUM_079> for <ENT_092> calculation and also calculate the <ENT_092> for small <MATH_171> medium <MATH_172> , and large (APl) objects."
+        ],
+        [
+          5,
+          "+ represents bounding-box refinement and ++ denotes <ENT_016>."
+        ],
+        [
+          6,
+          "∗∗ indicates <ENT_018> used 6 encoder layers and 1 decoder layer."
+        ],
+        [
+          7,
+          "S denotes small, and B indicates base."
+        ],
+        [
+          8,
+          "† represents the distillation mechanism by Touvron et al. <REF_118>."
+        ],
+        [
+          9,
+          "‡ indicates the model is pre-trained on <ENT_104>."
+        ],
+        [
+          10,
+          "All models use 300 queries, while <ENT_008> uses 100 object queries to input to the decoder network."
+        ],
+        [
+          11,
+          "The models with superscript ∗ use three pattern embeddings."
+        ],
+        [
+          12,
+          "All <ENT_041> links in this Table are accessed on 25 September <NUM_005>."
+        ]
+      ]
+    }
+  }
+}

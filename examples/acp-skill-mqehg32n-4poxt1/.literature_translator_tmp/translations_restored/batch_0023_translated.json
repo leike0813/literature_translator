@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch_0023",
+  "original_batch": "batch_0023",
+  "blocks": {
+    "b_063": {
+      "type": "paragraph",
+      "sentences": [
+        "其中j表示注意力头，$W _ { j } \\in \\mathbb { R } ^ { c _ { i } \\times c _ { v } } .$，$W _ { j } ^ { \\prime } \\in \\mathbb { R } ^ { c _ { v } \\times c _ { i } }$为默认可学习权重$( c _ { v } = c _ { i } / J$）。",
+        "注意力权重$A _ { j q k }$ ∝ ex $\\gamma \\frac { z _ { q } ^ { T } U _ { j } ^ { T } V _ { j } x _ { k } } { \\sqrt { c } _ { v } }$被归一化为$\\begin{array} { r } { \\sum _ { k \\in \\Omega _ { k } } A _ { j q k } = 1 } \\end{array}$，其中$U _ { j } , V _ { j } \\in R ^ { c _ { v } \\times c _ { i } }$也是可学习的权重。",
+        "Deformable-DETR [20]受[197,198]启发修改了注意力模块，以处理图像特征图，其出发点是将注意力网络视为训练收敛缓慢和特征空间分辨率受限的主要原因。",
+        "该模块在每个参考点附近采样一小部分特征。",
+        "给定输入特征图$x \\in R ^ { c _ { i } \\times h _ { i } \\times w _ { i } }$，设查询q具有内容特征$z _ { q }$和二维参考点$\\boldsymbol { r } _ { q } ,$，则可变形注意力特征按以下方式计算："
+      ]
+    },
+    "b_064": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { D e f o r m A t t n ( z _ { q } , r _ { q } , x ) = \\sum _ { j = 1 } ^ { J } W _ { j } [ \\sum _ { k = 1 } ^ { K } A _ { j q k } . W _ { j } x ( r _ { q } + \\Delta r _ { j q k } ) ] , } \\end{array}\\tag{6}\n$$"
+      ]
+    },
+    "b_065": {
+      "type": "paragraph",
+      "sentences": [
+        "其中$\\Delta r _ { j q k }$索引采样偏移。",
+        "它所需的训练轮次仅为简单DETR网络的十分之一。",
+        "自注意力的复杂度变为$O ( w _ { i } h _ { i } c _ { i } ^ { 2 } )$，相对于空间尺寸$h _ { i } w _ { i }$呈线性复杂度。",
+        "解码器中交叉注意力的复杂度变为$O ( N K c _ { i } ^ { 2 } )$，与空间尺寸$h _ { i } w _ { i }$无关。",
+        "在图$^ { 3 , }$中，深粉色方块表示Deformable-DETR中的可变形注意力模块。"
+      ]
+    }
+  }
+}

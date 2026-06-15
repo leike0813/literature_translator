@@ -1,0 +1,87 @@
+{
+  "batch_id": "batch_0005",
+  "block_ids": [
+    "b_028"
+  ],
+  "total_chars": 2590,
+  "blocks": {
+    "b_028": {
+      "type": "paragraph",
+      "sentence_count": 18,
+      "sentences": [
+        [
+          1,
+          "<ENT_033> <REF_024> uses noised object queries as additional decoder input to reduce the instability of the bipartite-matching mechanism in <ENT_008>, which causes the slow convergence problem."
+        ],
+        [
+          2,
+          "<ENT_032> <REF_025> considers the encoder an extra network between the backbone and decoder that limits the performance and slows the training convergence because of its design complexity."
+        ],
+        [
+          3,
+          "It proposes a 3D sampling process and a few other modifications in the decoder."
+        ],
+        [
+          4,
+          "<ENT_031> <REF_026> proposes an <ENT_035>-based method for detection refinement to improve the attention mechanism in the detection transformer."
+        ],
+        [
+          5,
+          "<ENT_034> <REF_027> considers positive and negative noised object queries to make training convergence faster and to enhance the performance on small objects."
+        ],
+        [
+          6,
+          "Building on these improvements, <ENT_036> <REF_028> introduces collaborative hybrid assignments to improve training stability and convergence speed, addressing limitations in bipartite matching and small object performance."
+        ],
+        [
+          7,
+          "<ENT_037> <REF_029> focuses on efficiency, using a lightweight <ENT_038> encoder, a shallow decoder, and global attention to reduce computational cost while maintaining competitive accuracy."
+        ],
+        [
+          8,
+          "<ENT_039> <REF_030> combines a hybrid encoder with multi-scale feature processing and IoUaware query selection to achieve adaptable inference speed, balancing high accuracy with real-time performance."
+        ],
+        [
+          9,
+          "The rapid pace of advancements makes it difficult to track progress systematically."
+        ],
+        [
+          10,
+          "Thus, a review of ongoing progress is necessary and would be helpful for the researchers in the field."
+        ],
+        [
+          11,
+          "This paper provides a detailed overview of recent advancements in detection transformers."
+        ],
+        [
+          12,
+          "<TBL_001> shows the overview of Detection <ENT_040> (<ENT_008>) modifications to improve performance and training convergence."
+        ],
+        [
+          13,
+          "Many surveys have studied deep learning approaches in object detection <REF_031>."
+        ],
+        [
+          14,
+          "<TBL_002> lists existing object detection surveys."
+        ],
+        [
+          15,
+          "Among these, several studies comprehensively review approaches that process different 2D data types <REF_032>, while others focus on specific 2D applications <REF_033> or related tasks such as segmentation <REF_034>, image captioning <REF_035>, and object tracking <REF_036>."
+        ],
+        [
+          16,
+          "Furthermore, some surveys examine deep learning methods and introduce vision transformers <REF_037>."
+        ],
+        [
+          17,
+          "Nonetheless, most of these surveys were published before recent improvements in detection transformer networks, and a comprehensive review of transformer-based object detectors is still lacking."
+        ],
+        [
+          18,
+          "Therefore, a detailed survey of ongoing advancements is necessary to provide guidance and insights for researchers."
+        ]
+      ]
+    }
+  }
+}

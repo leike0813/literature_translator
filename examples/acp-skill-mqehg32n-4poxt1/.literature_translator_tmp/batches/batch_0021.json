@@ -1,0 +1,70 @@
+{
+  "batch_id": "batch_0021",
+  "block_ids": [
+    "b_059",
+    "b_060"
+  ],
+  "total_chars": 1064,
+  "blocks": {
+    "b_059": {
+      "type": "paragraph",
+      "sentence_count": 10,
+      "sentences": [
+        [
+          1,
+          "where <MATH_011> and <MATH_012> are the hyperparameters."
+        ],
+        [
+          2,
+          "<ENT_008> can only predict a fixed number of N objects in a single pass."
+        ],
+        [
+          3,
+          "For the <ENT_057> dataset <REF_048>, the value of N is set to 100 as this dataset has 80 classes."
+        ],
+        [
+          4,
+          "This network does not need <ENT_013> to remove redundant predictions as it uses bipartite matching loss with parallel decoding <REF_090>."
+        ],
+        [
+          5,
+          "In comparison, previous studies used <ENT_068>-based autoregressive decoding <REF_091>."
+        ],
+        [
+          6,
+          "The <ENT_008> network has several challenges, such as slow training convergence and performance drops for small objects."
+        ],
+        [
+          7,
+          "To address these challenges, modifications have been made to the <ENT_008> network."
+        ],
+        [
+          8,
+          "Despite its end-to-end design, <ENT_008> suffers from slow training convergence and lower accuracy for small objects."
+        ],
+        [
+          9,
+          "The uniform attention initialization and lack of multi-scale features make learning precise object locations difficult."
+        ],
+        [
+          10,
+          "These limitations motivated the development of several modifications aimed at improving convergence, computational efficiency, and small object detection."
+        ]
+      ]
+    },
+    "b_060": {
+      "type": "heading",
+      "sentence_count": 2,
+      "sentences": [
+        [
+          1,
+          "## <NUM_034>."
+        ],
+        [
+          2,
+          "<ENT_016>"
+        ]
+      ]
+    }
+  }
+}

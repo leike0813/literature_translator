@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch_0061",
+  "original_batch": "batch_0061",
+  "blocks": {
+    "b_213": {
+      "type": "figure_caption",
+      "sentences": [
+        "![](Images_GFP684MN/974b963dbb7639bd17f5112d7db66dc6bb410ac634f49e4993a0377bbd03b8a2.jpg) Figure 9。",
+        "添加REGO-DETR [37]和DINO [38]后原始DETR的结构。",
+        "此处，网络为简单的DETR网络，改进部分以小彩色方块标示。",
+        "紫色色块表示REGO-DETR，红色指示块表示DINO。"
+      ]
+    },
+    "b_214": {
+      "type": "heading",
+      "sentences": [
+        "## 3.21.",
+        "DINO"
+      ]
+    },
+    "b_215": {
+      "type": "paragraph",
+      "sentences": [
+        "DN-DETR对作为目标查询输入解码器的锚点添加正噪声，并仅为附近存在真实标注对象的锚点提供标签。",
+        "继DAB-DETR和DN-DETR之后，DINO [38]提出了一种用于锚点初始化的混合目标查询选择方法和用于边界框预测的两次前向查找机制。",
+        "它提供了对比去噪（CDN）模块，该模块将位置查询作为锚框并添加额外的去噪损失。",
+        "在Figure 9中，红色方块表示DINO。",
+        "该检测器使用$\\lambda _ { 1 }$和$\\lambda _ { 2 }$超参数，其中$\\lambda _ { 1 } < \\lambda _ { 2 }$。",
+        "边界框$\\boldsymbol { b } = \\left( x _ { i } , y _ { i } , w _ { i } , h _ { i } \\right)$作为解码器的输入，其对应生成的锚点记为$a = \\left( x _ { i } , y _ { i } , w _ { i } , h _ { i } \\right)$"
+      ]
+    },
+    "b_216": {
+      "type": "equation",
+      "sentences": [
+        "$$\n\\begin{array} { r } { A T D ( k ) = \\frac { 1 } { k } \\Sigma \\{ M _ { K } ( \\{ \\mid b _ { 0 } - a _ { 0 } \\mid _ { 1 } , \\mid b _ { 1 } - a _ { 1 } \\mid _ { 1 } , . . . , \\mid \\mid b _ { N - 1 } - a _ { N - 1 } \\mid _ { 1 } \\} , k ) \\} , } \\end{array}\\tag{52}\n$$"
+      ]
+    }
+  }
+}
