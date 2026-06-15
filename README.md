@@ -66,9 +66,8 @@ skill 自动执行 12 阶段流水线，产出：
 ```
 Phase 0:   环境分析
 Phase 1:   输入解析 (parse_input.py)
-Phase 1.5: 语言快速退出（source_language == target_language 时立即退出）
 Phase 2:   宏观分析与上下文档案 + 术语表（glossary.json, context_profile.json）
-Phase 3:   源目标语言比较（安全网）
+Phase 3:   源目标语言判断（source_language 与 target_language 是否同一种语言）
 Phase 4a:  块级拆分 (blockify.py)
 Phase 4b:  Agent 复核块标记
 Phase 5:   句级拆分 (sentencify.py)
